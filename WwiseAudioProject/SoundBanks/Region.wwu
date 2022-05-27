@@ -4,32 +4,44 @@
 		<WorkUnit Name="Region" ID="{1B17016E-0C20-4F00-B5FD-FE74A3EE226C}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="Cave" ID="{E02814BE-205A-4F10-83A0-5BC996E40F1E}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Ambient_Region_Cave" ID="{2900102D-6E8E-4FA7-8060-F397601C1559}" WorkUnitID="{08DC08B9-DC70-4D54-9766-F1EA925A1FB0}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Desert" ID="{58CF60B3-9473-4B2C-8299-78A21E0787FC}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Ambient_Region_Desert" ID="{04F88A5E-887F-496C-89C1-5EBC95A2D820}" WorkUnitID="{08DC08B9-DC70-4D54-9766-F1EA925A1FB0}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Dungeon" ID="{7A0E1337-B201-4384-B311-ACC5B8164F92}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Ambient_Region_Dungeon" ID="{C9D6A4D9-B8F9-4CF3-BF87-185E74D8C7FB}" WorkUnitID="{08DC08B9-DC70-4D54-9766-F1EA925A1FB0}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="PineForest" ID="{48390027-A818-4A24-A1D0-75BB4127E549}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Ambient_Region_PineForest" ID="{A7DE85A2-82E0-4F34-AD4B-25E5C61A0036}" WorkUnitID="{08DC08B9-DC70-4D54-9766-F1EA925A1FB0}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Village" ID="{DA6E3256-C6ED-46B7-BAB8-9FABF0CEF5DF}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Ambient_Region_Village" ID="{4BC4D872-20FA-41B5-AE33-BDB951DA3DC7}" WorkUnitID="{08DC08B9-DC70-4D54-9766-F1EA925A1FB0}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Woodlands" ID="{CB72CB37-F990-4054-BECF-8E9D46323898}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Ambient_Region_Woodlands" ID="{A66FF150-805D-4721-B9A7-80CEB693B923}" WorkUnitID="{08DC08B9-DC70-4D54-9766-F1EA925A1FB0}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

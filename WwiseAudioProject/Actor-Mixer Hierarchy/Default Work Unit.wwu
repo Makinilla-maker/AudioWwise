@@ -75,6 +75,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="BAS_amb_desert_day_background_loop_01" ID="{72D4DB92-3FB3-4ED8-BB77-7BEE8639E864}" ShortID="481885723">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABBAE18F-16EE-470C-9497-E6A79E03657F}"/>
@@ -187,29 +190,6 @@
 							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="BAS_amb_pineforest_night_background_loop_01" ID="{7B99736D-52BF-4297-BBC6-97C778EF0133}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="BAS_amb_village_day_background_loop_01" ID="{CF7DA563-CC23-46CF-B137-ADC275A2CD90}" ShortID="68920164">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABBAE18F-16EE-470C-9497-E6A79E03657F}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="BAS_amb_village_day_background_loop_01" ID="{C71C86B6-5905-41C0-97CC-2BF37788EC23}">
-									<Language>SFX</Language>
-									<AudioFile>Ambient_Background\BAS_amb_village_day_background_loop_01.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="605739090"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="BAS_amb_village_day_background_loop_01" ID="{C71C86B6-5905-41C0-97CC-2BF37788EC23}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="BAS_amb_village_night_background_loop_01" ID="{7DA37DAF-F88B-4603-84C5-C656BA7D8A2C}" ShortID="486908060">
