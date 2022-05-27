@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3CCF61B0-F406-459C-A02F-7B06643D5F47}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="General" ID="{3CCF61B0-F406-459C-A02F-7B06643D5F47}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="TitleScreen" ID="{2873B495-4D99-4639-9149-56FE84EF29DF}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Generic" ID="{0A856E76-609A-455C-A8B0-EC57C12F36A7}" WorkUnitID="{B1E17A69-9357-41C7-B9B5-7961FDEF22E6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Menu" ID="{433A31F1-0F43-4C1A-A1CA-6A421B2EF701}" WorkUnitID="{B1E17A69-9357-41C7-B9B5-7961FDEF22E6}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="General" ID="{BCA8388B-707B-47FD-BA39-F921C9BE969A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="UI" ID="{B1E17A69-9357-41C7-B9B5-7961FDEF22E6}" WorkUnitID="{B1E17A69-9357-41C7-B9B5-7961FDEF22E6}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

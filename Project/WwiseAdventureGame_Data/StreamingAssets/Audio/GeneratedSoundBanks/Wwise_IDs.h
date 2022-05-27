@@ -13,7 +13,21 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID UI_BUTTON_DOWN = 156563189U;
+        static const AkUniqueID UI_BUTTON_ENTER = 18309885U;
+        static const AkUniqueID UI_BUTTON_EXIT = 2325560497U;
+        static const AkUniqueID UI_BUTTON_UP = 15662850U;
+        static const AkUniqueID UI_INVENTORY_CLOSE = 2278290679U;
+        static const AkUniqueID UI_INVENTORY_OPEN = 2199611969U;
+        static const AkUniqueID UI_INVENTORY_ROLL = 3749307760U;
         static const AkUniqueID UI_MENU_PAUSE = 3237189652U;
+        static const AkUniqueID UI_MENU_RESUME = 1464993479U;
+        static const AkUniqueID UI_MENU_SELECT = 3474566310U;
+        static const AkUniqueID UI_MENU_TELEPORT = 750089663U;
+        static const AkUniqueID UI_QUESTROLL_CLOSE = 808893336U;
+        static const AkUniqueID UI_QUESTROLL_HIDE = 2792117052U;
+        static const AkUniqueID UI_QUESTROLL_OPEN = 949395292U;
+        static const AkUniqueID UI_QUESTROLL_SHOW = 3699139167U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS
@@ -35,7 +49,14 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
-        static const AkUniqueID UI = 1551306167U;
+        static const AkUniqueID CAVE = 4122393694U;
+        static const AkUniqueID DESERT = 1850388778U;
+        static const AkUniqueID DUNGEON = 608898761U;
+        static const AkUniqueID GENERAL = 133642231U;
+        static const AkUniqueID PINEFOREST = 2482365692U;
+        static const AkUniqueID TITLESCREEN = 152105657U;
+        static const AkUniqueID VILLAGE = 3945572659U;
+        static const AkUniqueID WOODLANDS = 1421251628U;
     } // namespace BANKS
 
     namespace BUSSES

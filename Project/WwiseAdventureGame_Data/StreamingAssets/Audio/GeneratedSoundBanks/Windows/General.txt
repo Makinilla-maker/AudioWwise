@@ -1,0 +1,30 @@
+Event	ID	Name			Wwise Object Path	Notes
+	15662850	UI_Button_Up			\UI\Generic\UI_Button_Up	
+	18309885	UI_Button_Enter			\UI\Generic\UI_Button_Enter	
+	156563189	UI_Button_Down			\UI\Generic\UI_Button_Down	
+	750089663	UI_Menu_Teleport			\UI\Menu\UI_Menu_Teleport	
+	808893336	UI_QuestRoll_Close			\UI\Quest Roll\UI_QuestRoll_Close	
+	949395292	UI_QuestRoll_Open			\UI\Quest Roll\UI_QuestRoll_Open	
+	1464993479	UI_Menu_Resume			\UI\Menu\UI_Menu_Resume	
+	2199611969	UI_Inventory_Open			\UI\Inventory\UI_Inventory_Open	
+	2278290679	UI_Inventory_Close			\UI\Inventory\UI_Inventory_Close	
+	2325560497	UI_Button_Exit			\UI\Generic\UI_Button_Exit	
+	2792117052	UI_QuestRoll_Hide			\UI\Quest Roll\UI_QuestRoll_Hide	
+	3237189652	UI_Menu_Pause			\UI\Menu\UI_Menu_Pause	
+	3474566310	UI_Menu_Select			\UI\Menu\UI_Menu_Select	
+	3699139167	UI_QuestRoll_Show			\UI\Quest Roll\UI_QuestRoll_Show	
+	3749307760	UI_Inventory_Roll			\UI\Inventory\UI_Inventory_Roll	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	48720346	BAS_Button_Over	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_Button_Over_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Over		21240
+	105177777	BAS_Inventory_Open	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_Inventory_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Inventory_Open		45368
+	326870184	BAS_Button_Teleport	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_Button_Teleport_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Teleport		345428
+	428145438	BAS_QuestRoll_Close	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_QuestRoll_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_QuestRoll_Close		112326
+	510810541	BAS_Inventory_Close	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_Inventory_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Inventory_Close		46624
+	544872729	BAS_Button_Open	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_Button_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Open		56256
+	630968509	BAS_Inventory_Select	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_Inventory_Select_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Inventory_Select		160956
+	720014011	BAS_Inventory_Scroll	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_Inventory_Scroll_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Inventory_Scroll		53956
+	756982886	BAS_Button_Close	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_Button_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Close		62500
+	980851265	BAS_QuestRoll_Open	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_QuestRoll_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_QuestRoll_Open		104478
+	1032911872	BAS_Button_Enter	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_Button_Enter_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Enter		117424
+

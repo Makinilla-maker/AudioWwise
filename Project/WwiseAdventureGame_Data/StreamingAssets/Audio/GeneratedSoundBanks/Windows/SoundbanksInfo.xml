@@ -11,16 +11,67 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1958929096">
-			<ObjectPath>Init</ObjectPath>
-			<ShortName>Init</ShortName>
-			<Path>Init.bnk</Path>
-		</SoundBank>
-		<SoundBank Id="1551306167" Language="SFX" Hash="4187724855">
-			<ObjectPath>\SoundBanks\Default Work Unit\UI</ObjectPath>
-			<ShortName>UI</ShortName>
-			<Path>UI.bnk</Path>
+		<SoundBank Id="133642231" Language="SFX" Hash="3039101386">
+			<ObjectPath>\SoundBanks\General\General</ObjectPath>
+			<ShortName>General</ShortName>
+			<Path>General.bnk</Path>
 			<IncludedEvents>
+				<Event Id="156563189" Name="UI_Button_Down" ObjectPath="\Events\UI\Generic\UI_Button_Down">
+					<IncludedMemoryFiles>
+						<File Id="48720346" Language="SFX">
+							<ShortName>UI\BAS_Button_Over.wav</ShortName>
+							<Path>SFX\UI\BAS_Button_Over_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="18309885" Name="UI_Button_Enter" ObjectPath="\Events\UI\Generic\UI_Button_Enter">
+					<IncludedMemoryFiles>
+						<File Id="1032911872" Language="SFX">
+							<ShortName>UI\BAS_Button_Enter.wav</ShortName>
+							<Path>SFX\UI\BAS_Button_Enter_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2325560497" Name="UI_Button_Exit" ObjectPath="\Events\UI\Generic\UI_Button_Exit">
+					<IncludedMemoryFiles>
+						<File Id="756982886" Language="SFX">
+							<ShortName>UI\BAS_Button_Close.wav</ShortName>
+							<Path>SFX\UI\BAS_Button_Close_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="15662850" Name="UI_Button_Up" ObjectPath="\Events\UI\Generic\UI_Button_Up">
+					<IncludedMemoryFiles>
+						<File Id="48720346" Language="SFX">
+							<ShortName>UI\BAS_Button_Over.wav</ShortName>
+							<Path>SFX\UI\BAS_Button_Over_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2278290679" Name="UI_Inventory_Close" ObjectPath="\Events\UI\Inventory\UI_Inventory_Close">
+					<IncludedMemoryFiles>
+						<File Id="510810541" Language="SFX">
+							<ShortName>UI\BAS_Inventory_Close.wav</ShortName>
+							<Path>SFX\UI\BAS_Inventory_Close_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2199611969" Name="UI_Inventory_Open" ObjectPath="\Events\UI\Inventory\UI_Inventory_Open">
+					<IncludedMemoryFiles>
+						<File Id="105177777" Language="SFX">
+							<ShortName>UI\BAS_Inventory_Open.wav</ShortName>
+							<Path>SFX\UI\BAS_Inventory_Open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3749307760" Name="UI_Inventory_Roll" ObjectPath="\Events\UI\Inventory\UI_Inventory_Roll">
+					<IncludedMemoryFiles>
+						<File Id="720014011" Language="SFX">
+							<ShortName>UI\BAS_Inventory_Scroll.wav</ShortName>
+							<Path>SFX\UI\BAS_Inventory_Scroll_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3237189652" Name="UI_Menu_Pause" ObjectPath="\Events\UI\Menu\UI_Menu_Pause">
 					<IncludedMemoryFiles>
 						<File Id="544872729" Language="SFX">
@@ -29,7 +80,169 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="1464993479" Name="UI_Menu_Resume" ObjectPath="\Events\UI\Menu\UI_Menu_Resume">
+					<IncludedMemoryFiles>
+						<File Id="756982886" Language="SFX">
+							<ShortName>UI\BAS_Button_Close.wav</ShortName>
+							<Path>SFX\UI\BAS_Button_Close_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3474566310" Name="UI_Menu_Select" ObjectPath="\Events\UI\Menu\UI_Menu_Select">
+					<IncludedMemoryFiles>
+						<File Id="630968509" Language="SFX">
+							<ShortName>UI\BAS_Inventory_Select.wav</ShortName>
+							<Path>SFX\UI\BAS_Inventory_Select_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="750089663" Name="UI_Menu_Teleport" ObjectPath="\Events\UI\Menu\UI_Menu_Teleport">
+					<IncludedMemoryFiles>
+						<File Id="326870184" Language="SFX">
+							<ShortName>UI\BAS_Button_Teleport.wav</ShortName>
+							<Path>SFX\UI\BAS_Button_Teleport_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="808893336" Name="UI_QuestRoll_Close" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Close">
+					<IncludedMemoryFiles>
+						<File Id="428145438" Language="SFX">
+							<ShortName>UI\BAS_QuestRoll_Close.wav</ShortName>
+							<Path>SFX\UI\BAS_QuestRoll_Close_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2792117052" Name="UI_QuestRoll_Hide" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Hide">
+					<IncludedMemoryFiles>
+						<File Id="428145438" Language="SFX">
+							<ShortName>UI\BAS_QuestRoll_Close.wav</ShortName>
+							<Path>SFX\UI\BAS_QuestRoll_Close_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="949395292" Name="UI_QuestRoll_Open" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Open">
+					<IncludedMemoryFiles>
+						<File Id="980851265" Language="SFX">
+							<ShortName>UI\BAS_QuestRoll_Open.wav</ShortName>
+							<Path>SFX\UI\BAS_QuestRoll_Open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3699139167" Name="UI_QuestRoll_Show" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Show">
+					<IncludedMemoryFiles>
+						<File Id="980851265" Language="SFX">
+							<ShortName>UI\BAS_QuestRoll_Open.wav</ShortName>
+							<Path>SFX\UI\BAS_QuestRoll_Open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="152105657" Language="SFX" Hash="278837082">
+			<ObjectPath>\SoundBanks\General\TitleScreen</ObjectPath>
+			<ShortName>TitleScreen</ShortName>
+			<Path>TitleScreen.bnk</Path>
+			<IncludedEvents>
+				<Event Id="156563189" Name="UI_Button_Down" ObjectPath="\Events\UI\Generic\UI_Button_Down">
+					<IncludedMemoryFiles>
+						<File Id="48720346" Language="SFX">
+							<ShortName>UI\BAS_Button_Over.wav</ShortName>
+							<Path>SFX\UI\BAS_Button_Over_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="18309885" Name="UI_Button_Enter" ObjectPath="\Events\UI\Generic\UI_Button_Enter">
+					<IncludedMemoryFiles>
+						<File Id="1032911872" Language="SFX">
+							<ShortName>UI\BAS_Button_Enter.wav</ShortName>
+							<Path>SFX\UI\BAS_Button_Enter_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2325560497" Name="UI_Button_Exit" ObjectPath="\Events\UI\Generic\UI_Button_Exit">
+					<IncludedMemoryFiles>
+						<File Id="756982886" Language="SFX">
+							<ShortName>UI\BAS_Button_Close.wav</ShortName>
+							<Path>SFX\UI\BAS_Button_Close_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="15662850" Name="UI_Button_Up" ObjectPath="\Events\UI\Generic\UI_Button_Up">
+					<IncludedMemoryFiles>
+						<File Id="48720346" Language="SFX">
+							<ShortName>UI\BAS_Button_Over.wav</ShortName>
+							<Path>SFX\UI\BAS_Button_Over_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3237189652" Name="UI_Menu_Pause" ObjectPath="\Events\UI\Menu\UI_Menu_Pause">
+					<IncludedMemoryFiles>
+						<File Id="544872729" Language="SFX">
+							<ShortName>UI\BAS_Button_Open.wav</ShortName>
+							<Path>SFX\UI\BAS_Button_Open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1464993479" Name="UI_Menu_Resume" ObjectPath="\Events\UI\Menu\UI_Menu_Resume">
+					<IncludedMemoryFiles>
+						<File Id="756982886" Language="SFX">
+							<ShortName>UI\BAS_Button_Close.wav</ShortName>
+							<Path>SFX\UI\BAS_Button_Close_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3474566310" Name="UI_Menu_Select" ObjectPath="\Events\UI\Menu\UI_Menu_Select">
+					<IncludedMemoryFiles>
+						<File Id="630968509" Language="SFX">
+							<ShortName>UI\BAS_Inventory_Select.wav</ShortName>
+							<Path>SFX\UI\BAS_Inventory_Select_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="750089663" Name="UI_Menu_Teleport" ObjectPath="\Events\UI\Menu\UI_Menu_Teleport">
+					<IncludedMemoryFiles>
+						<File Id="326870184" Language="SFX">
+							<ShortName>UI\BAS_Button_Teleport.wav</ShortName>
+							<Path>SFX\UI\BAS_Button_Teleport_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="608898761" Language="SFX" Hash="1530567247">
+			<ObjectPath>\SoundBanks\Region\Dungeon</ObjectPath>
+			<ShortName>Dungeon</ShortName>
+			<Path>Dungeon.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1958929096">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1421251628" Language="SFX" Hash="80661246">
+			<ObjectPath>\SoundBanks\Region\Woodlands</ObjectPath>
+			<ShortName>Woodlands</ShortName>
+			<Path>Woodlands.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1850388778" Language="SFX" Hash="3979632980">
+			<ObjectPath>\SoundBanks\Region\Desert</ObjectPath>
+			<ShortName>Desert</ShortName>
+			<Path>Desert.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2482365692" Language="SFX" Hash="2034809225">
+			<ObjectPath>\SoundBanks\Region\PineForest</ObjectPath>
+			<ShortName>PineForest</ShortName>
+			<Path>PineForest.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3945572659" Language="SFX" Hash="981781572">
+			<ObjectPath>\SoundBanks\Region\Village</ObjectPath>
+			<ShortName>Village</ShortName>
+			<Path>Village.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="4122393694" Language="SFX" Hash="1284784999">
+			<ObjectPath>\SoundBanks\Region\Cave</ObjectPath>
+			<ShortName>Cave</ShortName>
+			<Path>Cave.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

@@ -16,6 +16,172 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="UI_Menu_Resume" ID="{49BA2820-3DD0-4C4A-B5C2-C2BAB46B2670}">
+							<ChildrenList>
+								<Action Name="" ID="{F0D6AD84-705C-4C5A-A28D-0A5634705ECC}" ShortID="412679800">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_Button_Close" ID="{7BD2CD89-87E2-4139-8FC4-EB67A645258B}" WorkUnitID="{FADD5FE5-9879-424B-8065-D995CA356336}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Menu_Select" ID="{E209820A-71D2-4DAD-B09E-0477DB96CCA5}">
+							<ChildrenList>
+								<Action Name="" ID="{74B89939-F520-4DC7-B180-BE7D4B43075D}" ShortID="284307671">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_Inventory_Select" ID="{DC55E961-E38C-4D93-B470-C36CF99EE518}" WorkUnitID="{FADD5FE5-9879-424B-8065-D995CA356336}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Menu_Teleport" ID="{CA5A9D2E-8C81-43E6-9F94-AC548360DBFE}">
+							<ChildrenList>
+								<Action Name="" ID="{5094BE5D-6927-40C4-A70B-3848CF6CAAE6}" ShortID="509653456">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_Button_Teleport" ID="{AC014DDC-E39F-4266-825D-8E6EE6D4AEA0}" WorkUnitID="{FADD5FE5-9879-424B-8065-D995CA356336}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Generic" ID="{0A856E76-609A-455C-A8B0-EC57C12F36A7}" ShortID="215905394">
+					<ChildrenList>
+						<Event Name="UI_Button_Down" ID="{281CE820-3A34-479C-84D9-5AC2BAB76346}">
+							<ChildrenList>
+								<Action Name="" ID="{E8C10CB8-BBB5-4CCE-B6CA-D4CD3624CC54}" ShortID="943787673">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_Button_Over" ID="{C27B810D-867C-4F31-9A72-EFF9DCF0DA96}" WorkUnitID="{FADD5FE5-9879-424B-8065-D995CA356336}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Button_Enter" ID="{EC892396-0BBA-423A-A597-F256B55CE8E5}">
+							<ChildrenList>
+								<Action Name="" ID="{3CDA7DDB-7B4B-49ED-88AB-CEBDE83892A6}" ShortID="489694032">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_Button_Enter" ID="{62EE0D31-100C-4B69-92BE-E1E33303419E}" WorkUnitID="{FADD5FE5-9879-424B-8065-D995CA356336}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Button_Exit" ID="{9097D7EE-74E2-4B0D-B305-4C3E25360FE7}">
+							<ChildrenList>
+								<Action Name="" ID="{0F3E09EB-0A08-41DF-AEFB-B1F62FB81EF7}" ShortID="551678794">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_Button_Close" ID="{7BD2CD89-87E2-4139-8FC4-EB67A645258B}" WorkUnitID="{FADD5FE5-9879-424B-8065-D995CA356336}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Button_Up" ID="{FCA923F0-3975-437C-A5D8-C7488C8DEDF5}">
+							<ChildrenList>
+								<Action Name="" ID="{99E884EF-443C-4825-A7D6-B49E7D0BBD5D}" ShortID="524986316">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_Button_Over" ID="{C27B810D-867C-4F31-9A72-EFF9DCF0DA96}" WorkUnitID="{FADD5FE5-9879-424B-8065-D995CA356336}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Inventory" ID="{AC9C4E5E-A379-4CF5-B0D1-A42FE4EFF6C5}" ShortID="119985541">
+					<ChildrenList>
+						<Event Name="UI_Inventory_Close" ID="{66381FD2-EF24-47B6-8E50-E0F2416E6326}">
+							<ChildrenList>
+								<Action Name="" ID="{7AB9B59A-F11C-4012-8F0E-7AD494352E6D}" ShortID="287788020">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_Inventory_Close" ID="{50004827-9F35-4159-B814-34368B4BC2F9}" WorkUnitID="{FADD5FE5-9879-424B-8065-D995CA356336}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Inventory_Open" ID="{55F39D7E-1A9C-4033-8AF9-CA978C9066E8}">
+							<ChildrenList>
+								<Action Name="" ID="{02738286-3BF3-4EEF-86E7-863EF1037392}" ShortID="163751218">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_Inventory_Open" ID="{744615F7-9D93-4A7B-B2CC-B711EB74091A}" WorkUnitID="{FADD5FE5-9879-424B-8065-D995CA356336}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Inventory_Roll" ID="{AC97DDB1-1554-448B-B858-FC3105C88172}">
+							<ChildrenList>
+								<Action Name="" ID="{D534C2FC-11B8-416F-BD7E-EAE8BBE98C61}" ShortID="819926370">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_Inventory_Scroll" ID="{1B30537A-BEB2-4D94-93FC-5B10BC42EE70}" WorkUnitID="{FADD5FE5-9879-424B-8065-D995CA356336}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Quest Roll" ID="{56CB3A86-27B5-4A69-9622-78F6D82548AD}" ShortID="465406084">
+					<ChildrenList>
+						<Event Name="UI_QuestRoll_Close" ID="{B990D5EB-DC4E-4F32-ACD9-3D748081AB6D}">
+							<ChildrenList>
+								<Action Name="" ID="{6FA72D93-6E41-422E-9660-A7E1DD36CC6C}" ShortID="814143168">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_QuestRoll_Close" ID="{F654973B-512B-4259-8A64-E6FCCDE55A1D}" WorkUnitID="{FADD5FE5-9879-424B-8065-D995CA356336}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_QuestRoll_Hide" ID="{F972F3B2-F2DE-48BF-AEAC-F67D72BAE834}">
+							<ChildrenList>
+								<Action Name="" ID="{4820E75C-6A8E-4AA5-94FF-5ACEEB1C4F11}" ShortID="344562446">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_QuestRoll_Close" ID="{F654973B-512B-4259-8A64-E6FCCDE55A1D}" WorkUnitID="{FADD5FE5-9879-424B-8065-D995CA356336}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_QuestRoll_Open" ID="{D469DDF4-01F3-4841-BBC8-B2FDCACC76BA}">
+							<ChildrenList>
+								<Action Name="" ID="{3E7715D8-998A-4090-A2D7-0082B4C3EF52}" ShortID="67298602">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_QuestRoll_Open" ID="{D9CA27F7-213B-4B6E-9371-6B95BF13FE5B}" WorkUnitID="{FADD5FE5-9879-424B-8065-D995CA356336}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_QuestRoll_Show" ID="{5854699B-C7E1-4D68-859C-B7520CE91240}">
+							<ChildrenList>
+								<Action Name="" ID="{B0B603AB-C05E-4DD7-B3F5-2565B2C2DF02}" ShortID="461100740">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_QuestRoll_Open" ID="{D9CA27F7-213B-4B6E-9371-6B95BF13FE5B}" WorkUnitID="{FADD5FE5-9879-424B-8065-D995CA356336}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
