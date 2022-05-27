@@ -223,12 +223,19 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="3945572659" Language="SFX" Hash="3305370880">
+		<SoundBank Id="3945572659" Language="SFX" Hash="2839911776">
 			<ObjectPath>\SoundBanks\Region\Village</ObjectPath>
 			<ShortName>Village</ShortName>
 			<Path>Village.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2752753183" Name="Ambient_Region_Village" ObjectPath="\Events\Ambient\General\Ambient_Region_Village"/>
+				<Event Id="2752753183" Name="Ambient_Region_Village" ObjectPath="\Events\Ambient\General\Ambient_Region_Village">
+					<IncludedMemoryFiles>
+						<File Id="921981382" Language="SFX">
+							<ShortName>Ambient_Background\BAS_amb_village_night_background_loop_01.wav</ShortName>
+							<Path>SFX\Ambient_Background\BAS_amb_village_night_background_loop_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 		</SoundBank>
 		<SoundBank Id="4122393694" Language="SFX" Hash="2281052505">
