@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3A70BB22-E623-48CA-BEFF-1FEED8C3CDD3}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="General" ID="{3A70BB22-E623-48CA-BEFF-1FEED8C3CDD3}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Stop_All" ID="{843D9DE8-5E87-4048-B693-612666676F9B}">
+					<ChildrenList>
+						<Action Name="" ID="{2B020980-0EF6-4F92-A790-ED7D1082ED2A}" ShortID="899175916">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

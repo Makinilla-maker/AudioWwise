@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{174C2DAD-4F5C-45FF-9EAC-892FF5E867E6}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Destruction" ID="{174C2DAD-4F5C-45FF-9EAC-892FF5E867E6}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="General" ID="{4499FAF5-8A9F-4EB0-8332-D9094732BBB6}" ShortID="455249467">
+					<ChildrenList>
+						<Event Name="Destruction_Container" ID="{6322D0B7-A76D-4DD3-9C60-92D2CDDED6E9}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="RegionSpecific" ID="{78DEAB22-047C-40BA-88C5-70CBF0D212F3}" ShortID="625690768">
+					<ChildrenList>
+						<Event Name="Destruction_Rock_Destroy" ID="{9953D6A0-94B3-4A72-A9BC-EFF544EB6902}"/>
+						<Event Name="Destruction_Crystal_Destroy" ID="{581487FA-23AF-4713-9AF6-0FBE3D66EAF3}"/>
+						<Event Name="Destruction_VolcanicBoulder_Impact" ID="{B149ACE4-31C3-4B58-A133-B2288336F47F}"/>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
