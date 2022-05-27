@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1049266392	Ambient_Region_Woodlands			\Ambient\General\Ambient_Region_Woodlands	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	856337225	TitleScreen_120BPM_4_4_L41M_P2M	C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Music\TitleScreen_120BPM_4_4_L41M_P2M_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\TitleScreen_120BPM_4_4_L41M_P2M		17664064
+

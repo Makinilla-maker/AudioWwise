@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1331382810	Ambient_Region_Cave			\Ambient\General\Ambient_Region_Cave	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	922646079	BAS_amb_cave_background_LP	C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Background\BAS_amb_cave_background_LP_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_cave_background_LP		14786860
+
