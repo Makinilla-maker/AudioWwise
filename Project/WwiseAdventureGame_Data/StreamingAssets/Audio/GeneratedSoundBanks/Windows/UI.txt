@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3237189652	UI_Menu_Pause			\UI\Menu\UI_Menu_Pause	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	544872729	BAS_Button_Open	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_Button_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Open		56256
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B1E17A69-9357-41C7-B9B5-7961FDEF22E6}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="UI" ID="{B1E17A69-9357-41C7-B9B5-7961FDEF22E6}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Menu" ID="{433A31F1-0F43-4C1A-A1CA-6A421B2EF701}" ShortID="547958706">
+					<ChildrenList>
+						<Event Name="UI_Menu_Pause" ID="{BCF0CCA3-F26A-4EDB-8DC0-C4BB91CD3D8F}">
+							<ChildrenList>
+								<Action Name="" ID="{F27204B2-E4D3-4B92-A7C5-148F5758E8C4}" ShortID="680349754">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_Button_Open" ID="{456ADEE4-3836-4936-87D4-6D0E9A0891C5}" WorkUnitID="{FADD5FE5-9879-424B-8065-D995CA356336}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
