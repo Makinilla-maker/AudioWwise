@@ -4,19 +4,155 @@
 		<WorkUnit Name="Default Work Unit" ID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="BusVolume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{ED57EF40-4211-4659-8A90-7942E229CD0D}" ShortID="867891716">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{77C66FF1-B807-46B4-A7F5-456AA02EF237}" WorkUnitID="{12703248-A49A-4660-B55B-007AE8C95E2F}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{8CFC3CE6-F555-4E3F-AA4C-6B8FCB9B8683}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{BF91AA40-4B1A-4715-84ED-761CB6EF3065}" WorkUnitID="{B5066F59-B0DB-4940-AE89-D234C2C9E694}"/>
 						</Reference>
 					</ReferenceList>
-					<ObjectLists/>
-				</Bus>
-				<Bus Name="Motion Factory Bus" ID="{2AF9B9C6-6EF1-46E9-B5F2-E30C9E602C74}">
-					<ReferenceList>
-						<Reference Name="AudioDevice">
-							<ObjectRef Name="Default_Motion_Device" ID="{0FA94B60-B06C-44C2-827A-740B9396F03C}" WorkUnitID="{B5066F59-B0DB-4940-AE89-D234C2C9E694}"/>
-						</Reference>
-					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Music" ID="{888596AF-D36F-43E3-B704-E0B5D90CBB95}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>6304004</Value>
+									</ValueList>
+								</Property>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{0A976AF0-F742-4488-9A6B-9087B23EA409}" ShortID="611832644">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="MenuSlider_Music_Volume" ID="{FE5474ED-103D-4ECF-9EB6-DBFEDB992359}" WorkUnitID="{12703248-A49A-4660-B55B-007AE8C95E2F}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{15BDD33F-2882-4408-A984-290AB92CA6C5}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="UsedForBackgroundMusic" Type="bool" Value="True"/>
+							</PropertyList>
+							<ObjectLists/>
+						</Bus>
+					</ChildrenList>
+					<StateInfo>
+						<StatePropertyList>
+							<Property Name="BypassEffect1"/>
+							<Property Name="Pitch"/>
+						</StatePropertyList>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Music_Regions" ID="{1D890D2D-6252-4B63-8E0E-157D1E019D8C}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="WwizardHouse" ID="{22323823-3821-4006-AD39-697E54DC74A5}"/>
+								<CustomState Name="" ID="{6A062609-9D47-403F-A4D8-1DFA1FF300FA}" ShortID="162699136">
+									<PropertyList>
+										<Property Name="BypassEffect1" Type="bool" Value="True"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Desert" ID="{612CC242-7F85-45E2-85AF-E6546F43FBD8}"/>
+								<CustomState Name="" ID="{057EAC72-4FB0-4BD5-9449-222A4ACE0633}" ShortID="616098273">
+									<PropertyList>
+										<Property Name="BypassEffect1" Type="bool" Value="True"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Village" ID="{44E104DD-B0A9-47CA-B545-2C8C0F8F1F00}"/>
+								<CustomState Name="" ID="{7A10D0CB-05A4-4686-B895-5391BD4544BC}" ShortID="685128905"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Silent" ID="{167CB689-7A6A-49DD-A382-BD49F30EC4FD}"/>
+								<CustomState Name="" ID="{134A5652-434D-443B-9B2B-E7A2784833B0}" ShortID="515754794">
+									<PropertyList>
+										<Property Name="BypassEffect1" Type="bool" Value="True"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Dungeon" ID="{4D9EBEA5-75BE-4B95-81B9-29B75730588B}"/>
+								<CustomState Name="" ID="{8349BDFC-CE94-49EF-B070-5F9E5E725B82}" ShortID="198985428">
+									<PropertyList>
+										<Property Name="BypassEffect1" Type="bool" Value="True"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Woodlands" ID="{2A2B6BD3-4FF8-4DC6-A933-5009137CF86E}"/>
+								<CustomState Name="" ID="{09115165-717E-499F-B407-53C37904A380}" ShortID="406729588">
+									<PropertyList>
+										<Property Name="BypassEffect1" Type="bool" Value="True"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Nowhere" ID="{22C3D993-997F-4F54-AB53-6C530882A232}"/>
+								<CustomState Name="" ID="{4FBA4764-E272-4B71-9415-49666BA45CC5}" ShortID="968260294">
+									<PropertyList>
+										<Property Name="BypassEffect1" Type="bool" Value="True"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Cave" ID="{CB5AB0AF-A679-4FC7-928C-08284218D24A}"/>
+								<CustomState Name="" ID="{9499E845-020E-4DFB-876D-DAEB2C858FA2}" ShortID="1010497842">
+									<PropertyList>
+										<Property Name="BypassEffect1" Type="bool" Value="True"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 					<ObjectLists/>
 				</Bus>
 			</ChildrenList>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Makineta\Documents\GitHub\AudioWwise\Project\WwiseAdventureGame_Data\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\</ProjectRoot>
+		<SourceFilesRoot>Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\MyFiles\GitHub\AudioWwise\Project\WwiseAdventureGame_Data\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Language="SFX" Hash="2138085256">
+		<SoundBank Id="133642231" Language="SFX" Hash="1489160167">
 			<ObjectPath>\SoundBanks\General\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
@@ -20,6 +20,7 @@
 				<Event Id="448719855" Name="Destruction_Crystal_Destroy" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_Crystal_Destroy"/>
 				<Event Id="1999886838" Name="Destruction_Rock_Destroy" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_Rock_Destroy"/>
 				<Event Id="2541270269" Name="Destruction_VolcanicBoulder_Impact" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_VolcanicBoulder_Impact"/>
+				<Event Id="3741135221" Name="Music_Region" ObjectPath="\Events\Music\General\Music_Region"/>
 				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\General\Stop_All"/>
 				<Event Id="2278290679" Name="UI_Inventory_Close" ObjectPath="\Events\UI\Inventory\UI_Inventory_Close">
 					<IncludedMemoryFiles>
@@ -78,13 +79,32 @@
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="1333239961" Name="MenuSlider_Master_Volume" ObjectPath="\Game Parameters\Gameplay\MenuSlider_Master_Volume"/>
+				<GameParameter Id="2642438544" Name="MenuSlider_Music_Volume" ObjectPath="\Game Parameters\Gameplay\MenuSlider_Music_Volume"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="2106907484" Name="Music_Regions" ObjectPath="\States\MusicStates\Music_Regions" GUID="{1D890D2D-6252-4B63-8E0E-157D1E019D8C}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\MusicStates\Music_Regions\None" GUID="{3C4B8A9D-69BA-458C-9378-02965EC30F98}"/>
+						<State Id="4122393694" Name="Cave" ObjectPath="\States\MusicStates\Music_Regions\Cave" GUID="{CB5AB0AF-A679-4FC7-928C-08284218D24A}"/>
+						<State Id="1850388778" Name="Desert" ObjectPath="\States\MusicStates\Music_Regions\Desert" GUID="{612CC242-7F85-45E2-85AF-E6546F43FBD8}"/>
+						<State Id="608898761" Name="Dungeon" ObjectPath="\States\MusicStates\Music_Regions\Dungeon" GUID="{4D9EBEA5-75BE-4B95-81B9-29B75730588B}"/>
+						<State Id="3424056949" Name="Nowhere" ObjectPath="\States\MusicStates\Music_Regions\Nowhere" GUID="{22C3D993-997F-4F54-AB53-6C530882A232}"/>
+						<State Id="3160623154" Name="Silent" ObjectPath="\States\MusicStates\Music_Regions\Silent" GUID="{167CB689-7A6A-49DD-A382-BD49F30EC4FD}"/>
+						<State Id="3945572659" Name="Village" ObjectPath="\States\MusicStates\Music_Regions\Village" GUID="{44E104DD-B0A9-47CA-B545-2C8C0F8F1F00}"/>
+						<State Id="1421251628" Name="Woodlands" ObjectPath="\States\MusicStates\Music_Regions\Woodlands" GUID="{2A2B6BD3-4FF8-4DC6-A933-5009137CF86E}"/>
+						<State Id="3132368115" Name="WwizardHouse" ObjectPath="\States\MusicStates\Music_Regions\WwizardHouse" GUID="{22323823-3821-4006-AD39-697E54DC74A5}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="152105657" Language="SFX" Hash="116191400">
+		<SoundBank Id="152105657" Language="SFX" Hash="2692812260">
 			<ObjectPath>\SoundBanks\General\TitleScreen</ObjectPath>
 			<ShortName>TitleScreen</ShortName>
 			<Path>TitleScreen.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1049266392" Name="Ambient_Region_Woodlands" ObjectPath="\Events\Ambient\General\Ambient_Region_Woodlands">
+				<Event Id="1532327793" Name="Music_TitleScreen" ObjectPath="\Events\Music\Music_TitleScreen">
 					<IncludedMemoryFiles>
 						<File Id="856337225" Language="SFX">
 							<ShortName>Music\TitleScreen_120BPM_4_4_L41M_P2M.wav</ShortName>
@@ -158,11 +178,19 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="608898761" Language="SFX" Hash="2821690874">
+		<SoundBank Id="608898761" Language="SFX" Hash="88305450">
 			<ObjectPath>\SoundBanks\Region\Dungeon</ObjectPath>
 			<ShortName>Dungeon</ShortName>
 			<Path>Dungeon.bnk</Path>
 			<IncludedEvents>
+				<Event Id="4275106484" Name="Ambient_Lava" ObjectPath="\Events\Ambient\3D Emitters\Continuous\Ambient_Lava">
+					<IncludedMemoryFiles>
+						<File Id="404266977" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_Lava.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_Lava_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="4077685701" Name="Ambient_Region_Dungeon" ObjectPath="\Events\Ambient\General\Ambient_Region_Dungeon">
 					<IncludedMemoryFiles>
 						<File Id="515364919" Language="SFX">
@@ -171,29 +199,73 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="120976108" Name="Ambient_Torch" ObjectPath="\Events\Ambient\3D Emitters\Continuous\Ambient_Torch">
+					<IncludedMemoryFiles>
+						<File Id="784781104" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_Torch.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_Torch_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1999886838" Name="Destruction_Rock_Destroy" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_Rock_Destroy"/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1958929096">
+		<SoundBank Id="1355168291" Language="SFX" Hash="943976861">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<GameParameters>
+				<GameParameter Id="1333239961" Name="MenuSlider_Master_Volume" ObjectPath="\Game Parameters\Gameplay\MenuSlider_Master_Volume"/>
+				<GameParameter Id="2642438544" Name="MenuSlider_Music_Volume" ObjectPath="\Game Parameters\Gameplay\MenuSlider_Music_Volume"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="2106907484" Name="Music_Regions" ObjectPath="\States\MusicStates\Music_Regions" GUID="{1D890D2D-6252-4B63-8E0E-157D1E019D8C}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\MusicStates\Music_Regions\None" GUID="{3C4B8A9D-69BA-458C-9378-02965EC30F98}"/>
+						<State Id="4122393694" Name="Cave" ObjectPath="\States\MusicStates\Music_Regions\Cave" GUID="{CB5AB0AF-A679-4FC7-928C-08284218D24A}"/>
+						<State Id="1850388778" Name="Desert" ObjectPath="\States\MusicStates\Music_Regions\Desert" GUID="{612CC242-7F85-45E2-85AF-E6546F43FBD8}"/>
+						<State Id="608898761" Name="Dungeon" ObjectPath="\States\MusicStates\Music_Regions\Dungeon" GUID="{4D9EBEA5-75BE-4B95-81B9-29B75730588B}"/>
+						<State Id="3424056949" Name="Nowhere" ObjectPath="\States\MusicStates\Music_Regions\Nowhere" GUID="{22C3D993-997F-4F54-AB53-6C530882A232}"/>
+						<State Id="3160623154" Name="Silent" ObjectPath="\States\MusicStates\Music_Regions\Silent" GUID="{167CB689-7A6A-49DD-A382-BD49F30EC4FD}"/>
+						<State Id="3945572659" Name="Village" ObjectPath="\States\MusicStates\Music_Regions\Village" GUID="{44E104DD-B0A9-47CA-B545-2C8C0F8F1F00}"/>
+						<State Id="1421251628" Name="Woodlands" ObjectPath="\States\MusicStates\Music_Regions\Woodlands" GUID="{2A2B6BD3-4FF8-4DC6-A933-5009137CF86E}"/>
+						<State Id="3132368115" Name="WwizardHouse" ObjectPath="\States\MusicStates\Music_Regions\WwizardHouse" GUID="{22323823-3821-4006-AD39-697E54DC74A5}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1421251628" Language="SFX" Hash="3397904638">
+		<SoundBank Id="1421251628" Language="SFX" Hash="3626701177">
 			<ObjectPath>\SoundBanks\Region\Woodlands</ObjectPath>
 			<ShortName>Woodlands</ShortName>
 			<Path>Woodlands.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1049266392" Name="Ambient_Region_Woodlands" ObjectPath="\Events\Ambient\General\Ambient_Region_Woodlands">
 					<IncludedMemoryFiles>
-						<File Id="856337225" Language="SFX">
-							<ShortName>Music\TitleScreen_120BPM_4_4_L41M_P2M.wav</ShortName>
-							<Path>SFX\Music\TitleScreen_120BPM_4_4_L41M_P2M_10C4C929.wem</Path>
+						<File Id="921981382" Language="SFX">
+							<ShortName>Ambient_Background\BAS_amb_village_night_background_loop_01.wav</ShortName>
+							<Path>SFX\Ambient_Background\BAS_amb_village_night_background_loop_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="120976108" Name="Ambient_Torch" ObjectPath="\Events\Ambient\3D Emitters\Continuous\Ambient_Torch">
+					<IncludedMemoryFiles>
+						<File Id="784781104" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_Torch.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_Torch_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1934835592" Name="Ambient_Waterfall" ObjectPath="\Events\Ambient\3D Emitters\Continuous\Ambient_Waterfall">
+					<IncludedMemoryFiles>
+						<File Id="1036683481" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_Waterfall.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_Waterfall_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1850388778" Language="SFX" Hash="2027209326">
+		<SoundBank Id="1850388778" Language="SFX" Hash="487767700">
 			<ObjectPath>\SoundBanks\Region\Desert</ObjectPath>
 			<ShortName>Desert</ShortName>
 			<Path>Desert.bnk</Path>
@@ -206,24 +278,25 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2541270269" Name="Destruction_VolcanicBoulder_Impact" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_VolcanicBoulder_Impact"/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="2482365692" Language="SFX" Hash="385766133">
+		<SoundBank Id="2482365692" Language="SFX" Hash="1051247041">
 			<ObjectPath>\SoundBanks\Region\PineForest</ObjectPath>
 			<ShortName>PineForest</ShortName>
 			<Path>PineForest.bnk</Path>
 			<IncludedEvents>
 				<Event Id="808171864" Name="Ambient_Region_PineForest" ObjectPath="\Events\Ambient\General\Ambient_Region_PineForest">
 					<IncludedMemoryFiles>
-						<File Id="658114481" Language="SFX">
-							<ShortName>Ambient_Background\BAS_amb_pineforest_night_background_loop_01.wav</ShortName>
-							<Path>SFX\Ambient_Background\BAS_amb_pineforest_night_background_loop_01_10C4C929.wem</Path>
+						<File Id="278730267" Language="SFX">
+							<ShortName>Ambient_Background\BAS_amb_forest_day_background_loop_01.wav</ShortName>
+							<Path>SFX\Ambient_Background\BAS_amb_forest_day_background_loop_01_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="3945572659" Language="SFX" Hash="2839911776">
+		<SoundBank Id="3945572659" Language="SFX" Hash="884220677">
 			<ObjectPath>\SoundBanks\Region\Village</ObjectPath>
 			<ShortName>Village</ShortName>
 			<Path>Village.bnk</Path>
@@ -236,9 +309,41 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2258053876" Name="Ambient_River" ObjectPath="\Events\Ambient\3D Emitters\Continuous\Ambient_River">
+					<IncludedMemoryFiles>
+						<File Id="373611617" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_Water_River.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_Water_River_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="120976108" Name="Ambient_Torch" ObjectPath="\Events\Ambient\3D Emitters\Continuous\Ambient_Torch">
+					<IncludedMemoryFiles>
+						<File Id="784781104" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_Torch.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_Torch_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2208964750" Name="Ambient_Windmill" ObjectPath="\Events\Ambient\3D Emitters\Continuous\Ambient_Windmill">
+					<IncludedMemoryFiles>
+						<File Id="166292369" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WindMillBlade_03.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WindMillBlade_03_10C4C929.wem</Path>
+						</File>
+						<File Id="245592579" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WindMillBlade_01.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WindMillBlade_01_10C4C929.wem</Path>
+						</File>
+						<File Id="921375018" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WindMillBlade_02.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WindMillBlade_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="4122393694" Language="SFX" Hash="2281052505">
+		<SoundBank Id="4122393694" Language="SFX" Hash="326240844">
 			<ObjectPath>\SoundBanks\Region\Cave</ObjectPath>
 			<ShortName>Cave</ShortName>
 			<Path>Cave.bnk</Path>
@@ -251,6 +356,35 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2644063196" Name="Ambient_WaterDrop" ObjectPath="\Events\Ambient\3D Emitters\One-Shots\Ambient_WaterDrop">
+					<IncludedMemoryFiles>
+						<File Id="287889367" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WaterDrops_06.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WaterDrops_06_10C4C929.wem</Path>
+						</File>
+						<File Id="433197591" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WaterDrops_03.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WaterDrops_03_10C4C929.wem</Path>
+						</File>
+						<File Id="601856109" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WaterDrops_02.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WaterDrops_02_10C4C929.wem</Path>
+						</File>
+						<File Id="614587094" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WaterDrops_04.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WaterDrops_04_10C4C929.wem</Path>
+						</File>
+						<File Id="744000554" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WaterDrops_01.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WaterDrops_01_10C4C929.wem</Path>
+						</File>
+						<File Id="1018003303" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WaterDrops_05.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WaterDrops_05_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="448719855" Name="Destruction_Crystal_Destroy" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_Crystal_Destroy"/>
 			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>

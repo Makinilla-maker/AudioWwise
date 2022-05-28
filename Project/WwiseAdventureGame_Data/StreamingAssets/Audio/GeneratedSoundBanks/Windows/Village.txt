@@ -1,6 +1,14 @@
 Event	ID	Name			Wwise Object Path	Notes
+	120976108	Ambient_Torch			\Ambient\3D Emitters\Continuous\Ambient_Torch	
+	2208964750	Ambient_Windmill			\Ambient\3D Emitters\Continuous\Ambient_Windmill	
+	2258053876	Ambient_River			\Ambient\3D Emitters\Continuous\Ambient_River	
 	2752753183	Ambient_Region_Village			\Ambient\General\Ambient_Region_Village	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	921981382	BAS_amb_village_night_background_loop_01	C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Background\BAS_amb_village_night_background_loop_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_village_night_background_loop_01		23457856
+	166292369	BAS_WindMillBlade_03	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_WindMillBlade_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\Ambient_WindMill\WindMill\BAS_WindMillBlade_03		352320
+	245592579	BAS_WindMillBlade_01	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_WindMillBlade_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\Ambient_WindMill\BAS_WindMillBlade_01		1622080
+	373611617	BAS_Water_River	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_Water_River_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Water_River		3072144
+	784781104	BAS_Torch	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_Torch_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Torch		448492
+	921375018	BAS_WindMillBlade_02	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_WindMillBlade_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\Ambient_WindMill\WindMill\BAS_WindMillBlade_02		1163328
+	921981382	BAS_amb_village_night_background_loop_01	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Background\BAS_amb_village_night_background_loop_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_village_night_background_loop_01		23457856
 

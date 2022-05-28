@@ -9,13 +9,45 @@ Event	ID	Name			Wwise Object Path	Notes
 	2541270269	Destruction_VolcanicBoulder_Impact			\Destruction\RegionSpecific\Destruction_VolcanicBoulder_Impact	
 	2792117052	UI_QuestRoll_Hide			\UI\Quest Roll\UI_QuestRoll_Hide	
 	3699139167	UI_QuestRoll_Show			\UI\Quest Roll\UI_QuestRoll_Show	
+	3741135221	Music_Region			\Music\General\Music_Region	
 	3749307760	UI_Inventory_Roll			\UI\Inventory\UI_Inventory_Roll	
 	4254124015	Destruction_Container			\Destruction\General\Destruction_Container	
 
+State Group	ID	Name			Wwise Object Path	Notes
+	2106907484	Music_Regions			\MusicStates\Music_Regions	
+
+State	ID	Name	State Group			Notes
+	608898761	Dungeon	Music_Regions			
+	748895195	None	Music_Regions			
+	1421251628	Woodlands	Music_Regions			
+	1850388778	Desert	Music_Regions			
+	3132368115	WwizardHouse	Music_Regions			
+	3160623154	Silent	Music_Regions			
+	3424056949	Nowhere	Music_Regions			
+	3945572659	Village	Music_Regions			
+	4122393694	Cave	Music_Regions			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	162699136	WwizardHouse	Music_Regions	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus		
+	198985428	Dungeon	Music_Regions	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus		
+	406729588	Woodlands	Music_Regions	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus		
+	515754794	Silent	Music_Regions	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus		
+	616098273	Desert	Music_Regions	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus		
+	968260294	Nowhere	Music_Regions	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus		
+	1010497842	Cave	Music_Regions	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1333239961	MenuSlider_Master_Volume			\Gameplay\MenuSlider_Master_Volume	
+	2642438544	MenuSlider_Music_Volume			\Gameplay\MenuSlider_Music_Volume	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	105177777	BAS_Inventory_Open	C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_Inventory_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Inventory_Open		45368
-	428145438	BAS_QuestRoll_Close	C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_QuestRoll_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_QuestRoll_Close		112326
-	510810541	BAS_Inventory_Close	C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_Inventory_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Inventory_Close		46624
-	720014011	BAS_Inventory_Scroll	C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_Inventory_Scroll_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Inventory_Scroll		53956
-	980851265	BAS_QuestRoll_Open	C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_QuestRoll_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_QuestRoll_Open		104478
+	105177777	BAS_Inventory_Open	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_Inventory_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Inventory_Open		45368
+	428145438	BAS_QuestRoll_Close	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_QuestRoll_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_QuestRoll_Close		112326
+	510810541	BAS_Inventory_Close	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_Inventory_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Inventory_Close		46624
+	720014011	BAS_Inventory_Scroll	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_Inventory_Scroll_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Inventory_Scroll		53956
+	980851265	BAS_QuestRoll_Open	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_QuestRoll_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_QuestRoll_Open		104478
 

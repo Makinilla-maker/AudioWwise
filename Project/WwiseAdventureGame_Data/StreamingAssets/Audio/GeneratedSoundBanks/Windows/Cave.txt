@@ -1,6 +1,14 @@
 Event	ID	Name			Wwise Object Path	Notes
+	448719855	Destruction_Crystal_Destroy			\Destruction\RegionSpecific\Destruction_Crystal_Destroy	
 	1331382810	Ambient_Region_Cave			\Ambient\General\Ambient_Region_Cave	
+	2644063196	Ambient_WaterDrop			\Ambient\3D Emitters\One-Shots\Ambient_WaterDrop	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	922646079	BAS_amb_cave_background_LP	C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Background\BAS_amb_cave_background_LP_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_cave_background_LP		14786860
+	287889367	BAS_WaterDrops_06	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_WaterDrops_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\WaterDrops\BAS_WaterDrops_06		77824
+	433197591	BAS_WaterDrops_03	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_WaterDrops_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\WaterDrops\BAS_WaterDrops_03		51264
+	601856109	BAS_WaterDrops_02	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_WaterDrops_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\WaterDrops\BAS_WaterDrops_02		38976
+	614587094	BAS_WaterDrops_04	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_WaterDrops_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\WaterDrops\BAS_WaterDrops_04		57408
+	744000554	BAS_WaterDrops_01	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_WaterDrops_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\WaterDrops\BAS_WaterDrops_01		28736
+	922646079	BAS_amb_cave_background_LP	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Background\BAS_amb_cave_background_LP_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_cave_background_LP		14786860
+	1018003303	BAS_WaterDrops_05	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_WaterDrops_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\WaterDrops\BAS_WaterDrops_05		43264
 

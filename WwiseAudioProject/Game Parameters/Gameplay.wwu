@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{12703248-A49A-4660-B55B-007AE8C95E2F}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Gameplay" ID="{12703248-A49A-4660-B55B-007AE8C95E2F}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="MenuSlider_Master_Volume" ID="{77C66FF1-B807-46B4-A7F5-456AA02EF237}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="MenuSlider_Music_Volume" ID="{FE5474ED-103D-4ECF-9EB6-DBFEDB992359}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

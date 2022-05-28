@@ -2,5 +2,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	808171864	Ambient_Region_PineForest			\Ambient\General\Ambient_Region_PineForest	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	658114481	BAS_amb_pineforest_night_background_loop_01	C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Background\BAS_amb_pineforest_night_background_loop_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_pineforest_night_background_loop_01		13829348
+	278730267	BAS_amb_forest_day_background_loop_01	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Background\BAS_amb_forest_day_background_loop_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_forest_day_background_loop_01		27990080
 
