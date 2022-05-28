@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="103">
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\WwiseAudioProject.wproj" DateLow="1653672633" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Virtual Acoustics\Factory Acoustic Textures.wwu" DateLow="1653672633" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1653672633" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Triggers\Default Work Unit.wwu" DateLow="1653672633" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Switches\Player.wwu" DateLow="1653672678" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Switches\Default Work Unit.wwu" DateLow="1653672678" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\States\Default Work Unit.wwu" DateLow="1653672633" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1653672633" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\SoundBanks\Region.wwu" DateLow="1653749003" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\SoundBanks\General.wwu" DateLow="1653749003" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\SoundBanks\Default Work Unit.wwu" DateLow="1653672633" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Queries\Factory Queries.wwu" DateLow="1653672633" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Queries\Default Work Unit.wwu" DateLow="1653672633" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Presets\Factory Spatial Audio.wwu" DateLow="1653672633" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Presets\Factory Reflect.wwu" DateLow="1653672633" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Presets\Default Work Unit.wwu" DateLow="1653672633" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Modulators\Default Work Unit.wwu" DateLow="1653672630" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1653672630" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Metadata\Default Work Unit.wwu" DateLow="1653672630" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1653672630" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1653672630" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1653672630" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Game Parameters\Factory Motion.wwu" DateLow="1653672630" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Game Parameters\Default Work Unit.wwu" DateLow="1653672630" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Events\UI.wwu" DateLow="1653672630" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Events\General.wwu" DateLow="1653672678" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Events\Destruction.wwu" DateLow="1653672678" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Events\Default Work Unit.wwu" DateLow="1653672630" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Events\Ambient.wwu" DateLow="1653749003" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Effects\Factory Reflect.wwu" DateLow="1653672630" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Effects\Factory McDSP Effects.wwu" DateLow="1653672630" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Effects\Factory Mastering Suite.wwu" DateLow="1653672630" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1653672630" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1653672630" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1653672630" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Effects\Factory iZotope Filters.wwu" DateLow="1653672630" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Effects\Factory iZotope Dynamics.wwu" DateLow="1653672630" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Effects\Factory iZotope Delay.wwu" DateLow="1653672630" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Effects\Factory iZotope Box Modeler.wwu" DateLow="1653672630" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Effects\Factory Effects.wwu" DateLow="1653672630" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Effects\Factory Auro Headphone.wwu" DateLow="1653672630" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Effects\Default Work Unit.wwu" DateLow="1653672630" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1653672630" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1653672630" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Conversion Settings\Default Work Unit.wwu" DateLow="1653672630" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1653672630" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Audio Devices\Default Work Unit.wwu" DateLow="1653672630" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Attenuations\Default Work Unit.wwu" DateLow="1653672630" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1653672630" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1653672630" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1653672630" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\AudioWwise\WwiseAudioProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1653749003" DateHigh="0"/>
+</ValidationCache>
