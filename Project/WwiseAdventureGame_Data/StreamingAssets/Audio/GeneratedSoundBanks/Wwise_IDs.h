@@ -23,6 +23,7 @@ namespace AK
         static const AkUniqueID DESTRUCTION_CRYSTAL_DESTROY = 448719855U;
         static const AkUniqueID DESTRUCTION_ROCK_DESTROY = 1999886838U;
         static const AkUniqueID DESTRUCTION_VOLCANICBOULDER_IMPACT = 2541270269U;
+        static const AkUniqueID PLAYER_FOOTSTEP = 2453392179U;
         static const AkUniqueID STOP_ALL = 452547817U;
         static const AkUniqueID UI_BUTTON_DOWN = 156563189U;
         static const AkUniqueID UI_BUTTON_ENTER = 18309885U;
@@ -40,6 +41,35 @@ namespace AK
         static const AkUniqueID UI_QUESTROLL_OPEN = 949395292U;
         static const AkUniqueID UI_QUESTROLL_SHOW = 3699139167U;
     } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace SURFACE_TYPE
+        {
+            static const AkUniqueID GROUP = 4064446173U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID AGENT = 389757836U;
+                static const AkUniqueID BARREL = 442447909U;
+                static const AkUniqueID CRATE = 3098439042U;
+                static const AkUniqueID CRYSTAL = 3444057113U;
+                static const AkUniqueID DIRT = 2195636714U;
+                static const AkUniqueID ENEMY_EVILCRAWLER = 1647104456U;
+                static const AkUniqueID ENEMY_EVILHEAD = 3065846598U;
+                static const AkUniqueID ENEMY_EVILSPITPLANT = 3276966729U;
+                static const AkUniqueID GRASS = 4248645337U;
+                static const AkUniqueID LEAVES = 582824249U;
+                static const AkUniqueID METAL = 2473969246U;
+                static const AkUniqueID RUBBLE = 286660663U;
+                static const AkUniqueID SAND = 803837735U;
+                static const AkUniqueID STONE = 1216965916U;
+                static const AkUniqueID WATER = 2654748154U;
+                static const AkUniqueID WOOD = 2058049674U;
+            } // namespace SWITCH
+        } // namespace SURFACE_TYPE
+
+    } // namespace SWITCHES
 
     namespace GAME_PARAMETERS
     {
