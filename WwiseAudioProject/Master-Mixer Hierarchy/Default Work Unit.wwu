@@ -218,14 +218,6 @@
 						</StateGroupList>
 						<CustomStateList>
 							<CustomState>
-								<StateRef Name="WwizardHouse" ID="{22323823-3821-4006-AD39-697E54DC74A5}"/>
-								<CustomState Name="" ID="{6A062609-9D47-403F-A4D8-1DFA1FF300FA}" ShortID="162699136">
-									<PropertyList>
-										<Property Name="BypassEffect1" Type="bool" Value="True"/>
-									</PropertyList>
-								</CustomState>
-							</CustomState>
-							<CustomState>
 								<StateRef Name="Desert" ID="{612CC242-7F85-45E2-85AF-E6546F43FBD8}"/>
 								<CustomState Name="" ID="{057EAC72-4FB0-4BD5-9449-222A4ACE0633}" ShortID="616098273">
 									<PropertyList>
@@ -238,14 +230,6 @@
 								<CustomState Name="" ID="{7A10D0CB-05A4-4686-B895-5391BD4544BC}" ShortID="685128905"/>
 							</CustomState>
 							<CustomState>
-								<StateRef Name="Silent" ID="{167CB689-7A6A-49DD-A382-BD49F30EC4FD}"/>
-								<CustomState Name="" ID="{134A5652-434D-443B-9B2B-E7A2784833B0}" ShortID="515754794">
-									<PropertyList>
-										<Property Name="BypassEffect1" Type="bool" Value="True"/>
-									</PropertyList>
-								</CustomState>
-							</CustomState>
-							<CustomState>
 								<StateRef Name="Dungeon" ID="{4D9EBEA5-75BE-4B95-81B9-29B75730588B}"/>
 								<CustomState Name="" ID="{8349BDFC-CE94-49EF-B070-5F9E5E725B82}" ShortID="198985428">
 									<PropertyList>
@@ -256,14 +240,6 @@
 							<CustomState>
 								<StateRef Name="Woodlands" ID="{2A2B6BD3-4FF8-4DC6-A933-5009137CF86E}"/>
 								<CustomState Name="" ID="{09115165-717E-499F-B407-53C37904A380}" ShortID="406729588">
-									<PropertyList>
-										<Property Name="BypassEffect1" Type="bool" Value="True"/>
-									</PropertyList>
-								</CustomState>
-							</CustomState>
-							<CustomState>
-								<StateRef Name="Nowhere" ID="{22C3D993-997F-4F54-AB53-6C530882A232}"/>
-								<CustomState Name="" ID="{4FBA4764-E272-4B71-9415-49666BA45CC5}" ShortID="968260294">
 									<PropertyList>
 										<Property Name="BypassEffect1" Type="bool" Value="True"/>
 									</PropertyList>

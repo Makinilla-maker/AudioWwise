@@ -20,10 +20,7 @@ namespace AK
         static const AkUniqueID AMBIENT_REGION_PINEFOREST = 808171864U;
         static const AkUniqueID AMBIENT_REGION_VILLAGE = 2752753183U;
         static const AkUniqueID AMBIENT_REGION_WOODLANDS = 1049266392U;
-        static const AkUniqueID AMBIENT_RIVER = 2258053876U;
         static const AkUniqueID AMBIENT_TORCH = 120976108U;
-        static const AkUniqueID AMBIENT_WATERDROP = 2644063196U;
-        static const AkUniqueID AMBIENT_WATERFALL = 1934835592U;
         static const AkUniqueID AMBIENT_WINDMILL = 2208964750U;
         static const AkUniqueID DESTRUCTION_CONTAINER = 4254124015U;
         static const AkUniqueID DESTRUCTION_CRYSTAL_DESTROY = 448719855U;
@@ -64,11 +61,8 @@ namespace AK
                 static const AkUniqueID DESERT = 1850388778U;
                 static const AkUniqueID DUNGEON = 608898761U;
                 static const AkUniqueID NONE = 748895195U;
-                static const AkUniqueID NOWHERE = 3424056949U;
-                static const AkUniqueID SILENT = 3160623154U;
                 static const AkUniqueID VILLAGE = 3945572659U;
                 static const AkUniqueID WOODLANDS = 1421251628U;
-                static const AkUniqueID WWIZARDHOUSE = 3132368115U;
             } // namespace STATE
         } // namespace MUSIC_REGIONS
 
@@ -122,6 +116,7 @@ namespace AK
         static const AkUniqueID MENUSLIDER_MASTER_VOLUME = 1333239961U;
         static const AkUniqueID MENUSLIDER_MUSIC_VOLUME = 2642438544U;
         static const AkUniqueID PLAYER_HEALTH = 215992295U;
+        static const AkUniqueID TIME_OF_DAY = 207908541U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS
@@ -139,9 +134,25 @@ namespace AK
 
     namespace BUSSES
     {
+        static const AkUniqueID AMBIENT = 77978275U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MUSIC = 3991942870U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID CAVE = 4122393694U;
+        static const AkUniqueID CAVEENTRANCE = 3352684520U;
+        static const AkUniqueID DUNGEON_CORE = 2213850905U;
+        static const AkUniqueID DUNGEON_ENTRANCE = 1156828694U;
+        static const AkUniqueID DUNGEON_FORGE = 243931001U;
+        static const AkUniqueID DUNGEON_LIBRARY = 1941785149U;
+        static const AkUniqueID DUNGEON_LIBRARY_STATUE = 425911480U;
+        static const AkUniqueID DUNGEON_MEZZANINEROOM = 4158999182U;
+        static const AkUniqueID DUNGEON_MEZZANINEROOMENTRANCE = 2026127448U;
+        static const AkUniqueID DUNGEON_PATHTOFORGE = 567469275U;
+        static const AkUniqueID DUNGEON_ROADTOCORE = 2106540524U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {

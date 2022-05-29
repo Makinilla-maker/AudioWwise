@@ -9,11 +9,8 @@
 						<State Name="Cave" ID="{CB5AB0AF-A679-4FC7-928C-08284218D24A}"/>
 						<State Name="Desert" ID="{612CC242-7F85-45E2-85AF-E6546F43FBD8}"/>
 						<State Name="Dungeon" ID="{4D9EBEA5-75BE-4B95-81B9-29B75730588B}"/>
-						<State Name="Nowhere" ID="{22C3D993-997F-4F54-AB53-6C530882A232}"/>
-						<State Name="Silent" ID="{167CB689-7A6A-49DD-A382-BD49F30EC4FD}"/>
 						<State Name="Village" ID="{44E104DD-B0A9-47CA-B545-2C8C0F8F1F00}"/>
 						<State Name="Woodlands" ID="{2A2B6BD3-4FF8-4DC6-A933-5009137CF86E}"/>
-						<State Name="WwizardHouse" ID="{22323823-3821-4006-AD39-697E54DC74A5}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

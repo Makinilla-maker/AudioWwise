@@ -5,7 +5,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	4275106484	Ambient_Lava			\Ambient\3D Emitters\Continuous\Ambient_Lava	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	404266977	BAS_Lava	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_Lava_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Lava		1228864
-	515364919	BAS_amb_dungeon_day_background_loop_01	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Background\BAS_amb_dungeon_day_background_loop_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_dungeon_day_background_loop_01		24641600
-	784781104	BAS_Torch	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_Torch_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Torch		448492
+	404266977	BAS_Lava	C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_Lava_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Lava		1228864
+	784781104	BAS_Torch	C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_Torch_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Torch		448492
 

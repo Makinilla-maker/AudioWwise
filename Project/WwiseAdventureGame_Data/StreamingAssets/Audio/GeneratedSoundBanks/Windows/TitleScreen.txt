@@ -10,11 +10,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	3474566310	UI_Menu_Select			\UI\Menu\UI_Menu_Select	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	48720346	BAS_Button_Over	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_Button_Over_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Over		21240
-	326870184	BAS_Button_Teleport	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_Button_Teleport_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Teleport		345428
-	544872729	BAS_Button_Open	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_Button_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Open		56256
-	630968509	BAS_Inventory_Select	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_Inventory_Select_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Inventory_Select		160956
-	756982886	BAS_Button_Close	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_Button_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Close		62500
-	856337225	TitleScreen_120BPM_4_4_L41M_P2M	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Music\TitleScreen_120BPM_4_4_L41M_P2M_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\TitleScreen_120BPM_4_4_L41M_P2M		17664064
-	1032911872	BAS_Button_Enter	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_Button_Enter_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Enter		117424
+	48720346	BAS_Button_Over	C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_Button_Over_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Over		21240
+	326870184	BAS_Button_Teleport	C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_Button_Teleport_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Teleport		345428
+	544872729	BAS_Button_Open	C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_Button_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Open		56256
+	630968509	BAS_Inventory_Select	C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_Inventory_Select_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Inventory_Select		160956
+	756982886	BAS_Button_Close	C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_Button_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Close		62500
+	856337225	TitleScreen_120BPM_4_4_L41M_P2M	C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Music\TitleScreen_120BPM_4_4_L41M_P2M_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\TitleScreen_120BPM_4_4_L41M_P2M		17664064
+	1032911872	BAS_Button_Enter	C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_Button_Enter_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Enter		117424
 

@@ -4,12 +4,6 @@
 		<WorkUnit Name="Default Work Unit" ID="{3FB409C7-00CB-4681-8A33-EEB29FBEFFC3}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundcasterSession Name="Music" ID="{A6F0D2E9-55D3-41D8-AC5A-450D29C9CE21}">
-					<ModuleList>
-						<Module>
-							<ObjectRef Name="Music_Regions" ID="{3CEB93D6-98D5-46E4-9990-FD198296A0BF}" WorkUnitID="{CE521BED-3925-4071-954D-0249D36B6A3B}"/>
-							<Position X="0" Y="0"/>
-						</Module>
-					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="MenuSlider_Master_Volume" ID="{77C66FF1-B807-46B4-A7F5-456AA02EF237}"/>
