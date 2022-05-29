@@ -2,3 +2,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	448719855	Destruction_Crystal_Destroy			\Destruction\RegionSpecific\Destruction_Crystal_Destroy	
 	1331382810	Ambient_Region_Cave			\Ambient\General\Ambient_Region_Cave	
 
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	189948716	BAS_Crystals_Destroy	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Destruction\BAS_Crystals_Destroy_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Crystal_Destroy_SFX\BAS_Crystals_Destroy		191776
+

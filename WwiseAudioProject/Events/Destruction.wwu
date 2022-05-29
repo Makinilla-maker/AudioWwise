@@ -5,14 +5,54 @@
 			<ChildrenList>
 				<Folder Name="General" ID="{4499FAF5-8A9F-4EB0-8332-D9094732BBB6}" ShortID="455249467">
 					<ChildrenList>
-						<Event Name="Destruction_Container" ID="{6322D0B7-A76D-4DD3-9C60-92D2CDDED6E9}"/>
+						<Event Name="Destruction_Container" ID="{6322D0B7-A76D-4DD3-9C60-92D2CDDED6E9}">
+							<ChildrenList>
+								<Action Name="" ID="{89FE69BD-F273-4C4D-828F-9A475CF0D2C0}" ShortID="917918879">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Box_Barrel_Destroy_SFX" ID="{AAD1E83C-4D3A-4C47-94B9-10A4DF7B3F05}" WorkUnitID="{FADD5FE5-9879-424B-8065-D995CA356336}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="RegionSpecific" ID="{78DEAB22-047C-40BA-88C5-70CBF0D212F3}" ShortID="625690768">
 					<ChildrenList>
-						<Event Name="Destruction_Rock_Destroy" ID="{9953D6A0-94B3-4A72-A9BC-EFF544EB6902}"/>
-						<Event Name="Destruction_Crystal_Destroy" ID="{581487FA-23AF-4713-9AF6-0FBE3D66EAF3}"/>
-						<Event Name="Destruction_VolcanicBoulder_Impact" ID="{B149ACE4-31C3-4B58-A133-B2288336F47F}"/>
+						<Event Name="Destruction_Rock_Destroy" ID="{9953D6A0-94B3-4A72-A9BC-EFF544EB6902}">
+							<ChildrenList>
+								<Action Name="" ID="{DDA63660-65E8-4A58-9F6D-AF05EC412111}" ShortID="538968262">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rock_Destroy_SFX" ID="{1B6F01E2-74E0-4211-A0C1-D12832244455}" WorkUnitID="{FADD5FE5-9879-424B-8065-D995CA356336}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Destruction_Crystal_Destroy" ID="{581487FA-23AF-4713-9AF6-0FBE3D66EAF3}">
+							<ChildrenList>
+								<Action Name="" ID="{198997C4-3188-4CDC-880D-140CA5B20E2F}" ShortID="1002793224">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Crystal_Destroy_SFX" ID="{BDFE0677-184D-4D28-AF32-50E0ABDDB1F3}" WorkUnitID="{FADD5FE5-9879-424B-8065-D995CA356336}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Destruction_VolcanicBoulder_Impact" ID="{B149ACE4-31C3-4B58-A133-B2288336F47F}">
+							<ChildrenList>
+								<Action Name="" ID="{899DC384-8312-496E-B1FD-488BE4FE504D}" ShortID="454156854">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="VolcanicBoulder_Destroy_SFX" ID="{CE045AA6-08DF-4B58-B1C9-A0B6DAFBEE0F}" WorkUnitID="{FADD5FE5-9879-424B-8065-D995CA356336}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

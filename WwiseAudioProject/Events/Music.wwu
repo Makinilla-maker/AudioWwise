@@ -7,10 +7,10 @@
 					<ChildrenList>
 						<Event Name="Music_Region" ID="{DEE6B019-15E7-4BC0-B6C9-1CEA145757CA}">
 							<ChildrenList>
-								<Action Name="" ID="{1BA98D20-DD14-4C87-AE9D-056ED44BFF2F}" ShortID="685931144">
+								<Action Name="" ID="{07D380CC-4BE5-487D-8E88-129DCBF58483}" ShortID="529551276">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Music_Regions" ID="{3CEB93D6-98D5-46E4-9990-FD198296A0BF}" WorkUnitID="{CE521BED-3925-4071-954D-0249D36B6A3B}"/>
+											<ObjectRef Name="Credits_120BPM_4_4_L8M_P0" ID="{80EC2FD3-07D5-4D30-AE04-9CEF4E0822F9}" WorkUnitID="{FADD5FE5-9879-424B-8065-D995CA356336}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

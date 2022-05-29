@@ -1,30 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Makineta\Documents\GitHub\AudioWwise\Project\WwiseAdventureGame_Data\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\</ProjectRoot>
+		<SourceFilesRoot>Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\MyFiles\GitHub\AudioWwise\Project\WwiseAdventureGame_Data\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Language="SFX" Hash="952785268">
+		<SoundBank Id="133642231" Language="SFX" Hash="2858552496">
 			<ObjectPath>\SoundBanks\General\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<IncludedEvents>
-				<Event Id="4254124015" Name="Destruction_Container" ObjectPath="\Events\Destruction\General\Destruction_Container"/>
-				<Event Id="448719855" Name="Destruction_Crystal_Destroy" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_Crystal_Destroy"/>
-				<Event Id="1999886838" Name="Destruction_Rock_Destroy" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_Rock_Destroy"/>
-				<Event Id="2541270269" Name="Destruction_VolcanicBoulder_Impact" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_VolcanicBoulder_Impact"/>
+				<Event Id="4254124015" Name="Destruction_Container" ObjectPath="\Events\Destruction\General\Destruction_Container">
+					<IncludedMemoryFiles>
+						<File Id="15518179" Language="SFX">
+							<ShortName>Destruction\BAS_Destroy_Wood_01.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Destroy_Wood_01_10C4C929.wem</Path>
+						</File>
+						<File Id="103154951" Language="SFX">
+							<ShortName>Destruction\BAS_Crate_Destroy_03.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Crate_Destroy_03_10C4C929.wem</Path>
+						</File>
+						<File Id="175704995" Language="SFX">
+							<ShortName>Destruction\BAS_Crate_Destroy_05.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Crate_Destroy_05_10C4C929.wem</Path>
+						</File>
+						<File Id="288833468" Language="SFX">
+							<ShortName>Destruction\BAS_Destroy_Wood_03.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Destroy_Wood_03_10C4C929.wem</Path>
+						</File>
+						<File Id="719266692" Language="SFX">
+							<ShortName>Destruction\BAS_Crate_Destroy_01.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Crate_Destroy_01_10C4C929.wem</Path>
+						</File>
+						<File Id="785544073" Language="SFX">
+							<ShortName>Destruction\BAS_Crate_Destroy_04.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Crate_Destroy_04_10C4C929.wem</Path>
+						</File>
+						<File Id="818958913" Language="SFX">
+							<ShortName>Destruction\BAS_Crate_Destroy_02.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Crate_Destroy_02_10C4C929.wem</Path>
+						</File>
+						<File Id="821284139" Language="SFX">
+							<ShortName>Destruction\BAS_Crate_Destroy_06.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Crate_Destroy_06_10C4C929.wem</Path>
+						</File>
+						<File Id="1067006093" Language="SFX">
+							<ShortName>Destruction\BAS_Destroy_Wood_02.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Destroy_Wood_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="448719855" Name="Destruction_Crystal_Destroy" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_Crystal_Destroy">
+					<IncludedMemoryFiles>
+						<File Id="189948716" Language="SFX">
+							<ShortName>Destruction\BAS_Crystals_Destroy.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Crystals_Destroy_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1999886838" Name="Destruction_Rock_Destroy" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_Rock_Destroy">
+					<IncludedMemoryFiles>
+						<File Id="556288" Language="SFX">
+							<ShortName>Destruction\BAS_Destroy_Rock_03.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Destroy_Rock_03_10C4C929.wem</Path>
+						</File>
+						<File Id="524309350" Language="SFX">
+							<ShortName>Destruction\BAS_Destroy_Rock_02.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Destroy_Rock_02_10C4C929.wem</Path>
+						</File>
+						<File Id="697086178" Language="SFX">
+							<ShortName>Destruction\BAS_Destroy_Rock_01.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Destroy_Rock_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2541270269" Name="Destruction_VolcanicBoulder_Impact" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_VolcanicBoulder_Impact">
+					<IncludedMemoryFiles>
+						<File Id="564741814" Language="SFX">
+							<ShortName>Destruction\Volcanic Boulder\Explosion.wav</ShortName>
+							<Path>SFX\Destruction\Volcanic Boulder\Explosion_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3741135221" Name="Music_Region" ObjectPath="\Events\Music\General\Music_Region">
 					<IncludedMemoryFiles>
-						<File Id="98880616" Language="SFX">
-							<ShortName>Explore\Nowhere_120BPM_4_4_L8M_P0.wav</ShortName>
-							<Path>SFX\Explore\Nowhere_120BPM_4_4_L8M_P0_D79FB2B7.wem</Path>
+						<File Id="1016631113" Language="SFX">
+							<ShortName>Music\Credits_120BPM_4_4_L8M_P0.wav</ShortName>
+							<Path>SFX\Music\Credits_120BPM_4_4_L8M_P0_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -627,7 +695,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="152105657" Language="SFX" Hash="3449040804">
+		<SoundBank Id="152105657" Language="SFX" Hash="2692812260">
 			<ObjectPath>\SoundBanks\General\TitleScreen</ObjectPath>
 			<ShortName>TitleScreen</ShortName>
 			<Path>TitleScreen.bnk</Path>
@@ -706,7 +774,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="608898761" Language="SFX" Hash="5414781">
+		<SoundBank Id="608898761" Language="SFX" Hash="1097208596">
 			<ObjectPath>\SoundBanks\Region\Dungeon</ObjectPath>
 			<ShortName>Dungeon</ShortName>
 			<Path>Dungeon.bnk</Path>
@@ -728,7 +796,22 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1999886838" Name="Destruction_Rock_Destroy" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_Rock_Destroy"/>
+				<Event Id="1999886838" Name="Destruction_Rock_Destroy" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_Rock_Destroy">
+					<IncludedMemoryFiles>
+						<File Id="556288" Language="SFX">
+							<ShortName>Destruction\BAS_Destroy_Rock_03.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Destroy_Rock_03_10C4C929.wem</Path>
+						</File>
+						<File Id="524309350" Language="SFX">
+							<ShortName>Destruction\BAS_Destroy_Rock_02.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Destroy_Rock_02_10C4C929.wem</Path>
+						</File>
+						<File Id="697086178" Language="SFX">
+							<ShortName>Destruction\BAS_Destroy_Rock_01.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Destroy_Rock_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX" Hash="4163970132">
@@ -765,7 +848,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1421251628" Language="SFX" Hash="1703365898">
+		<SoundBank Id="1421251628" Language="SFX" Hash="3626174074">
 			<ObjectPath>\SoundBanks\Region\Woodlands</ObjectPath>
 			<ShortName>Woodlands</ShortName>
 			<Path>Woodlands.bnk</Path>
@@ -795,7 +878,7 @@
 				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1850388778" Language="SFX" Hash="2601104817">
+		<SoundBank Id="1850388778" Language="SFX" Hash="2683346501">
 			<ObjectPath>\SoundBanks\Region\Desert</ObjectPath>
 			<ShortName>Desert</ShortName>
 			<Path>Desert.bnk</Path>
@@ -812,13 +895,20 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2541270269" Name="Destruction_VolcanicBoulder_Impact" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_VolcanicBoulder_Impact"/>
+				<Event Id="2541270269" Name="Destruction_VolcanicBoulder_Impact" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_VolcanicBoulder_Impact">
+					<IncludedMemoryFiles>
+						<File Id="564741814" Language="SFX">
+							<ShortName>Destruction\Volcanic Boulder\Explosion.wav</ShortName>
+							<Path>SFX\Destruction\Volcanic Boulder\Explosion_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2482365692" Language="SFX" Hash="3889237120">
+		<SoundBank Id="2482365692" Language="SFX" Hash="3825329833">
 			<ObjectPath>\SoundBanks\Region\PineForest</ObjectPath>
 			<ShortName>PineForest</ShortName>
 			<Path>PineForest.bnk</Path>
@@ -840,7 +930,7 @@
 				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3945572659" Language="SFX" Hash="2950832924">
+		<SoundBank Id="3945572659" Language="SFX" Hash="2304046856">
 			<ObjectPath>\SoundBanks\Region\Village</ObjectPath>
 			<ShortName>Village</ShortName>
 			<Path>Village.bnk</Path>
@@ -882,13 +972,20 @@
 				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="4122393694" Language="SFX" Hash="825561658">
+		<SoundBank Id="4122393694" Language="SFX" Hash="3961543064">
 			<ObjectPath>\SoundBanks\Region\Cave</ObjectPath>
 			<ShortName>Cave</ShortName>
 			<Path>Cave.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1331382810" Name="Ambient_Region_Cave" ObjectPath="\Events\Ambient\General\Ambient_Region_Cave"/>
-				<Event Id="448719855" Name="Destruction_Crystal_Destroy" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_Crystal_Destroy"/>
+				<Event Id="448719855" Name="Destruction_Crystal_Destroy" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_Crystal_Destroy">
+					<IncludedMemoryFiles>
+						<File Id="189948716" Language="SFX">
+							<ShortName>Destruction\BAS_Crystals_Destroy.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Crystals_Destroy_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>
