@@ -32,6 +32,7 @@ namespace AK
         static const AkUniqueID MUSIC_REGION = 3741135221U;
         static const AkUniqueID MUSIC_TITLESCREEN = 1532327793U;
         static const AkUniqueID PLAYER_FOOTSTEP = 2453392179U;
+        static const AkUniqueID PLAYER_HEALTH = 215992295U;
         static const AkUniqueID PLAYER_WEAPONSWING = 3808743129U;
         static const AkUniqueID STOP_ALL = 452547817U;
         static const AkUniqueID UI_BUTTON_DOWN = 156563189U;
@@ -120,6 +121,7 @@ namespace AK
     {
         static const AkUniqueID MENUSLIDER_MASTER_VOLUME = 1333239961U;
         static const AkUniqueID MENUSLIDER_MUSIC_VOLUME = 2642438544U;
+        static const AkUniqueID PLAYER_HEALTH = 215992295U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS

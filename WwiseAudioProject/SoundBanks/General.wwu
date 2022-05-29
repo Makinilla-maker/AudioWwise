@@ -21,6 +21,7 @@
 						<ObjectRef Name="Quest Roll" ID="{56CB3A86-27B5-4A69-9622-78F6D82548AD}" WorkUnitID="{B1E17A69-9357-41C7-B9B5-7961FDEF22E6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Default Work Unit" ID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}" WorkUnitID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Inventory" ID="{AC9C4E5E-A379-4CF5-B0D1-A42FE4EFF6C5}" WorkUnitID="{B1E17A69-9357-41C7-B9B5-7961FDEF22E6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Health" ID="{48262E41-C63C-4F97-A980-22254FCE7DF0}" WorkUnitID="{4C054385-B206-4CA3-BCF7-DE072316D0D5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="General" ID="{F5FB1F62-CBFD-4FC3-AD09-6D8333DBEB91}" WorkUnitID="{8A91BB63-ACA4-46ED-ACD7-FF026386F49C}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

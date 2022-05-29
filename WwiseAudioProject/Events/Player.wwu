@@ -25,6 +25,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Player_Health" ID="{48262E41-C63C-4F97-A980-22254FCE7DF0}">
+					<ChildrenList>
+						<Action Name="" ID="{CAC755AA-0D83-4DC7-8478-CD0814D5DD4E}" ShortID="545655168">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Beat" ID="{A13884E7-14F1-4BEC-9BF2-73EAAD9D8766}" WorkUnitID="{FADD5FE5-9879-424B-8065-D995CA356336}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

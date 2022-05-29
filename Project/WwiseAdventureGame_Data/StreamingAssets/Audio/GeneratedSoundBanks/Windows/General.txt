@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	215992295	Player_Health			\Player\Player_Health	
 	448719855	Destruction_Crystal_Destroy			\Destruction\RegionSpecific\Destruction_Crystal_Destroy	
 	452547817	Stop_All			\General\Stop_All	
 	808893336	UI_QuestRoll_Close			\UI\Quest Roll\UI_QuestRoll_Close	
@@ -66,6 +67,7 @@ Custom State	ID	Name	State Group	Owner		Notes
 	1010497842	Cave	Music_Regions	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus		
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	215992295	Player_Health			\Default Work Unit\Player_Health	
 	1333239961	MenuSlider_Master_Volume			\Gameplay\MenuSlider_Master_Volume	
 	2642438544	MenuSlider_Music_Volume			\Gameplay\MenuSlider_Music_Volume	
 
@@ -101,8 +103,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	359347369	BAS_Impact_Axe_SurfaceType_Dirt	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Impacts\BAS_Impact_Axe_SurfaceType_Dirt_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon_Type\Axe\BAS_Impact_Axe_SurfaceType_Dirt		35402
 	372858945	BAS_Player_Footstep_sand_run_01	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Sand\BAS_Player_Footstep_sand_run_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand\BAS_Player_Footstep_sand_run_01		29168
 	373970747	BAS_Impact_Axe_SurfaceType_Stone	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Impacts\BAS_Impact_Axe_SurfaceType_Stone_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon_Type\Axe\BAS_Impact_Axe_SurfaceType_Stone		62410
+	387087589	Heartbeat_Dub2	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Heartbeat\Heartbeat_Dub2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Heartbeat\Beat\Dub\Heartbeat_Dub2		29544
 	393369144	BAS_Player_Footstep_stone_run_01	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Stone\BAS_Player_Footstep_stone_run_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\BAS_Player_Footstep_stone_run_01		26724
 	428145438	BAS_QuestRoll_Close	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_QuestRoll_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_QuestRoll_Close		112326
+	431639684	Heartbeat_Dub	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Heartbeat\Heartbeat_Dub_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Heartbeat\Beat\Dub\Heartbeat_Dub		29544
 	450302635	BAS_Impact_Sword_SurfaceType_Leaves	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Impacts\BAS_Impact_Sword_SurfaceType_Leaves_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon_Type\Sword\BAS_Impact_Sword_SurfaceType_Leaves		127040
 	457456458	BAS_Player_Footstep_stone_run_06	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Stone\BAS_Player_Footstep_stone_run_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\BAS_Player_Footstep_stone_run_06		25896
 	469385390	BAS_Impact_Sword_SurfaceType_Barrel	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Impacts\BAS_Impact_Sword_SurfaceType_Barrel_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon_Type\Sword\BAS_Impact_Sword_SurfaceType_Barrel		91692
@@ -111,7 +115,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	510810541	BAS_Inventory_Close	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_Inventory_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Inventory_Close		46624
 	530295892	BAS_Player_Footstep_sand_run_02	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Sand\BAS_Player_Footstep_sand_run_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand\BAS_Player_Footstep_sand_run_02		26926
 	544381208	BAS_Player_Footstep_wood_run_05	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Wood\BAS_Player_Footstep_wood_run_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\BAS_Player_Footstep_wood_run_05		23238
+	560196472	Heartbeat_Lub2	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Heartbeat\Heartbeat_Lub2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Heartbeat\Beat\Lub\Heartbeat_Lub2		29544
 	580008885	BAS_Player_Footstep_stone_run_04	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Stone\BAS_Player_Footstep_stone_run_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\BAS_Player_Footstep_stone_run_04		26088
+	607316801	Heartbeat_Lub	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Heartbeat\Heartbeat_Lub_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Heartbeat\Beat\Lub\Heartbeat_Lub		29544
 	613994073	BAS_Player_Footstep_dirt_run_04	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Dirt\BAS_Player_Footstep_dirt_run_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt\BAS_Player_Footstep_dirt_run_04		26088
 	653702755	BAS_Player_Footstep_rubble_run_01	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Rubble\BAS_Player_Footstep_rubble_run_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Rubble\BAS_Player_Footstep_rubble_run_01		26724
 	664628604	BAS_Player_Footstep_rubble_run_04	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Rubble\BAS_Player_Footstep_rubble_run_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Rubble\BAS_Player_Footstep_rubble_run_04		26088
