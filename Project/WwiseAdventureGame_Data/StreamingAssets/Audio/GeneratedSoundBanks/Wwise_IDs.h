@@ -20,7 +20,9 @@ namespace AK
         static const AkUniqueID AMBIENT_REGION_PINEFOREST = 808171864U;
         static const AkUniqueID AMBIENT_REGION_VILLAGE = 2752753183U;
         static const AkUniqueID AMBIENT_REGION_WOODLANDS = 1049266392U;
+        static const AkUniqueID AMBIENT_RIVER = 2258053876U;
         static const AkUniqueID AMBIENT_TORCH = 120976108U;
+        static const AkUniqueID AMBIENT_WATERFALL = 1934835592U;
         static const AkUniqueID AMBIENT_WINDMILL = 2208964750U;
         static const AkUniqueID DESTRUCTION_CONTAINER = 4254124015U;
         static const AkUniqueID DESTRUCTION_CRYSTAL_DESTROY = 448719855U;

@@ -1,7 +1,9 @@
 Event	ID	Name			Wwise Object Path	Notes
 	448719855	Destruction_Crystal_Destroy			\Destruction\RegionSpecific\Destruction_Crystal_Destroy	
 	1331382810	Ambient_Region_Cave			\Ambient\General\Ambient_Region_Cave	
+	1934835592	Ambient_Waterfall			\Ambient\3D Emitters\Continuous\Ambient_Waterfall	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	189948716	BAS_Crystals_Destroy	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Destruction\BAS_Crystals_Destroy_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Crystal_Destroy_SFX\BAS_Crystals_Destroy		191776
+	189948716	BAS_Crystals_Destroy	C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Destruction\BAS_Crystals_Destroy_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Crystal_Destroy_SFX\BAS_Crystals_Destroy		191776
+	1036683481	BAS_Waterfall	C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_Waterfall_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Waterfall		768064
 

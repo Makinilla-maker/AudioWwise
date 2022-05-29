@@ -718,9 +718,13 @@
 						</Sound>
 						<Sound Name="BAS_Lava" ID="{5AD62C15-483A-44BC-B37F-04786A8D99A6}" ShortID="633482604">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="small" ID="{CFED1AFB-8B3B-43A8-90E3-0840DD28BB59}" WorkUnitID="{C6079161-EE69-41EB-8EC0-7CE9E2B4CF4F}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABBAE18F-16EE-470C-9497-E6A79E03657F}"/>
 								</Reference>
@@ -744,9 +748,13 @@
 						</Sound>
 						<Sound Name="BAS_Torch" ID="{8DCAC533-7E85-4568-AA94-041A2C19133F}" ShortID="150314414">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="small" ID="{CFED1AFB-8B3B-43A8-90E3-0840DD28BB59}" WorkUnitID="{C6079161-EE69-41EB-8EC0-7CE9E2B4CF4F}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABBAE18F-16EE-470C-9497-E6A79E03657F}"/>
 								</Reference>
@@ -770,6 +778,7 @@
 						</Sound>
 						<Sound Name="BAS_Waterfall" ID="{C579B24A-FD96-4D94-9E75-4F4BCEC212F3}" ShortID="932163275">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -778,6 +787,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="small" ID="{CFED1AFB-8B3B-43A8-90E3-0840DD28BB59}" WorkUnitID="{C6079161-EE69-41EB-8EC0-7CE9E2B4CF4F}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABBAE18F-16EE-470C-9497-E6A79E03657F}"/>
 								</Reference>
@@ -801,6 +813,7 @@
 						</Sound>
 						<Sound Name="BAS_Water_River" ID="{86E2F329-19B1-4F17-9D41-70CD9B0DCAEC}" ShortID="667234512">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -809,6 +822,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="small" ID="{CFED1AFB-8B3B-43A8-90E3-0840DD28BB59}" WorkUnitID="{C6079161-EE69-41EB-8EC0-7CE9E2B4CF4F}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABBAE18F-16EE-470C-9497-E6A79E03657F}"/>
 								</Reference>

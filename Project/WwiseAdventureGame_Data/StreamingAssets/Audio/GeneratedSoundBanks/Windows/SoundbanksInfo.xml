@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\</ProjectRoot>
-		<SourceFilesRoot>Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\MyFiles\GitHub\AudioWwise\Project\WwiseAdventureGame_Data\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Makineta\Documents\GitHub\AudioWwise\Project\WwiseAdventureGame_Data\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Language="SFX" Hash="2858552496">
+		<SoundBank Id="133642231" Language="SFX" Hash="1894918996">
 			<ObjectPath>\SoundBanks\General\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
@@ -695,7 +695,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="152105657" Language="SFX" Hash="2692812260">
+		<SoundBank Id="152105657" Language="SFX" Hash="3449040804">
 			<ObjectPath>\SoundBanks\General\TitleScreen</ObjectPath>
 			<ShortName>TitleScreen</ShortName>
 			<Path>TitleScreen.bnk</Path>
@@ -774,7 +774,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="608898761" Language="SFX" Hash="1097208596">
+		<SoundBank Id="608898761" Language="SFX" Hash="4023094159">
 			<ObjectPath>\SoundBanks\Region\Dungeon</ObjectPath>
 			<ShortName>Dungeon</ShortName>
 			<Path>Dungeon.bnk</Path>
@@ -848,7 +848,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1421251628" Language="SFX" Hash="3626174074">
+		<SoundBank Id="1421251628" Language="SFX" Hash="3391657883">
 			<ObjectPath>\SoundBanks\Region\Woodlands</ObjectPath>
 			<ShortName>Woodlands</ShortName>
 			<Path>Woodlands.bnk</Path>
@@ -873,12 +873,20 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="1934835592" Name="Ambient_Waterfall" ObjectPath="\Events\Ambient\3D Emitters\Continuous\Ambient_Waterfall">
+					<IncludedMemoryFiles>
+						<File Id="1036683481" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_Waterfall.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_Waterfall_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1850388778" Language="SFX" Hash="2683346501">
+		<SoundBank Id="1850388778" Language="SFX" Hash="1063064739">
 			<ObjectPath>\SoundBanks\Region\Desert</ObjectPath>
 			<ShortName>Desert</ShortName>
 			<Path>Desert.bnk</Path>
@@ -908,7 +916,7 @@
 				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2482365692" Language="SFX" Hash="3825329833">
+		<SoundBank Id="2482365692" Language="SFX" Hash="768096408">
 			<ObjectPath>\SoundBanks\Region\PineForest</ObjectPath>
 			<ShortName>PineForest</ShortName>
 			<Path>PineForest.bnk</Path>
@@ -930,7 +938,7 @@
 				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3945572659" Language="SFX" Hash="2304046856">
+		<SoundBank Id="3945572659" Language="SFX" Hash="2429407344">
 			<ObjectPath>\SoundBanks\Region\Village</ObjectPath>
 			<ShortName>Village</ShortName>
 			<Path>Village.bnk</Path>
@@ -940,6 +948,14 @@
 						<File Id="921981382" Language="SFX">
 							<ShortName>Ambient_Background\BAS_amb_village_night_background_loop_01.wav</ShortName>
 							<Path>SFX\Ambient_Background\BAS_amb_village_night_background_loop_01_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2258053876" Name="Ambient_River" ObjectPath="\Events\Ambient\3D Emitters\Continuous\Ambient_River">
+					<IncludedMemoryFiles>
+						<File Id="373611617" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_Water_River.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_Water_River_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -972,12 +988,20 @@
 				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="4122393694" Language="SFX" Hash="3961543064">
+		<SoundBank Id="4122393694" Language="SFX" Hash="3464175214">
 			<ObjectPath>\SoundBanks\Region\Cave</ObjectPath>
 			<ShortName>Cave</ShortName>
 			<Path>Cave.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1331382810" Name="Ambient_Region_Cave" ObjectPath="\Events\Ambient\General\Ambient_Region_Cave"/>
+				<Event Id="1934835592" Name="Ambient_Waterfall" ObjectPath="\Events\Ambient\3D Emitters\Continuous\Ambient_Waterfall">
+					<IncludedMemoryFiles>
+						<File Id="1036683481" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_Waterfall.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_Waterfall_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="448719855" Name="Destruction_Crystal_Destroy" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_Crystal_Destroy">
 					<IncludedMemoryFiles>
 						<File Id="189948716" Language="SFX">
