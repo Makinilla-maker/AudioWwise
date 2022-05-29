@@ -52,12 +52,15 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="BAS_amb_cave_background_LP" ID="{DF856F36-0C4A-4335-97ED-EACB865DBA6F}" ShortID="59287005">
+							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABBAE18F-16EE-470C-9497-E6A79E03657F}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}"/>
+									<ObjectRef Name="Ambient" ID="{2D46500D-01A7-4457-BA5D-2FEC0A889556}" WorkUnitID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>

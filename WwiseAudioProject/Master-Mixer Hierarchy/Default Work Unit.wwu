@@ -79,6 +79,132 @@
 							</PropertyList>
 							<ObjectLists/>
 						</Bus>
+						<Bus Name="Ambient" ID="{2D46500D-01A7-4457-BA5D-2FEC0A889556}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Hall_Large" ID="{6D154498-FF6D-4823-96FC-56841B70E079}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AuxBus Name="Cave" ID="{303233E1-710D-4A56-950D-D1C26B60C4CA}">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Wwise RoomVerb (Custom)" ID="{6FB3A0D9-EC24-4D3F-9752-6B357A46BB1B}" ShortID="929795711" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3"/>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="CaveEntrance" ID="{B35FC937-9E45-45FA-84CA-2168264B1F0F}">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Wwise RoomVerb (Custom)" ID="{57BD8AA3-4A45-47E7-A901-676362FB98A1}" ShortID="494740499" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3"/>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="Dungeon_Core" ID="{9C36411C-175C-427F-A4C2-BD7687C34164}">
+									<ReferenceList>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Wwise RoomVerb (Custom)" ID="{6A3E8162-497E-48EA-B637-A139BD298180}" ShortID="1066729722" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3"/>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="Dungeon_Entrance" ID="{8B38C744-3121-47DB-817F-1F51F486C53D}">
+									<ReferenceList>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Wwise RoomVerb (Custom)" ID="{1FD1CC32-05FB-4A3F-B5EE-81A039084B7F}" ShortID="666190234" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3"/>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="Dungeon_Forge" ID="{43493BE2-0931-45EB-994A-13FE3F090320}">
+									<ReferenceList>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Wwise RoomVerb (Custom)" ID="{EE424AD6-2AE1-48CD-A8E6-7AF04D9E8DE4}" ShortID="491311502" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3"/>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="Dungeon_Library" ID="{CFAA8290-953E-458E-9B94-422D60A37171}">
+									<ReferenceList>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Wwise RoomVerb (Custom)" ID="{D994ABE3-099A-4B5B-93B8-AF68DCB34228}" ShortID="1040403128" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3"/>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="Dungeon_Library_Statue" ID="{C7C3160E-D04D-47F3-9F48-55DBB169BC16}">
+									<ReferenceList>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Wwise RoomVerb (Custom)" ID="{914D5382-ECD5-41B6-83A1-51B06338F7EC}" ShortID="336186059" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3"/>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="Dungeon_MezzanineRoom" ID="{77543F35-9376-48B7-9BCE-E03C6BBBE8A4}">
+									<ReferenceList>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Wwise RoomVerb (Custom)" ID="{8D8FBD9C-2F13-49BC-A279-4D9F217069A0}" ShortID="527677461" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3"/>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="Dungeon_MezzanineRoomEntrance" ID="{35BA8CE8-1488-4230-9203-2BCBC9E60666}">
+									<ReferenceList>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Wwise RoomVerb (Custom)" ID="{6690D9D6-49D9-4AAC-9676-E3FF1E92E446}" ShortID="458763656" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3"/>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="Dungeon_PathToForge" ID="{20CEEC99-7678-4FC0-9A00-4D9D6DCDDBA8}">
+									<ReferenceList>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Wwise RoomVerb (Custom)" ID="{6A218813-6506-4FD0-8BD7-78BE0DEA4087}" ShortID="281495620" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3"/>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="Dungeon_RoadToCore" ID="{953B4FDC-23CA-4A55-AE11-E3361C9415DF}">
+									<ReferenceList>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Wwise RoomVerb (Custom)" ID="{24806A57-97C5-4417-9397-E9C2F646729D}" ShortID="426395861" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3"/>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</AuxBus>
+							</ChildrenList>
+							<ObjectLists/>
+						</Bus>
 					</ChildrenList>
 					<StateInfo>
 						<StatePropertyList>
