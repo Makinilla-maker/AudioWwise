@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-<<<<<<< HEAD
 		<ProjectRoot>F:\Github\AudioWwise\WwiseAudioProject\</ProjectRoot>
 		<SourceFilesRoot>F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\</SourceFilesRoot>
 		<SoundBanksRoot>F:\Github\AudioWwise\Project\WwiseAdventureGame_Data\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>F:\Github\AudioWwise\WwiseAudioProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
-=======
-		<ProjectRoot>Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\</ProjectRoot>
-		<SourceFilesRoot>Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\MyFiles\GitHub\AudioWwise\Project\WwiseAdventureGame_Data\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
-		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
->>>>>>> 9903bb568b60c5000f7fc2b197d0ffaca42d7368
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-<<<<<<< HEAD
-		<SoundBank Id="133642231" Language="SFX" Hash="2910332941">
-=======
-		<SoundBank Id="133642231" Language="SFX" Hash="1489160167">
->>>>>>> 9903bb568b60c5000f7fc2b197d0ffaca42d7368
+		<SoundBank Id="133642231" Language="SFX" Hash="3807173395">
 			<ObjectPath>\SoundBanks\General\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
@@ -32,7 +20,7 @@
 				<Event Id="448719855" Name="Destruction_Crystal_Destroy" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_Crystal_Destroy"/>
 				<Event Id="1999886838" Name="Destruction_Rock_Destroy" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_Rock_Destroy"/>
 				<Event Id="2541270269" Name="Destruction_VolcanicBoulder_Impact" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_VolcanicBoulder_Impact"/>
-<<<<<<< HEAD
+				<Event Id="3741135221" Name="Music_Region" ObjectPath="\Events\Music\General\Music_Region"/>
 				<Event Id="2453392179" Name="Player_Footstep" ObjectPath="\Events\Player\Player_Footstep">
 					<IncludedMemoryFiles>
 						<File Id="39800449" Language="SFX">
@@ -244,9 +232,254 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-=======
-				<Event Id="3741135221" Name="Music_Region" ObjectPath="\Events\Music\General\Music_Region"/>
->>>>>>> 9903bb568b60c5000f7fc2b197d0ffaca42d7368
+				<Event Id="3808743129" Name="Player_WeaponSwing" ObjectPath="\Events\Player\Player_WeaponSwing">
+					<IncludedMemoryFiles>
+						<File Id="5829142" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Sword_SurfaceType_Stone.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Sword_SurfaceType_Stone_10C4C929.wem</Path>
+						</File>
+						<File Id="109536038" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Hammer_SurfaceType_Crate.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Hammer_SurfaceType_Crate_10C4C929.wem</Path>
+						</File>
+						<File Id="158148398" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Dagger_SurfaceType_Stone.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Dagger_SurfaceType_Stone_10C4C929.wem</Path>
+						</File>
+						<File Id="180222514" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Sword_SurfaceType_Crate.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Sword_SurfaceType_Crate_10C4C929.wem</Path>
+						</File>
+						<File Id="226421472" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Dagger_SurfaceType_Leaves.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Dagger_SurfaceType_Leaves_10C4C929.wem</Path>
+						</File>
+						<File Id="313184151" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_PickAxe_SurfaceType_Barrel.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_PickAxe_SurfaceType_Barrel_10C4C929.wem</Path>
+						</File>
+						<File Id="337460497" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Dagger_SurfaceType_Grass.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Dagger_SurfaceType_Grass_10C4C929.wem</Path>
+						</File>
+						<File Id="341191428" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Hammer_SurfaceType_Barrel.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Hammer_SurfaceType_Barrel_10C4C929.wem</Path>
+						</File>
+						<File Id="350129422" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Dagger_SurfaceType_Barrel.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Dagger_SurfaceType_Barrel_10C4C929.wem</Path>
+						</File>
+						<File Id="353267793" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Sword_SurfaceType_Grass.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Sword_SurfaceType_Grass_10C4C929.wem</Path>
+						</File>
+						<File Id="359347369" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Axe_SurfaceType_Dirt.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Axe_SurfaceType_Dirt_10C4C929.wem</Path>
+						</File>
+						<File Id="373970747" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Axe_SurfaceType_Stone.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Axe_SurfaceType_Stone_10C4C929.wem</Path>
+						</File>
+						<File Id="450302635" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Sword_SurfaceType_Leaves.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Sword_SurfaceType_Leaves_10C4C929.wem</Path>
+						</File>
+						<File Id="469385390" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Sword_SurfaceType_Barrel.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Sword_SurfaceType_Barrel_10C4C929.wem</Path>
+						</File>
+						<File Id="501349948" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_PickAxe_SurfaceType_Crate.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_PickAxe_SurfaceType_Crate_10C4C929.wem</Path>
+						</File>
+						<File Id="673198404" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Dagger_SurfaceType_Crate.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Dagger_SurfaceType_Crate_10C4C929.wem</Path>
+						</File>
+						<File Id="725192049" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Axe_SurfaceType_Barrel.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Axe_SurfaceType_Barrel_10C4C929.wem</Path>
+						</File>
+						<File Id="747274787" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Sword_SurfaceType_Wood.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Sword_SurfaceType_Wood_10C4C929.wem</Path>
+						</File>
+						<File Id="762822057" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Axe_SurfaceType_Crate.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Axe_SurfaceType_Crate_10C4C929.wem</Path>
+						</File>
+						<File Id="842627144" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Axe_SurfaceType_Leaves.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Axe_SurfaceType_Leaves_10C4C929.wem</Path>
+						</File>
+						<File Id="865904280" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Dagger_SurfaceType_Dirt.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Dagger_SurfaceType_Dirt_10C4C929.wem</Path>
+						</File>
+						<File Id="949153354" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Sword_SurfaceType_Dirt.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Sword_SurfaceType_Dirt_10C4C929.wem</Path>
+						</File>
+						<File Id="1022353920" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Axe_SurfaceType_Grass.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Axe_SurfaceType_Grass_10C4C929.wem</Path>
+						</File>
+						<File Id="1028753498" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Dagger_SurfaceType_Wood.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Dagger_SurfaceType_Wood_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{89F98EF9-47EA-4D40-825F-4028A8E068D7}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{256B6705-878C-433E-A194-7065C9733DAA}">
+							<DefaultSwitchValue>{7F4F51B5-3C09-49CE-A3CF-665BF07EF60F}</DefaultSwitchValue>
+							<Children>
+								<SwitchContainer SwitchValue="{7DBB7A44-6E6D-48D7-A333-0AEF44743A3E}">
+									<Media>
+										<File Id="109536038"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{7F4F51B5-3C09-49CE-A3CF-665BF07EF60F}">
+									<Media>
+										<File Id="341191428"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{6CCF3444-7248-4D9C-8F07-712DA8474B27}">
+							<DefaultSwitchValue>{7F4F51B5-3C09-49CE-A3CF-665BF07EF60F}</DefaultSwitchValue>
+							<Children>
+								<SwitchContainer SwitchValue="{EAD5583F-C5B0-48A8-AD50-1BB8A1231ADC}">
+									<Media>
+										<File Id="1028753498"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{7DBB7A44-6E6D-48D7-A333-0AEF44743A3E}">
+									<Media>
+										<File Id="673198404"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{ABDD1D54-47A0-4BDE-8EF3-E1F80E21B007}">
+									<Media>
+										<File Id="226421472"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{A3CFA66A-05B3-4019-8C64-E8F2AE7E8A87}">
+									<Media>
+										<File Id="865904280"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{7F4F51B5-3C09-49CE-A3CF-665BF07EF60F}">
+									<Media>
+										<File Id="350129422"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{44A49CD6-0AF3-47A3-BE41-825DF845CF60}">
+									<Media>
+										<File Id="337460497"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{CAE3F3E1-20CE-46CD-8936-9F15EEF28A3B}">
+									<Media>
+										<File Id="158148398"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{06884BA9-5659-4F01-977E-FA9D350508B3}">
+							<DefaultSwitchValue>{7F4F51B5-3C09-49CE-A3CF-665BF07EF60F}</DefaultSwitchValue>
+							<Children>
+								<SwitchContainer SwitchValue="{EAD5583F-C5B0-48A8-AD50-1BB8A1231ADC}">
+									<Media>
+										<File Id="747274787"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{7DBB7A44-6E6D-48D7-A333-0AEF44743A3E}">
+									<Media>
+										<File Id="180222514"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{ABDD1D54-47A0-4BDE-8EF3-E1F80E21B007}">
+									<Media>
+										<File Id="450302635"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{A3CFA66A-05B3-4019-8C64-E8F2AE7E8A87}">
+									<Media>
+										<File Id="949153354"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{7F4F51B5-3C09-49CE-A3CF-665BF07EF60F}">
+									<Media>
+										<File Id="469385390"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{44A49CD6-0AF3-47A3-BE41-825DF845CF60}">
+									<Media>
+										<File Id="353267793"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{CAE3F3E1-20CE-46CD-8936-9F15EEF28A3B}">
+									<Media>
+										<File Id="5829142"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{FFB758D5-CD06-44E4-8266-4C3282423E87}">
+							<DefaultSwitchValue>{7F4F51B5-3C09-49CE-A3CF-665BF07EF60F}</DefaultSwitchValue>
+							<Children>
+								<SwitchContainer SwitchValue="{7DBB7A44-6E6D-48D7-A333-0AEF44743A3E}">
+									<Media>
+										<File Id="501349948"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{7F4F51B5-3C09-49CE-A3CF-665BF07EF60F}">
+									<Media>
+										<File Id="313184151"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{89F98EF9-47EA-4D40-825F-4028A8E068D7}">
+							<DefaultSwitchValue>{7F4F51B5-3C09-49CE-A3CF-665BF07EF60F}</DefaultSwitchValue>
+							<Children>
+								<SwitchContainer SwitchValue="{7DBB7A44-6E6D-48D7-A333-0AEF44743A3E}">
+									<Media>
+										<File Id="762822057"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{ABDD1D54-47A0-4BDE-8EF3-E1F80E21B007}">
+									<Media>
+										<File Id="842627144"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{A3CFA66A-05B3-4019-8C64-E8F2AE7E8A87}">
+									<Media>
+										<File Id="359347369"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{7F4F51B5-3C09-49CE-A3CF-665BF07EF60F}">
+									<Media>
+										<File Id="725192049"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{44A49CD6-0AF3-47A3-BE41-825DF845CF60}">
+									<Media>
+										<File Id="1022353920"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{CAE3F3E1-20CE-46CD-8936-9F15EEF28A3B}">
+									<Media>
+										<File Id="373970747"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\General\Stop_All"/>
 				<Event Id="2278290679" Name="UI_Inventory_Close" ObjectPath="\Events\UI\Inventory\UI_Inventory_Close">
 					<IncludedMemoryFiles>
@@ -305,8 +538,35 @@
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
-<<<<<<< HEAD
+			<GameParameters>
+				<GameParameter Id="1333239961" Name="MenuSlider_Master_Volume" ObjectPath="\Game Parameters\Gameplay\MenuSlider_Master_Volume"/>
+				<GameParameter Id="2642438544" Name="MenuSlider_Music_Volume" ObjectPath="\Game Parameters\Gameplay\MenuSlider_Music_Volume"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="2106907484" Name="Music_Regions" ObjectPath="\States\MusicStates\Music_Regions" GUID="{1D890D2D-6252-4B63-8E0E-157D1E019D8C}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\MusicStates\Music_Regions\None" GUID="{3C4B8A9D-69BA-458C-9378-02965EC30F98}"/>
+						<State Id="4122393694" Name="Cave" ObjectPath="\States\MusicStates\Music_Regions\Cave" GUID="{CB5AB0AF-A679-4FC7-928C-08284218D24A}"/>
+						<State Id="1850388778" Name="Desert" ObjectPath="\States\MusicStates\Music_Regions\Desert" GUID="{612CC242-7F85-45E2-85AF-E6546F43FBD8}"/>
+						<State Id="608898761" Name="Dungeon" ObjectPath="\States\MusicStates\Music_Regions\Dungeon" GUID="{4D9EBEA5-75BE-4B95-81B9-29B75730588B}"/>
+						<State Id="3424056949" Name="Nowhere" ObjectPath="\States\MusicStates\Music_Regions\Nowhere" GUID="{22C3D993-997F-4F54-AB53-6C530882A232}"/>
+						<State Id="3160623154" Name="Silent" ObjectPath="\States\MusicStates\Music_Regions\Silent" GUID="{167CB689-7A6A-49DD-A382-BD49F30EC4FD}"/>
+						<State Id="3945572659" Name="Village" ObjectPath="\States\MusicStates\Music_Regions\Village" GUID="{44E104DD-B0A9-47CA-B545-2C8C0F8F1F00}"/>
+						<State Id="1421251628" Name="Woodlands" ObjectPath="\States\MusicStates\Music_Regions\Woodlands" GUID="{2A2B6BD3-4FF8-4DC6-A933-5009137CF86E}"/>
+						<State Id="3132368115" Name="WwizardHouse" ObjectPath="\States\MusicStates\Music_Regions\WwizardHouse" GUID="{22323823-3821-4006-AD39-697E54DC74A5}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 			<SwitchGroups>
+				<SwitchGroup Id="3251833556" Name="Player_Weapon_Type" ObjectPath="\Switches\General\Player_Weapon_Type" GUID="{792D394D-F660-4218-AC5C-516B0F3B1ED2}">
+					<Switches>
+						<Switch Id="765201635" Name="Axe" ObjectPath="\Switches\General\Player_Weapon_Type\Axe" GUID="{89F98EF9-47EA-4D40-825F-4028A8E068D7}"/>
+						<Switch Id="3732162827" Name="Dagger" ObjectPath="\Switches\General\Player_Weapon_Type\Dagger" GUID="{6CCF3444-7248-4D9C-8F07-712DA8474B27}"/>
+						<Switch Id="703486095" Name="Hammer" ObjectPath="\Switches\General\Player_Weapon_Type\Hammer" GUID="{256B6705-878C-433E-A194-7065C9733DAA}"/>
+						<Switch Id="490825222" Name="PickAxe" ObjectPath="\Switches\General\Player_Weapon_Type\PickAxe" GUID="{FFB758D5-CD06-44E4-8266-4C3282423E87}"/>
+						<Switch Id="2454616260" Name="Sword" ObjectPath="\Switches\General\Player_Weapon_Type\Sword" GUID="{06884BA9-5659-4F01-977E-FA9D350508B3}"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="4064446173" Name="Surface_Type" ObjectPath="\Switches\General\Surface_Type" GUID="{CADA40F0-C96C-4CC7-8C80-CC41C5256006}">
 					<Switches>
 						<Switch Id="389757836" Name="Agent" ObjectPath="\Switches\General\Surface_Type\Agent" GUID="{131A4C87-8B5B-4235-885D-0CF995F6F3B1}"/>
@@ -329,30 +589,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="152105657" Language="SFX" Hash="2911916378">
-=======
-			<GameParameters>
-				<GameParameter Id="1333239961" Name="MenuSlider_Master_Volume" ObjectPath="\Game Parameters\Gameplay\MenuSlider_Master_Volume"/>
-				<GameParameter Id="2642438544" Name="MenuSlider_Music_Volume" ObjectPath="\Game Parameters\Gameplay\MenuSlider_Music_Volume"/>
-			</GameParameters>
-			<StateGroups>
-				<StateGroup Id="2106907484" Name="Music_Regions" ObjectPath="\States\MusicStates\Music_Regions" GUID="{1D890D2D-6252-4B63-8E0E-157D1E019D8C}">
-					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\MusicStates\Music_Regions\None" GUID="{3C4B8A9D-69BA-458C-9378-02965EC30F98}"/>
-						<State Id="4122393694" Name="Cave" ObjectPath="\States\MusicStates\Music_Regions\Cave" GUID="{CB5AB0AF-A679-4FC7-928C-08284218D24A}"/>
-						<State Id="1850388778" Name="Desert" ObjectPath="\States\MusicStates\Music_Regions\Desert" GUID="{612CC242-7F85-45E2-85AF-E6546F43FBD8}"/>
-						<State Id="608898761" Name="Dungeon" ObjectPath="\States\MusicStates\Music_Regions\Dungeon" GUID="{4D9EBEA5-75BE-4B95-81B9-29B75730588B}"/>
-						<State Id="3424056949" Name="Nowhere" ObjectPath="\States\MusicStates\Music_Regions\Nowhere" GUID="{22C3D993-997F-4F54-AB53-6C530882A232}"/>
-						<State Id="3160623154" Name="Silent" ObjectPath="\States\MusicStates\Music_Regions\Silent" GUID="{167CB689-7A6A-49DD-A382-BD49F30EC4FD}"/>
-						<State Id="3945572659" Name="Village" ObjectPath="\States\MusicStates\Music_Regions\Village" GUID="{44E104DD-B0A9-47CA-B545-2C8C0F8F1F00}"/>
-						<State Id="1421251628" Name="Woodlands" ObjectPath="\States\MusicStates\Music_Regions\Woodlands" GUID="{2A2B6BD3-4FF8-4DC6-A933-5009137CF86E}"/>
-						<State Id="3132368115" Name="WwizardHouse" ObjectPath="\States\MusicStates\Music_Regions\WwizardHouse" GUID="{22323823-3821-4006-AD39-697E54DC74A5}"/>
-					</States>
-				</StateGroup>
-			</StateGroups>
-		</SoundBank>
-		<SoundBank Id="152105657" Language="SFX" Hash="2692812260">
->>>>>>> 9903bb568b60c5000f7fc2b197d0ffaca42d7368
+		<SoundBank Id="152105657" Language="SFX" Hash="3735193174">
 			<ObjectPath>\SoundBanks\General\TitleScreen</ObjectPath>
 			<ShortName>TitleScreen</ShortName>
 			<Path>TitleScreen.bnk</Path>
@@ -431,11 +668,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-<<<<<<< HEAD
-		<SoundBank Id="608898761" Language="SFX" Hash="3031669924">
-=======
-		<SoundBank Id="608898761" Language="SFX" Hash="88305450">
->>>>>>> 9903bb568b60c5000f7fc2b197d0ffaca42d7368
+		<SoundBank Id="608898761" Language="SFX" Hash="3416669110">
 			<ObjectPath>\SoundBanks\Region\Dungeon</ObjectPath>
 			<ShortName>Dungeon</ShortName>
 			<Path>Dungeon.bnk</Path>
@@ -491,11 +724,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-<<<<<<< HEAD
-		<SoundBank Id="1421251628" Language="SFX" Hash="2309949009">
-=======
-		<SoundBank Id="1421251628" Language="SFX" Hash="3626701177">
->>>>>>> 9903bb568b60c5000f7fc2b197d0ffaca42d7368
+		<SoundBank Id="1421251628" Language="SFX" Hash="4035515440">
 			<ObjectPath>\SoundBanks\Region\Woodlands</ObjectPath>
 			<ShortName>Woodlands</ShortName>
 			<Path>Woodlands.bnk</Path>
@@ -526,11 +755,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-<<<<<<< HEAD
-		<SoundBank Id="1850388778" Language="SFX" Hash="1349268778">
-=======
-		<SoundBank Id="1850388778" Language="SFX" Hash="487767700">
->>>>>>> 9903bb568b60c5000f7fc2b197d0ffaca42d7368
+		<SoundBank Id="1850388778" Language="SFX" Hash="1467805146">
 			<ObjectPath>\SoundBanks\Region\Desert</ObjectPath>
 			<ShortName>Desert</ShortName>
 			<Path>Desert.bnk</Path>
@@ -546,11 +771,7 @@
 				<Event Id="2541270269" Name="Destruction_VolcanicBoulder_Impact" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_VolcanicBoulder_Impact"/>
 			</IncludedEvents>
 		</SoundBank>
-<<<<<<< HEAD
-		<SoundBank Id="2482365692" Language="SFX" Hash="2093618020">
-=======
-		<SoundBank Id="2482365692" Language="SFX" Hash="1051247041">
->>>>>>> 9903bb568b60c5000f7fc2b197d0ffaca42d7368
+		<SoundBank Id="2482365692" Language="SFX" Hash="377166663">
 			<ObjectPath>\SoundBanks\Region\PineForest</ObjectPath>
 			<ShortName>PineForest</ShortName>
 			<Path>PineForest.bnk</Path>
@@ -565,11 +786,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-<<<<<<< HEAD
-		<SoundBank Id="3945572659" Language="SFX" Hash="1845253168">
-=======
-		<SoundBank Id="3945572659" Language="SFX" Hash="884220677">
->>>>>>> 9903bb568b60c5000f7fc2b197d0ffaca42d7368
+		<SoundBank Id="3945572659" Language="SFX" Hash="1826949580">
 			<ObjectPath>\SoundBanks\Region\Village</ObjectPath>
 			<ShortName>Village</ShortName>
 			<Path>Village.bnk</Path>
@@ -616,11 +833,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-<<<<<<< HEAD
-		<SoundBank Id="4122393694" Language="SFX" Hash="4030985868">
-=======
-		<SoundBank Id="4122393694" Language="SFX" Hash="326240844">
->>>>>>> 9903bb568b60c5000f7fc2b197d0ffaca42d7368
+		<SoundBank Id="4122393694" Language="SFX" Hash="3612721109">
 			<ObjectPath>\SoundBanks\Region\Cave</ObjectPath>
 			<ShortName>Cave</ShortName>
 			<Path>Cave.bnk</Path>

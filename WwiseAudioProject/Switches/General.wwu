@@ -23,6 +23,15 @@
 						<Switch Name="Wood" ID="{EAD5583F-C5B0-48A8-AD50-1BB8A1231ADC}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Player_Weapon_Type" ID="{792D394D-F660-4218-AC5C-516B0F3B1ED2}">
+					<ChildrenList>
+						<Switch Name="Axe" ID="{89F98EF9-47EA-4D40-825F-4028A8E068D7}"/>
+						<Switch Name="Dagger" ID="{6CCF3444-7248-4D9C-8F07-712DA8474B27}"/>
+						<Switch Name="Hammer" ID="{256B6705-878C-433E-A194-7065C9733DAA}"/>
+						<Switch Name="PickAxe" ID="{FFB758D5-CD06-44E4-8266-4C3282423E87}"/>
+						<Switch Name="Sword" ID="{06884BA9-5659-4F01-977E-FA9D350508B3}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

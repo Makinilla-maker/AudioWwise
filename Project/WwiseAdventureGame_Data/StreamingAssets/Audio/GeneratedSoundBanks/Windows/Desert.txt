@@ -3,9 +3,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	3408705206	Ambient_Region_Desert			\Ambient\General\Ambient_Region_Desert	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-<<<<<<< HEAD
 	736727824	BAS_amb_desert_day_background_loop_01	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Background\BAS_amb_desert_day_background_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_desert_day_background_loop_01		21299264
-=======
-	736727824	BAS_amb_desert_day_background_loop_01	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Background\BAS_amb_desert_day_background_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_desert_day_background_loop_01		21299264
->>>>>>> 9903bb568b60c5000f7fc2b197d0ffaca42d7368
 

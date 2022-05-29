@@ -14,6 +14,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Player_WeaponSwing" ID="{D41174E8-5BCD-47EA-989E-AEEC78B108AB}">
+					<ChildrenList>
+						<Action Name="" ID="{BE4A17A3-5CE4-4538-BE91-2FEC4B9D9F25}" ShortID="560656733">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Weapon_Type" ID="{C8C7ECEE-678A-4F3E-824A-41786466DBB5}" WorkUnitID="{FADD5FE5-9879-424B-8065-D995CA356336}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

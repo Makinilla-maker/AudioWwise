@@ -75,7 +75,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Desert_120BPM_4_4_L8M_P0" ID="{C2038627-86B0-4C08-8334-4383C7793C79}">
+												<AudioFileSource Name="Desert_120BPM_4_4_L8M_P0" ID="{15ABE29E-A352-4163-A1A4-060BEEB30296}">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABBAE18F-16EE-470C-9497-E6A79E03657F}"/>
@@ -84,7 +84,7 @@
 													<Language>SFX</Language>
 													<AudioFile>Music\Explore\Desert_120BPM_4_4_L8M_P0.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="154103439"/>
+														<MediaID ID="687912914"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -202,7 +202,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dungeon_120BPM_4_4_L8M_P1M" ID="{3B4607A9-C513-4A96-87DA-A6DBA16B6B4A}">
+												<AudioFileSource Name="Dungeon_120BPM_4_4_L8M_P1M" ID="{A11C87CB-2860-42C1-BBDE-F4272BF5C1EA}">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABBAE18F-16EE-470C-9497-E6A79E03657F}"/>
@@ -211,7 +211,7 @@
 													<Language>SFX</Language>
 													<AudioFile>Music\Explore\Dungeon_120BPM_4_4_L8M_P1M.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="266800126"/>
+														<MediaID ID="154941331"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -302,7 +302,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Nowhere_120BPM_4_4_L8M_P0" ID="{B5E33708-AE5D-4E50-80A3-21CD6E7DCDEC}">
+												<AudioFileSource Name="Nowhere_120BPM_4_4_L8M_P0" ID="{8EFC37AE-CE81-467E-A0EC-DFA060E23A1E}">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABBAE18F-16EE-470C-9497-E6A79E03657F}"/>
@@ -311,7 +311,7 @@
 													<Language>SFX</Language>
 													<AudioFile>Music\Explore\Nowhere_120BPM_4_4_L8M_P0.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="961202325"/>
+														<MediaID ID="541347370"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -402,7 +402,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Village_120BPM_4_4_L8M_P1M" ID="{E30B25FA-F72B-4AE3-9C31-C51AE61C0EDE}">
+												<AudioFileSource Name="Village_120BPM_4_4_L8M_P1M" ID="{77A3D726-FABD-4FE8-BDA7-27D78AE68094}">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABBAE18F-16EE-470C-9497-E6A79E03657F}"/>
@@ -411,7 +411,7 @@
 													<Language>SFX</Language>
 													<AudioFile>Music\Explore\Village_120BPM_4_4_L8M_P1M.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="312396991"/>
+														<MediaID ID="235359898"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -502,7 +502,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Woodlands_Day_120BPM_4_4_L8M_P0" ID="{17C4AA34-B76E-48CA-93AD-CA4AA1F16DDE}">
+												<AudioFileSource Name="Woodlands_Day_120BPM_4_4_L8M_P0" ID="{6799AED8-1F79-4773-B3DC-565E1AC0BCF6}">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABBAE18F-16EE-470C-9497-E6A79E03657F}"/>
@@ -511,7 +511,7 @@
 													<Language>SFX</Language>
 													<AudioFile>Music\Explore\Woodlands_Day_120BPM_4_4_L8M_P0.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="437640297"/>
+														<MediaID ID="829346343"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -602,7 +602,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Woodlands_Night_120BPM_4_4_L8M_P1M" ID="{D098AB0E-790F-4733-9E73-B1F5B712B913}">
+												<AudioFileSource Name="Woodlands_Night_120BPM_4_4_L8M_P1M" ID="{32FC15F2-31C5-4E37-9A8C-300AAB439155}">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABBAE18F-16EE-470C-9497-E6A79E03657F}"/>
@@ -611,7 +611,7 @@
 													<Language>SFX</Language>
 													<AudioFile>Music\Explore\Woodlands_Night_120BPM_4_4_L8M_P1M.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="998770060"/>
+														<MediaID ID="360665436"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>

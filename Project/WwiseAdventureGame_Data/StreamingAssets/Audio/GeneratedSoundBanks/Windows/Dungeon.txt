@@ -5,11 +5,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	4275106484	Ambient_Lava			\Ambient\3D Emitters\Continuous\Ambient_Lava	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-<<<<<<< HEAD
+	404266977	BAS_Lava	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_Lava_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Lava		1228864
 	515364919	BAS_amb_dungeon_day_background_loop_01	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Background\BAS_amb_dungeon_day_background_loop_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_dungeon_day_background_loop_01		24641600
-=======
-	404266977	BAS_Lava	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_Lava_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Lava		1228864
-	515364919	BAS_amb_dungeon_day_background_loop_01	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Background\BAS_amb_dungeon_day_background_loop_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_dungeon_day_background_loop_01		24641600
-	784781104	BAS_Torch	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_Torch_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Torch		448492
->>>>>>> 9903bb568b60c5000f7fc2b197d0ffaca42d7368
+	784781104	BAS_Torch	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_Torch_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Torch		448492
 

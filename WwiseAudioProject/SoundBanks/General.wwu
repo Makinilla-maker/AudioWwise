@@ -14,7 +14,9 @@
 				</SoundBank>
 				<SoundBank Name="General" ID="{BCA8388B-707B-47FD-BA39-F921C9BE969A}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Player_Footstep" ID="{D00AC75E-6DA6-4155-80FC-B9C5D0257F94}" WorkUnitID="{4C054385-B206-4CA3-BCF7-DE072316D0D5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Destruction" ID="{174C2DAD-4F5C-45FF-9EAC-892FF5E867E6}" WorkUnitID="{174C2DAD-4F5C-45FF-9EAC-892FF5E867E6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_WeaponSwing" ID="{D41174E8-5BCD-47EA-989E-AEEC78B108AB}" WorkUnitID="{4C054385-B206-4CA3-BCF7-DE072316D0D5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="General" ID="{3A70BB22-E623-48CA-BEFF-1FEED8C3CDD3}" WorkUnitID="{3A70BB22-E623-48CA-BEFF-1FEED8C3CDD3}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Quest Roll" ID="{56CB3A86-27B5-4A69-9622-78F6D82548AD}" WorkUnitID="{B1E17A69-9357-41C7-B9B5-7961FDEF22E6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Default Work Unit" ID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}" WorkUnitID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}" Origin="Manual" Filter="7"/>

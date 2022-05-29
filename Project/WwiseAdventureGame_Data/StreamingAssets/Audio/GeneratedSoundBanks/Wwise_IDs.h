@@ -29,12 +29,10 @@ namespace AK
         static const AkUniqueID DESTRUCTION_CRYSTAL_DESTROY = 448719855U;
         static const AkUniqueID DESTRUCTION_ROCK_DESTROY = 1999886838U;
         static const AkUniqueID DESTRUCTION_VOLCANICBOULDER_IMPACT = 2541270269U;
-<<<<<<< HEAD
-        static const AkUniqueID PLAYER_FOOTSTEP = 2453392179U;
-=======
         static const AkUniqueID MUSIC_REGION = 3741135221U;
         static const AkUniqueID MUSIC_TITLESCREEN = 1532327793U;
->>>>>>> 9903bb568b60c5000f7fc2b197d0ffaca42d7368
+        static const AkUniqueID PLAYER_FOOTSTEP = 2453392179U;
+        static const AkUniqueID PLAYER_WEAPONSWING = 3808743129U;
         static const AkUniqueID STOP_ALL = 452547817U;
         static const AkUniqueID UI_BUTTON_DOWN = 156563189U;
         static const AkUniqueID UI_BUTTON_ENTER = 18309885U;
@@ -53,9 +51,44 @@ namespace AK
         static const AkUniqueID UI_QUESTROLL_SHOW = 3699139167U;
     } // namespace EVENTS
 
-<<<<<<< HEAD
+    namespace STATES
+    {
+        namespace MUSIC_REGIONS
+        {
+            static const AkUniqueID GROUP = 2106907484U;
+
+            namespace STATE
+            {
+                static const AkUniqueID CAVE = 4122393694U;
+                static const AkUniqueID DESERT = 1850388778U;
+                static const AkUniqueID DUNGEON = 608898761U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID NOWHERE = 3424056949U;
+                static const AkUniqueID SILENT = 3160623154U;
+                static const AkUniqueID VILLAGE = 3945572659U;
+                static const AkUniqueID WOODLANDS = 1421251628U;
+                static const AkUniqueID WWIZARDHOUSE = 3132368115U;
+            } // namespace STATE
+        } // namespace MUSIC_REGIONS
+
+    } // namespace STATES
+
     namespace SWITCHES
     {
+        namespace PLAYER_WEAPON_TYPE
+        {
+            static const AkUniqueID GROUP = 3251833556U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID AXE = 765201635U;
+                static const AkUniqueID DAGGER = 3732162827U;
+                static const AkUniqueID HAMMER = 703486095U;
+                static const AkUniqueID PICKAXE = 490825222U;
+                static const AkUniqueID SWORD = 2454616260U;
+            } // namespace SWITCH
+        } // namespace PLAYER_WEAPON_TYPE
+
         namespace SURFACE_TYPE
         {
             static const AkUniqueID GROUP = 4064446173U;
@@ -82,29 +115,6 @@ namespace AK
         } // namespace SURFACE_TYPE
 
     } // namespace SWITCHES
-=======
-    namespace STATES
-    {
-        namespace MUSIC_REGIONS
-        {
-            static const AkUniqueID GROUP = 2106907484U;
-
-            namespace STATE
-            {
-                static const AkUniqueID CAVE = 4122393694U;
-                static const AkUniqueID DESERT = 1850388778U;
-                static const AkUniqueID DUNGEON = 608898761U;
-                static const AkUniqueID NONE = 748895195U;
-                static const AkUniqueID NOWHERE = 3424056949U;
-                static const AkUniqueID SILENT = 3160623154U;
-                static const AkUniqueID VILLAGE = 3945572659U;
-                static const AkUniqueID WOODLANDS = 1421251628U;
-                static const AkUniqueID WWIZARDHOUSE = 3132368115U;
-            } // namespace STATE
-        } // namespace MUSIC_REGIONS
-
-    } // namespace STATES
->>>>>>> 9903bb568b60c5000f7fc2b197d0ffaca42d7368
 
     namespace GAME_PARAMETERS
     {
