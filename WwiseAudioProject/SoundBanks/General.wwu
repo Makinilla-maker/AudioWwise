@@ -6,7 +6,7 @@
 				<SoundBank Name="TitleScreen" ID="{2873B495-4D99-4639-9149-56FE84EF29DF}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Generic" ID="{0A856E76-609A-455C-A8B0-EC57C12F36A7}" WorkUnitID="{B1E17A69-9357-41C7-B9B5-7961FDEF22E6}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Ambient_Region_Woodlands" ID="{A66FF150-805D-4721-B9A7-80CEB693B923}" WorkUnitID="{08DC08B9-DC70-4D54-9766-F1EA925A1FB0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_TitleScreen" ID="{B662395A-3B5C-4839-AB2D-A34A91B4A30F}" WorkUnitID="{8A91BB63-ACA4-46ED-ACD7-FF026386F49C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Menu" ID="{433A31F1-0F43-4C1A-A1CA-6A421B2EF701}" WorkUnitID="{B1E17A69-9357-41C7-B9B5-7961FDEF22E6}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -17,7 +17,9 @@
 						<ObjectRef Name="Destruction" ID="{174C2DAD-4F5C-45FF-9EAC-892FF5E867E6}" WorkUnitID="{174C2DAD-4F5C-45FF-9EAC-892FF5E867E6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="General" ID="{3A70BB22-E623-48CA-BEFF-1FEED8C3CDD3}" WorkUnitID="{3A70BB22-E623-48CA-BEFF-1FEED8C3CDD3}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Quest Roll" ID="{56CB3A86-27B5-4A69-9622-78F6D82548AD}" WorkUnitID="{B1E17A69-9357-41C7-B9B5-7961FDEF22E6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}" WorkUnitID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Inventory" ID="{AC9C4E5E-A379-4CF5-B0D1-A42FE4EFF6C5}" WorkUnitID="{B1E17A69-9357-41C7-B9B5-7961FDEF22E6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="General" ID="{F5FB1F62-CBFD-4FC3-AD09-6D8333DBEB91}" WorkUnitID="{8A91BB63-ACA4-46ED-ACD7-FF026386F49C}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

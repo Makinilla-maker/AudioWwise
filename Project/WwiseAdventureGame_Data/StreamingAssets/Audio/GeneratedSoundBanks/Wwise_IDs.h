@@ -13,17 +13,28 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID AMBIENT_LAVA = 4275106484U;
         static const AkUniqueID AMBIENT_REGION_CAVE = 1331382810U;
         static const AkUniqueID AMBIENT_REGION_DESERT = 3408705206U;
         static const AkUniqueID AMBIENT_REGION_DUNGEON = 4077685701U;
         static const AkUniqueID AMBIENT_REGION_PINEFOREST = 808171864U;
         static const AkUniqueID AMBIENT_REGION_VILLAGE = 2752753183U;
         static const AkUniqueID AMBIENT_REGION_WOODLANDS = 1049266392U;
+        static const AkUniqueID AMBIENT_RIVER = 2258053876U;
+        static const AkUniqueID AMBIENT_TORCH = 120976108U;
+        static const AkUniqueID AMBIENT_WATERDROP = 2644063196U;
+        static const AkUniqueID AMBIENT_WATERFALL = 1934835592U;
+        static const AkUniqueID AMBIENT_WINDMILL = 2208964750U;
         static const AkUniqueID DESTRUCTION_CONTAINER = 4254124015U;
         static const AkUniqueID DESTRUCTION_CRYSTAL_DESTROY = 448719855U;
         static const AkUniqueID DESTRUCTION_ROCK_DESTROY = 1999886838U;
         static const AkUniqueID DESTRUCTION_VOLCANICBOULDER_IMPACT = 2541270269U;
+<<<<<<< HEAD
         static const AkUniqueID PLAYER_FOOTSTEP = 2453392179U;
+=======
+        static const AkUniqueID MUSIC_REGION = 3741135221U;
+        static const AkUniqueID MUSIC_TITLESCREEN = 1532327793U;
+>>>>>>> 9903bb568b60c5000f7fc2b197d0ffaca42d7368
         static const AkUniqueID STOP_ALL = 452547817U;
         static const AkUniqueID UI_BUTTON_DOWN = 156563189U;
         static const AkUniqueID UI_BUTTON_ENTER = 18309885U;
@@ -42,6 +53,7 @@ namespace AK
         static const AkUniqueID UI_QUESTROLL_SHOW = 3699139167U;
     } // namespace EVENTS
 
+<<<<<<< HEAD
     namespace SWITCHES
     {
         namespace SURFACE_TYPE
@@ -70,21 +82,34 @@ namespace AK
         } // namespace SURFACE_TYPE
 
     } // namespace SWITCHES
+=======
+    namespace STATES
+    {
+        namespace MUSIC_REGIONS
+        {
+            static const AkUniqueID GROUP = 2106907484U;
+
+            namespace STATE
+            {
+                static const AkUniqueID CAVE = 4122393694U;
+                static const AkUniqueID DESERT = 1850388778U;
+                static const AkUniqueID DUNGEON = 608898761U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID NOWHERE = 3424056949U;
+                static const AkUniqueID SILENT = 3160623154U;
+                static const AkUniqueID VILLAGE = 3945572659U;
+                static const AkUniqueID WOODLANDS = 1421251628U;
+                static const AkUniqueID WWIZARDHOUSE = 3132368115U;
+            } // namespace STATE
+        } // namespace MUSIC_REGIONS
+
+    } // namespace STATES
+>>>>>>> 9903bb568b60c5000f7fc2b197d0ffaca42d7368
 
     namespace GAME_PARAMETERS
     {
-        static const AkUniqueID PLAYBACK_RATE = 1524500807U;
-        static const AkUniqueID RPM = 796049864U;
-        static const AkUniqueID SS_AIR_FEAR = 1351367891U;
-        static const AkUniqueID SS_AIR_FREEFALL = 3002758120U;
-        static const AkUniqueID SS_AIR_FURY = 1029930033U;
-        static const AkUniqueID SS_AIR_MONTH = 2648548617U;
-        static const AkUniqueID SS_AIR_PRESENCE = 3847924954U;
-        static const AkUniqueID SS_AIR_RPM = 822163944U;
-        static const AkUniqueID SS_AIR_SIZE = 3074696722U;
-        static const AkUniqueID SS_AIR_STORM = 3715662592U;
-        static const AkUniqueID SS_AIR_TIMEOFDAY = 3203397129U;
-        static const AkUniqueID SS_AIR_TURBULENCE = 4160247818U;
+        static const AkUniqueID MENUSLIDER_MASTER_VOLUME = 1333239961U;
+        static const AkUniqueID MENUSLIDER_MUSIC_VOLUME = 2642438544U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS
@@ -103,7 +128,7 @@ namespace AK
     namespace BUSSES
     {
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
-        static const AkUniqueID MOTION_FACTORY_BUS = 985987111U;
+        static const AkUniqueID MUSIC = 3991942870U;
     } // namespace BUSSES
 
     namespace AUDIO_DEVICES

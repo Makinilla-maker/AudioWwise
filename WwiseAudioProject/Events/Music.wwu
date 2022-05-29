@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8A91BB63-ACA4-46ED-ACD7-FF026386F49C}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Music" ID="{8A91BB63-ACA4-46ED-ACD7-FF026386F49C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="General" ID="{F5FB1F62-CBFD-4FC3-AD09-6D8333DBEB91}" ShortID="217767189">
+					<ChildrenList>
+						<Event Name="Music_Region" ID="{DEE6B019-15E7-4BC0-B6C9-1CEA145757CA}">
+							<ChildrenList>
+								<Action Name="" ID="{1BA98D20-DD14-4C87-AE9D-056ED44BFF2F}" ShortID="685931144">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Regions" ID="{3CEB93D6-98D5-46E4-9990-FD198296A0BF}" WorkUnitID="{CE521BED-3925-4071-954D-0249D36B6A3B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Music_TitleScreen" ID="{B662395A-3B5C-4839-AB2D-A34A91B4A30F}">
+					<ChildrenList>
+						<Action Name="" ID="{BDF9CEA1-D523-4815-872D-ABBB558DBA25}" ShortID="1062765806">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TitleScreen_120BPM_4_4_L41M_P2M" ID="{7707103A-6DB4-40E8-8410-1E417F27FC7E}" WorkUnitID="{FADD5FE5-9879-424B-8065-D995CA356336}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
