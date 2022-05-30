@@ -79,16 +79,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	4158999182	Dungeon_MezzanineRoom			\Default Work Unit\Master Audio Bus\Ambient\Dungeon_MezzanineRoom	
 
 Effect plug-ins	ID	Name	Type				Notes
-	75168187	Holy (Custom)	Wwise RoomVerb			
 	238371472	Holy (Custom)	Wwise RoomVerb			
-	401232741	Holy (Custom)	Wwise RoomVerb			
-	448675006	Holy (Custom)	Wwise RoomVerb			
-	593850314	Holy (Custom)	Wwise RoomVerb			
-	629279573	Holy (Custom)	Wwise RoomVerb			
-	806305989	Holy (Custom)	Wwise RoomVerb			
-	828985196	Holy (Custom)	Wwise RoomVerb			
-	868763939	Holy (Custom)	Wwise RoomVerb			
-	1019568681	Holy (Custom)	Wwise RoomVerb			
 	3164629247	Holy	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
