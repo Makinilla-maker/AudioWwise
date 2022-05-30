@@ -48,6 +48,7 @@
 								<SwitchContainer Name="Cave" ID="{15EE792E-404B-4507-ACF8-152BD950FA38}" ShortID="263043903">
 									<PropertyList>
 										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="SwitchBehavior" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -61,7 +62,7 @@
 										<Sound Name="BAS_amb_cave_background_LP" ID="{DF856F36-0C4A-4335-97ED-EACB865DBA6F}" ShortID="59287005">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
