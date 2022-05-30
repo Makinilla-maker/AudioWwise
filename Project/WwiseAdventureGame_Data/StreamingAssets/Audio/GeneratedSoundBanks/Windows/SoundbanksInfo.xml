@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Language="SFX" Hash="1875316178">
+		<SoundBank Id="133642231" Language="SFX" Hash="1587272818">
 			<ObjectPath>\SoundBanks\General\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
@@ -255,7 +255,45 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3695342915" Name="Player_WeaponImpact" ObjectPath="\Events\Player\Player_WeaponImpact"/>
+				<Event Id="3695342915" Name="Player_WeaponImpact" ObjectPath="\Events\Player\Player_WeaponImpact">
+					<IncludedMemoryFiles>
+						<File Id="238291950" Language="SFX">
+							<ShortName>Impacts\Impact_Bump.wav</ShortName>
+							<Path>SFX\Impacts\Impact_Bump_10C4C929.wem</Path>
+						</File>
+						<File Id="352157291" Language="SFX">
+							<ShortName>Impacts\RockImpact.wav</ShortName>
+							<Path>SFX\Impacts\RockImpact_10C4C929.wem</Path>
+						</File>
+						<File Id="637819540" Language="SFX">
+							<ShortName>Impacts\BAS_hitCrate_001.wav</ShortName>
+							<Path>SFX\Impacts\BAS_hitCrate_001_10C4C929.wem</Path>
+						</File>
+						<File Id="864602798" Language="SFX">
+							<ShortName>Impacts\Impact_Crate_Loud.wav</ShortName>
+							<Path>SFX\Impacts\Impact_Crate_Loud_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{7F4F51B5-3C09-49CE-A3CF-665BF07EF60F}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{7DBB7A44-6E6D-48D7-A333-0AEF44743A3E}">
+							<Media>
+								<File Id="637819540"/>
+								<File Id="864602798"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{7F4F51B5-3C09-49CE-A3CF-665BF07EF60F}">
+							<Media>
+								<File Id="238291950"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{CAE3F3E1-20CE-46CD-8936-9F15EEF28A3B}">
+							<Media>
+								<File Id="352157291"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="3808743129" Name="Player_WeaponSwing" ObjectPath="\Events\Player\Player_WeaponSwing">
 					<IncludedMemoryFiles>
 						<File Id="5829142" Language="SFX">

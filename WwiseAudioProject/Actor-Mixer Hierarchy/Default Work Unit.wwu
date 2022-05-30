@@ -7909,6 +7909,26 @@
 								<ItemRef Name="Bump" ID="{604CF7F3-A177-419E-B988-8605CE269613}"/>
 							</GroupingBehavior>
 						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Crate" ID="{7DBB7A44-6E6D-48D7-A333-0AEF44743A3E}"/>
+								<ItemList>
+									<ItemRef Name="Crate" ID="{1960D4D7-DEF5-4FC3-AEF1-EC00E99C9E13}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Barrel" ID="{7F4F51B5-3C09-49CE-A3CF-665BF07EF60F}"/>
+								<ItemList>
+									<ItemRef Name="Bump" ID="{604CF7F3-A177-419E-B988-8605CE269613}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Stone" ID="{CAE3F3E1-20CE-46CD-8936-9F15EEF28A3B}"/>
+								<ItemList>
+									<ItemRef Name="Rock" ID="{8EBC7179-303A-433B-9E41-4B54C1A3CFAF}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
 					</GroupingInfo>
 				</SwitchContainer>
 			</ChildrenList>
