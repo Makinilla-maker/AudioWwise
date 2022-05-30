@@ -118,10 +118,10 @@
 					<ChildrenList>
 						<Event Name="Ambient_Region_Cave" ID="{2900102D-6E8E-4FA7-8060-F397601C1559}">
 							<ChildrenList>
-								<Action Name="" ID="{8677EA49-97CE-4976-A818-A3EA061799EA}" ShortID="507232636">
+								<Action Name="" ID="{22007751-D184-407C-BFCB-4A66E688F25A}" ShortID="558928730">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Cave" ID="{15EE792E-404B-4507-ACF8-152BD950FA38}" WorkUnitID="{FADD5FE5-9879-424B-8065-D995CA356336}"/>
+											<ObjectRef Name="BAS_amb_cave_background_LP" ID="{DF856F36-0C4A-4335-97ED-EACB865DBA6F}" WorkUnitID="{FADD5FE5-9879-424B-8065-D995CA356336}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -162,10 +162,10 @@
 						</Event>
 						<Event Name="Ambient_Region_Dungeon" ID="{C9D6A4D9-B8F9-4CF3-BF87-185E74D8C7FB}">
 							<ChildrenList>
-								<Action Name="" ID="{4A8D43A7-94C9-4F24-BA2A-C2E3F3A842E6}" ShortID="345365993">
+								<Action Name="" ID="{FEBA0503-580C-45DD-ADF2-AF3CDFFCFFCB}" ShortID="993104321">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Dungeon" ID="{36BB4692-E2D8-4F00-B5F6-21FC2995B244}" WorkUnitID="{FADD5FE5-9879-424B-8065-D995CA356336}"/>
+											<ObjectRef Name="BAS_amb_dungeon_day_background_loop_01" ID="{CA7F4518-3BB4-48AF-9147-F30B2F23720F}" WorkUnitID="{FADD5FE5-9879-424B-8065-D995CA356336}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

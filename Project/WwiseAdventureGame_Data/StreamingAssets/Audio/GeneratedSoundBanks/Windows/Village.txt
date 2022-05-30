@@ -10,10 +10,10 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	207908541	Time_of_Day			\Default Work Unit\Time_of_Day	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	166292369	BAS_WindMillBlade_03	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_WindMillBlade_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\Ambient_WindMill\WindMill\BAS_WindMillBlade_03		352320
-	245592579	BAS_WindMillBlade_01	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_WindMillBlade_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\Ambient_WindMill\BAS_WindMillBlade_01		1622080
-	373611617	BAS_Water_River	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_Water_River_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Water_River		3072144
-	784781104	BAS_Torch	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_Torch_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Torch		448492
-	921375018	BAS_WindMillBlade_02	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_WindMillBlade_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\Ambient_WindMill\WindMill\BAS_WindMillBlade_02		1163328
-	921981382	BAS_amb_village_night_background_loop_01	F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Background\BAS_amb_village_night_background_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\Ambient_Switch\Village\BAS_amb_village_night_background_loop_01		23457856
+	166292369	BAS_WindMillBlade_03	C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_WindMillBlade_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\Ambient_WindMill\WindMill\BAS_WindMillBlade_03		352320
+	245592579	BAS_WindMillBlade_01	C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_WindMillBlade_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\Ambient_WindMill\BAS_WindMillBlade_01		1622080
+	373611617	BAS_Water_River	C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_Water_River_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Water_River		3072144
+	784781104	BAS_Torch	C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_Torch_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Torch		448492
+	921375018	BAS_WindMillBlade_02	C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_WindMillBlade_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\Ambient_WindMill\WindMill\BAS_WindMillBlade_02		1163328
+	921981382	BAS_amb_village_night_background_loop_01	C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Background\BAS_amb_village_night_background_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\Ambient_Switch\Village\BAS_amb_village_night_background_loop_01		23457856
 

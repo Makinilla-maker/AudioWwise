@@ -5,13 +5,9 @@
 			<ChildrenList>
 				<Folder Name="Ambient_Background" ID="{E047F4D3-EAEB-4980-B921-31CF1608C1B0}" ShortID="314026259">
 					<ChildrenList>
-						<Sound Name="amb_forest_night_background_loop_02" ID="{F2BBDD71-E1D0-4CFC-AAB7-00929FD76D9C}" ShortID="1009334571">
+						<SwitchContainer Name="Ambient_Switch" ID="{4389D66B-A0B6-4671-989D-B6A8EB76B57A}" ShortID="367088668">
 							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-23</Value>
-									</ValueList>
-								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -22,137 +18,6 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="amb_forest_night_background_loop_02" ID="{B6DE5FC3-15DF-4463-86D8-3B515B50BFF6}">
-									<Language>SFX</Language>
-									<AudioFile>Ambient_Background\amb_forest_night_background_loop_02.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="65259806"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="amb_forest_night_background_loop_02" ID="{B6DE5FC3-15DF-4463-86D8-3B515B50BFF6}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<SwitchContainer Name="Ambient_Switch" ID="{4389D66B-A0B6-4671-989D-B6A8EB76B57A}" ShortID="367088668">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABBAE18F-16EE-470C-9497-E6A79E03657F}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<SwitchContainer Name="Cave" ID="{15EE792E-404B-4507-ACF8-152BD950FA38}" ShortID="263043903">
-									<PropertyList>
-										<Property Name="OverrideOutput" Type="bool" Value="True"/>
-										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
-										<Property Name="SwitchBehavior" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABBAE18F-16EE-470C-9497-E6A79E03657F}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Ambient" ID="{2D46500D-01A7-4457-BA5D-2FEC0A889556}" WorkUnitID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}"/>
-										</Reference>
-										<Reference Name="UserAuxSend0">
-											<ObjectRef Name="Cave" ID="{303233E1-710D-4A56-950D-D1C26B60C4CA}" WorkUnitID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="BAS_amb_cave_background_LP" ID="{DF856F36-0C4A-4335-97ED-EACB865DBA6F}" ShortID="59287005">
-											<PropertyList>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-												<Property Name="OverrideOutput" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABBAE18F-16EE-470C-9497-E6A79E03657F}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Ambient" ID="{2D46500D-01A7-4457-BA5D-2FEC0A889556}" WorkUnitID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="BAS_amb_cave_background_LP" ID="{BEC03CDE-D501-4F33-8B79-69CE9E4F1EA7}">
-													<Language>SFX</Language>
-													<AudioFile>Ambient_Background\BAS_amb_cave_background_LP.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="922646079"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="BAS_amb_cave_background_LP" ID="{BEC03CDE-D501-4F33-8B79-69CE9E4F1EA7}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-									<ObjectLists/>
-									<GroupingInfo>
-										<GroupingBehaviorList>
-											<GroupingBehavior>
-												<ItemRef Name="BAS_amb_cave_background_LP" ID="{DF856F36-0C4A-4335-97ED-EACB865DBA6F}"/>
-											</GroupingBehavior>
-										</GroupingBehaviorList>
-									</GroupingInfo>
-								</SwitchContainer>
-								<SwitchContainer Name="Dungeon" ID="{36BB4692-E2D8-4F00-B5F6-21FC2995B244}" ShortID="306635277">
-									<PropertyList>
-										<Property Name="OverrideOutput" Type="bool" Value="True"/>
-										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABBAE18F-16EE-470C-9497-E6A79E03657F}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Ambient" ID="{2D46500D-01A7-4457-BA5D-2FEC0A889556}" WorkUnitID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}"/>
-										</Reference>
-										<Reference Name="UserAuxSend0">
-											<ObjectRef Name="Dungeon_Core" ID="{9C36411C-175C-427F-A4C2-BD7687C34164}" WorkUnitID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="BAS_amb_dungeon_day_background_loop_01" ID="{CA7F4518-3BB4-48AF-9147-F30B2F23720F}" ShortID="749777304">
-											<PropertyList>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABBAE18F-16EE-470C-9497-E6A79E03657F}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="BAS_amb_dungeon_day_background_loop_01" ID="{35FF3979-46C6-4F57-806F-34DED39048D8}">
-													<Language>SFX</Language>
-													<AudioFile>Ambient_Background\BAS_amb_dungeon_day_background_loop_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="515364919"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="BAS_amb_dungeon_day_background_loop_01" ID="{35FF3979-46C6-4F57-806F-34DED39048D8}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-									<ObjectLists/>
-									<GroupingInfo>
-										<GroupingBehaviorList>
-											<GroupingBehavior>
-												<ItemRef Name="BAS_amb_dungeon_day_background_loop_01" ID="{CA7F4518-3BB4-48AF-9147-F30B2F23720F}"/>
-											</GroupingBehavior>
-										</GroupingBehaviorList>
-									</GroupingInfo>
-								</SwitchContainer>
 								<BlendContainer Name="Desert" ID="{A29CCE3B-6D63-408E-BA67-0AC9E8F2FF03}" ShortID="1037521602">
 									<PropertyList>
 										<Property Name="OverrideOutput" Type="bool" Value="True"/>
@@ -644,12 +509,97 @@
 									</ChildrenList>
 									<ObjectLists/>
 								</BlendContainer>
+								<Sound Name="BAS_amb_cave_background_LP" ID="{DF856F36-0C4A-4335-97ED-EACB865DBA6F}" ShortID="59287005">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABBAE18F-16EE-470C-9497-E6A79E03657F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{2D46500D-01A7-4457-BA5D-2FEC0A889556}" WorkUnitID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Cave" ID="{303233E1-710D-4A56-950D-D1C26B60C4CA}" WorkUnitID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_amb_cave_background_LP" ID="{BEC03CDE-D501-4F33-8B79-69CE9E4F1EA7}">
+											<Language>SFX</Language>
+											<AudioFile>Ambient_Background\BAS_amb_cave_background_LP.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="922646079"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_amb_cave_background_LP" ID="{BEC03CDE-D501-4F33-8B79-69CE9E4F1EA7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_amb_dungeon_day_background_loop_01" ID="{CA7F4518-3BB4-48AF-9147-F30B2F23720F}" ShortID="749777304">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABBAE18F-16EE-470C-9497-E6A79E03657F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{2D46500D-01A7-4457-BA5D-2FEC0A889556}" WorkUnitID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Dungeon_Core" ID="{9C36411C-175C-427F-A4C2-BD7687C34164}" WorkUnitID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_amb_dungeon_day_background_loop_01" ID="{35FF3979-46C6-4F57-806F-34DED39048D8}">
+											<Language>SFX</Language>
+											<AudioFile>Ambient_Background\BAS_amb_dungeon_day_background_loop_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="515364919"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_amb_dungeon_day_background_loop_01" ID="{35FF3979-46C6-4F57-806F-34DED39048D8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 							<ObjectLists/>
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
-										<ItemRef Name="Cave" ID="{15EE792E-404B-4507-ACF8-152BD950FA38}"/>
+										<ItemRef Name="BAS_amb_dungeon_day_background_loop_01" ID="{CA7F4518-3BB4-48AF-9147-F30B2F23720F}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="BAS_amb_cave_background_LP" ID="{DF856F36-0C4A-4335-97ED-EACB865DBA6F}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="Desert" ID="{A29CCE3B-6D63-408E-BA67-0AC9E8F2FF03}"/>
@@ -659,9 +609,6 @@
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="Pineforest" ID="{C6B02588-BE89-450E-A3C1-A73A02C6F659}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="Dungeon" ID="{36BB4692-E2D8-4F00-B5F6-21FC2995B244}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="Village" ID="{85AD64A2-E419-4549-96F3-34D60A3F5139}"/>

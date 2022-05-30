@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>F:\Github\AudioWwise\WwiseAudioProject\</ProjectRoot>
-		<SourceFilesRoot>F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>F:\Github\AudioWwise\Project\WwiseAdventureGame_Data\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Makineta\Documents\GitHub\AudioWwise\Project\WwiseAdventureGame_Data\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>F:\Github\AudioWwise\WwiseAudioProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Language="SFX" Hash="77942347">
+		<SoundBank Id="133642231" Language="SFX" Hash="1740225457">
 			<ObjectPath>\SoundBanks\General\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
@@ -622,7 +622,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="152105657" Language="SFX" Hash="3735193174">
+		<SoundBank Id="152105657" Language="SFX" Hash="3449040804">
 			<ObjectPath>\SoundBanks\General\TitleScreen</ObjectPath>
 			<ShortName>TitleScreen</ShortName>
 			<Path>TitleScreen.bnk</Path>
@@ -701,7 +701,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="608898761" Language="SFX" Hash="3092056090">
+		<SoundBank Id="608898761" Language="SFX" Hash="2645447334">
 			<ObjectPath>\SoundBanks\Region\Dungeon</ObjectPath>
 			<ShortName>Dungeon</ShortName>
 			<Path>Dungeon.bnk</Path>
@@ -715,6 +715,12 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="4077685701" Name="Ambient_Region_Dungeon" ObjectPath="\Events\Ambient\General\Ambient_Region_Dungeon">
+					<IncludedMemoryFiles>
+						<File Id="515364919" Language="SFX">
+							<ShortName>Ambient_Background\BAS_amb_dungeon_day_background_loop_01.wav</ShortName>
+							<Path>SFX\Ambient_Background\BAS_amb_dungeon_day_background_loop_01_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 					<AuxBusSends>
 						<AuxBus Id="2213850905" Name="Dungeon_Core" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient\Dungeon_Core"/>
 					</AuxBusSends>
@@ -779,7 +785,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1421251628" Language="SFX" Hash="1083923857">
+		<SoundBank Id="1421251628" Language="SFX" Hash="2277017285">
 			<ObjectPath>\SoundBanks\Region\Woodlands</ObjectPath>
 			<ShortName>Woodlands</ShortName>
 			<Path>Woodlands.bnk</Path>
@@ -817,7 +823,7 @@
 				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1850388778" Language="SFX" Hash="3762885751">
+		<SoundBank Id="1850388778" Language="SFX" Hash="1687696688">
 			<ObjectPath>\SoundBanks\Region\Desert</ObjectPath>
 			<ShortName>Desert</ShortName>
 			<Path>Desert.bnk</Path>
@@ -847,7 +853,7 @@
 				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2482365692" Language="SFX" Hash="3053017397">
+		<SoundBank Id="2482365692" Language="SFX" Hash="2878926687">
 			<ObjectPath>\SoundBanks\Region\PineForest</ObjectPath>
 			<ShortName>PineForest</ShortName>
 			<Path>PineForest.bnk</Path>
@@ -869,7 +875,7 @@
 				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3945572659" Language="SFX" Hash="550135625">
+		<SoundBank Id="3945572659" Language="SFX" Hash="598487271">
 			<ObjectPath>\SoundBanks\Region\Village</ObjectPath>
 			<ShortName>Village</ShortName>
 			<Path>Village.bnk</Path>
@@ -935,12 +941,18 @@
 				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="4122393694" Language="SFX" Hash="1903582570">
+		<SoundBank Id="4122393694" Language="SFX" Hash="2812392080">
 			<ObjectPath>\SoundBanks\Region\Cave</ObjectPath>
 			<ShortName>Cave</ShortName>
 			<Path>Cave.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1331382810" Name="Ambient_Region_Cave" ObjectPath="\Events\Ambient\General\Ambient_Region_Cave">
+					<IncludedMemoryFiles>
+						<File Id="922646079" Language="SFX">
+							<ShortName>Ambient_Background\BAS_amb_cave_background_LP.wav</ShortName>
+							<Path>SFX\Ambient_Background\BAS_amb_cave_background_LP_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 					<AuxBusSends>
 						<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient\Cave"/>
 					</AuxBusSends>
