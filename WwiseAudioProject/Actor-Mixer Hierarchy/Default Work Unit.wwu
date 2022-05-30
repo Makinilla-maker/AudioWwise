@@ -3071,102 +3071,7 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Impacts" ID="{90658F85-65CE-492E-B17E-FA7427911D68}" ShortID="586528651">
-					<ChildrenList>
-						<Sound Name="BAS_hitCrate_001" ID="{C74D1C74-056E-4FE5-8266-EFD425AEE74D}" ShortID="472930319">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABBAE18F-16EE-470C-9497-E6A79E03657F}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="BAS_hitCrate_001" ID="{08244BA1-E38D-41D3-BF85-9D3FCFFF5E98}">
-									<Language>SFX</Language>
-									<AudioFile>Impacts\BAS_hitCrate_001.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="637819540"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="BAS_hitCrate_001" ID="{08244BA1-E38D-41D3-BF85-9D3FCFFF5E98}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Impact_Bump" ID="{9C16C5CB-67E0-4B28-9E5F-06E1CB07855C}" ShortID="886002624">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABBAE18F-16EE-470C-9497-E6A79E03657F}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Impact_Bump" ID="{09CB4012-06ED-48A1-B801-E95560621701}">
-									<Language>SFX</Language>
-									<AudioFile>Impacts\Impact_Bump.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="238291950"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="Impact_Bump" ID="{09CB4012-06ED-48A1-B801-E95560621701}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Impact_Crate_Loud" ID="{E24B3480-E4E4-449F-9A92-DDF81BE8A4CF}" ShortID="466746355">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABBAE18F-16EE-470C-9497-E6A79E03657F}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Impact_Crate_Loud" ID="{1555C860-9E4B-44DC-9533-85BCCA65E0CC}">
-									<Language>SFX</Language>
-									<AudioFile>Impacts\Impact_Crate_Loud.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="864602798"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="Impact_Crate_Loud" ID="{1555C860-9E4B-44DC-9533-85BCCA65E0CC}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="RockImpact" ID="{623DB56F-91B9-4E08-AAC4-0BA12E5995E0}" ShortID="777538068">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABBAE18F-16EE-470C-9497-E6A79E03657F}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="RockImpact" ID="{B6C61603-FF5B-42B8-8505-1B6CD56AF7EB}">
-									<Language>SFX</Language>
-									<AudioFile>Impacts\RockImpact.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="352157291"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="RockImpact" ID="{B6C61603-FF5B-42B8-8505-1B6CD56AF7EB}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</Folder>
+				<Folder Name="Impacts" ID="{90658F85-65CE-492E-B17E-FA7427911D68}" ShortID="586528651"/>
 				<Folder Name="Music" ID="{5F6A3132-255D-4B35-B4DE-CFD98655708F}" ShortID="255468578">
 					<ChildrenList>
 						<Folder Name="Combat" ID="{493F8DF8-E5C6-44CA-8D17-6B8F7984AFB1}" ShortID="246502645">
@@ -7841,6 +7746,169 @@
 								</ItemList>
 							</Grouping>
 						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<SwitchContainer Name="Impactos" ID="{649A5ED5-A857-425B-B2CC-0C656D98E9AB}" ShortID="1018626825">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABBAE18F-16EE-470C-9497-E6A79E03657F}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Barrel" ID="{7F4F51B5-3C09-49CE-A3CF-665BF07EF60F}" WorkUnitID="{1813D225-81AF-416D-B4AE-409C8C1F2FAF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Surface_Type" ID="{CADA40F0-C96C-4CC7-8C80-CC41C5256006}" WorkUnitID="{1813D225-81AF-416D-B4AE-409C8C1F2FAF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Crate" ID="{1960D4D7-DEF5-4FC3-AEF1-EC00E99C9E13}" ShortID="777090498">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABBAE18F-16EE-470C-9497-E6A79E03657F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="BAS_hitCrate_001" ID="{C74D1C74-056E-4FE5-8266-EFD425AEE74D}" ShortID="472930319">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABBAE18F-16EE-470C-9497-E6A79E03657F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_hitCrate_001" ID="{08244BA1-E38D-41D3-BF85-9D3FCFFF5E98}">
+											<Language>SFX</Language>
+											<AudioFile>Impacts\BAS_hitCrate_001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="637819540"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_hitCrate_001" ID="{08244BA1-E38D-41D3-BF85-9D3FCFFF5E98}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Impact_Crate_Loud" ID="{E24B3480-E4E4-449F-9A92-DDF81BE8A4CF}" ShortID="466746355">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABBAE18F-16EE-470C-9497-E6A79E03657F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Impact_Crate_Loud" ID="{1555C860-9E4B-44DC-9533-85BCCA65E0CC}">
+											<Language>SFX</Language>
+											<AudioFile>Impacts\Impact_Crate_Loud.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="864602798"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Impact_Crate_Loud" ID="{1555C860-9E4B-44DC-9533-85BCCA65E0CC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Bump" ID="{604CF7F3-A177-419E-B988-8605CE269613}" ShortID="68011510">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABBAE18F-16EE-470C-9497-E6A79E03657F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Impact_Bump" ID="{9C16C5CB-67E0-4B28-9E5F-06E1CB07855C}" ShortID="886002624">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABBAE18F-16EE-470C-9497-E6A79E03657F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Impact_Bump" ID="{09CB4012-06ED-48A1-B801-E95560621701}">
+											<Language>SFX</Language>
+											<AudioFile>Impacts\Impact_Bump.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="238291950"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Impact_Bump" ID="{09CB4012-06ED-48A1-B801-E95560621701}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Rock" ID="{8EBC7179-303A-433B-9E41-4B54C1A3CFAF}" ShortID="564612511">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABBAE18F-16EE-470C-9497-E6A79E03657F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="RockImpact" ID="{623DB56F-91B9-4E08-AAC4-0BA12E5995E0}" ShortID="777538068">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABBAE18F-16EE-470C-9497-E6A79E03657F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RockImpact" ID="{B6C61603-FF5B-42B8-8505-1B6CD56AF7EB}">
+											<Language>SFX</Language>
+											<AudioFile>Impacts\RockImpact.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="352157291"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="RockImpact" ID="{B6C61603-FF5B-42B8-8505-1B6CD56AF7EB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists/>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Rock" ID="{8EBC7179-303A-433B-9E41-4B54C1A3CFAF}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Crate" ID="{1960D4D7-DEF5-4FC3-AEF1-EC00E99C9E13}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Bump" ID="{604CF7F3-A177-419E-B988-8605CE269613}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
 					</GroupingInfo>
 				</SwitchContainer>
 			</ChildrenList>

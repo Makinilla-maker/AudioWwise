@@ -33,6 +33,7 @@ namespace AK
         static const AkUniqueID MUSIC_TITLESCREEN = 1532327793U;
         static const AkUniqueID PLAYER_FOOTSTEP = 2453392179U;
         static const AkUniqueID PLAYER_HEALTH = 215992295U;
+        static const AkUniqueID PLAYER_WEAPONIMPACT = 3695342915U;
         static const AkUniqueID PLAYER_WEAPONSWING = 3808743129U;
         static const AkUniqueID UI_BUTTON_DOWN = 156563189U;
         static const AkUniqueID UI_BUTTON_ENTER = 18309885U;

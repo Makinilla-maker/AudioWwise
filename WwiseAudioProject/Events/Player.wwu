@@ -36,6 +36,11 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Player_WeaponImpact" ID="{D657A094-D476-444F-8A02-E02EF05017AA}">
+					<ChildrenList>
+						<Action Name="" ID="{8AC472B7-0784-4479-9D9A-DA32C2256DBD}" ShortID="781711717"/>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
