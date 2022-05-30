@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>F:\Github\AudioWwise\WwiseAudioProject\</ProjectRoot>
-		<SourceFilesRoot>F:\Github\AudioWwise\WwiseAudioProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>F:\Github\AudioWwise\Project\WwiseAdventureGame_Data\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\</ProjectRoot>
+		<SourceFilesRoot>Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\MyFiles\GitHub\AudioWwise\Project\WwiseAdventureGame_Data\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>F:\Github\AudioWwise\WwiseAudioProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Language="SFX" Hash="1587272818">
+		<SoundBank Id="133642231" Language="SFX" Hash="3520121524">
 			<ObjectPath>\SoundBanks\General\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
@@ -661,7 +661,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="152105657" Language="SFX" Hash="3735193174">
+		<SoundBank Id="152105657" Language="SFX" Hash="2692812260">
 			<ObjectPath>\SoundBanks\General\TitleScreen</ObjectPath>
 			<ShortName>TitleScreen</ShortName>
 			<Path>TitleScreen.bnk</Path>
@@ -740,7 +740,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="608898761" Language="SFX" Hash="2976251340">
+		<SoundBank Id="608898761" Language="SFX" Hash="797410205">
 			<ObjectPath>\SoundBanks\Region\Dungeon</ObjectPath>
 			<ShortName>Dungeon</ShortName>
 			<Path>Dungeon.bnk</Path>
@@ -824,7 +824,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1421251628" Language="SFX" Hash="200979695">
+		<SoundBank Id="1421251628" Language="SFX" Hash="2472506706">
 			<ObjectPath>\SoundBanks\Region\Woodlands</ObjectPath>
 			<ShortName>Woodlands</ShortName>
 			<Path>Woodlands.bnk</Path>
@@ -862,7 +862,7 @@
 				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1850388778" Language="SFX" Hash="760204296">
+		<SoundBank Id="1850388778" Language="SFX" Hash="3744915994">
 			<ObjectPath>\SoundBanks\Region\Desert</ObjectPath>
 			<ShortName>Desert</ShortName>
 			<Path>Desert.bnk</Path>
@@ -892,7 +892,7 @@
 				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2482365692" Language="SFX" Hash="2603622890">
+		<SoundBank Id="2482365692" Language="SFX" Hash="3535505970">
 			<ObjectPath>\SoundBanks\Region\PineForest</ObjectPath>
 			<ShortName>PineForest</ShortName>
 			<Path>PineForest.bnk</Path>
@@ -914,7 +914,7 @@
 				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3945572659" Language="SFX" Hash="1233305752">
+		<SoundBank Id="3945572659" Language="SFX" Hash="173444046">
 			<ObjectPath>\SoundBanks\Region\Village</ObjectPath>
 			<ShortName>Village</ShortName>
 			<Path>Village.bnk</Path>
@@ -980,7 +980,7 @@
 				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="4122393694" Language="SFX" Hash="1237054198">
+		<SoundBank Id="4122393694" Language="SFX" Hash="2882347838">
 			<ObjectPath>\SoundBanks\Region\Cave</ObjectPath>
 			<ShortName>Cave</ShortName>
 			<Path>Cave.bnk</Path>
