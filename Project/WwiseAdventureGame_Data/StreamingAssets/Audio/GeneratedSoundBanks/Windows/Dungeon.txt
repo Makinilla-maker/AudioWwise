@@ -5,10 +5,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	4275106484	Ambient_Lava			\Ambient\3D Emitters\Continuous\Ambient_Lava	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	556288	BAS_Destroy_Rock_03	C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Destruction\BAS_Destroy_Rock_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Rock_Destroy_SFX\BAS_Destroy_Rock_03		87104
-	404266977	BAS_Lava	C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_Lava_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Lava		1228864
-	515364919	BAS_amb_dungeon_day_background_loop_01	C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Background\BAS_amb_dungeon_day_background_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\Ambient_Switch\BAS_amb_dungeon_day_background_loop_01		24641600
-	524309350	BAS_Destroy_Rock_02	C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Destruction\BAS_Destroy_Rock_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Rock_Destroy_SFX\BAS_Destroy_Rock_02		119872
-	697086178	BAS_Destroy_Rock_01	C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Destruction\BAS_Destroy_Rock_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Rock_Destroy_SFX\BAS_Destroy_Rock_01		105536
-	784781104	BAS_Torch	C:\Users\Makineta\Documents\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_Torch_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Torch		448492
+	556288	BAS_Destroy_Rock_03	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Destruction\BAS_Destroy_Rock_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Rock_Destroy_SFX\BAS_Destroy_Rock_03		87104
+	404266977	BAS_Lava	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_Lava_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Lava		1228864
+	515364919	BAS_amb_dungeon_day_background_loop_01	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Background\BAS_amb_dungeon_day_background_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\Ambient_Switch\BAS_amb_dungeon_day_background_loop_01		24641600
+	524309350	BAS_Destroy_Rock_02	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Destruction\BAS_Destroy_Rock_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Rock_Destroy_SFX\BAS_Destroy_Rock_02		119872
+	697086178	BAS_Destroy_Rock_01	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Destruction\BAS_Destroy_Rock_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Rock_Destroy_SFX\BAS_Destroy_Rock_01		105536
+	784781104	BAS_Torch	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Ambient_Emitters\BAS_Torch_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Torch		448492
 
