@@ -48,6 +48,7 @@
 								<SwitchContainer Name="Cave" ID="{15EE792E-404B-4507-ACF8-152BD950FA38}" ShortID="263043903">
 									<PropertyList>
 										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 										<Property Name="SwitchBehavior" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
@@ -56,6 +57,9 @@
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Ambient" ID="{2D46500D-01A7-4457-BA5D-2FEC0A889556}" WorkUnitID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Cave" ID="{303233E1-710D-4A56-950D-D1C26B60C4CA}" WorkUnitID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -99,6 +103,7 @@
 								<SwitchContainer Name="Dungeon" ID="{36BB4692-E2D8-4F00-B5F6-21FC2995B244}" ShortID="306635277">
 									<PropertyList>
 										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -106,6 +111,9 @@
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Ambient" ID="{2D46500D-01A7-4457-BA5D-2FEC0A889556}" WorkUnitID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Dungeon_Core" ID="{9C36411C-175C-427F-A4C2-BD7687C34164}" WorkUnitID="{BDA825E2-94D0-4CC9-A736-9D9861ADD3A9}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>

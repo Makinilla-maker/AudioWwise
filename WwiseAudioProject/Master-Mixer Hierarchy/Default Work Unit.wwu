@@ -128,174 +128,48 @@
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
-										<Reference Name="Effect0">
-											<Custom CreatedFrom="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}">
-												<Effect Name="Holy (Custom)" ID="{C9C993EC-E7A9-4CB4-937D-4DE583F2254C}" ShortID="448675006" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-													<PropertyList>
-														<Property Name="DecayTime" Type="Real32" Value="8"/>
-														<Property Name="Density" Type="Real32" Value="70"/>
-														<Property Name="ERLevel" Type="Real32" Value="-24"/>
-														<Property Name="ERPattern" Type="int32" Value="9"/>
-														<Property Name="Filter1Freq" Type="Real32" Value="490"/>
-														<Property Name="Filter1Gain" Type="Real32" Value="-0.5"/>
-														<Property Name="Filter1InsertPos" Type="int32" Value="2"/>
-														<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
-														<Property Name="Filter3Freq" Type="Real32" Value="11000"/>
-														<Property Name="Filter3Gain" Type="Real32" Value="-4.5"/>
-														<Property Name="HFDamping" Type="Real32" Value="5.7"/>
-														<Property Name="PreDelay" Type="Real32" Value="180"/>
-														<Property Name="Quality" Type="int32" Value="14"/>
-														<Property Name="ReverbLevel" Type="Real32" Value="-23"/>
-														<Property Name="RoomSize" Type="Real32" Value="100"/>
-														<Property Name="StereoWidth" Type="Real32" Value="172"/>
-													</PropertyList>
-												</Effect>
-											</Custom>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 										</Reference>
 									</ReferenceList>
 									<ObjectLists/>
 								</AuxBus>
 								<AuxBus Name="Dungeon_Core" ID="{9C36411C-175C-427F-A4C2-BD7687C34164}">
 									<ReferenceList>
-										<Reference Name="Effect0">
-											<Custom CreatedFrom="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}">
-												<Effect Name="Holy (Custom)" ID="{97E88DD7-3261-496D-BF41-278C4FBA450D}" ShortID="593850314" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-													<PropertyList>
-														<Property Name="DecayTime" Type="Real32" Value="8"/>
-														<Property Name="Density" Type="Real32" Value="70"/>
-														<Property Name="ERLevel" Type="Real32" Value="-24"/>
-														<Property Name="ERPattern" Type="int32" Value="9"/>
-														<Property Name="Filter1Freq" Type="Real32" Value="490"/>
-														<Property Name="Filter1Gain" Type="Real32" Value="-0.5"/>
-														<Property Name="Filter1InsertPos" Type="int32" Value="2"/>
-														<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
-														<Property Name="Filter3Freq" Type="Real32" Value="11000"/>
-														<Property Name="Filter3Gain" Type="Real32" Value="-4.5"/>
-														<Property Name="HFDamping" Type="Real32" Value="5.7"/>
-														<Property Name="PreDelay" Type="Real32" Value="180"/>
-														<Property Name="Quality" Type="int32" Value="14"/>
-														<Property Name="ReverbLevel" Type="Real32" Value="-23"/>
-														<Property Name="RoomSize" Type="Real32" Value="100"/>
-														<Property Name="StereoWidth" Type="Real32" Value="172"/>
-													</PropertyList>
-												</Effect>
-											</Custom>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 										</Reference>
 									</ReferenceList>
 									<ObjectLists/>
 								</AuxBus>
 								<AuxBus Name="Dungeon_Entrance" ID="{8B38C744-3121-47DB-817F-1F51F486C53D}">
 									<ReferenceList>
-										<Reference Name="Effect0">
-											<Custom CreatedFrom="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}">
-												<Effect Name="Holy (Custom)" ID="{E5DEE6AA-B33A-47E1-9E52-184A47176015}" ShortID="75168187" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-													<PropertyList>
-														<Property Name="DecayTime" Type="Real32" Value="8"/>
-														<Property Name="Density" Type="Real32" Value="70"/>
-														<Property Name="ERLevel" Type="Real32" Value="-24"/>
-														<Property Name="ERPattern" Type="int32" Value="9"/>
-														<Property Name="Filter1Freq" Type="Real32" Value="490"/>
-														<Property Name="Filter1Gain" Type="Real32" Value="-0.5"/>
-														<Property Name="Filter1InsertPos" Type="int32" Value="2"/>
-														<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
-														<Property Name="Filter3Freq" Type="Real32" Value="11000"/>
-														<Property Name="Filter3Gain" Type="Real32" Value="-4.5"/>
-														<Property Name="HFDamping" Type="Real32" Value="5.7"/>
-														<Property Name="PreDelay" Type="Real32" Value="180"/>
-														<Property Name="Quality" Type="int32" Value="14"/>
-														<Property Name="ReverbLevel" Type="Real32" Value="-23"/>
-														<Property Name="RoomSize" Type="Real32" Value="100"/>
-														<Property Name="StereoWidth" Type="Real32" Value="172"/>
-													</PropertyList>
-												</Effect>
-											</Custom>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 										</Reference>
 									</ReferenceList>
 									<ObjectLists/>
 								</AuxBus>
 								<AuxBus Name="Dungeon_Forge" ID="{43493BE2-0931-45EB-994A-13FE3F090320}">
 									<ReferenceList>
-										<Reference Name="Effect0">
-											<Custom CreatedFrom="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}">
-												<Effect Name="Holy (Custom)" ID="{BDDE307A-0E31-4756-A436-D311EE44D991}" ShortID="1019568681" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-													<PropertyList>
-														<Property Name="DecayTime" Type="Real32" Value="8"/>
-														<Property Name="Density" Type="Real32" Value="70"/>
-														<Property Name="ERLevel" Type="Real32" Value="-24"/>
-														<Property Name="ERPattern" Type="int32" Value="9"/>
-														<Property Name="Filter1Freq" Type="Real32" Value="490"/>
-														<Property Name="Filter1Gain" Type="Real32" Value="-0.5"/>
-														<Property Name="Filter1InsertPos" Type="int32" Value="2"/>
-														<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
-														<Property Name="Filter3Freq" Type="Real32" Value="11000"/>
-														<Property Name="Filter3Gain" Type="Real32" Value="-4.5"/>
-														<Property Name="HFDamping" Type="Real32" Value="5.7"/>
-														<Property Name="PreDelay" Type="Real32" Value="180"/>
-														<Property Name="Quality" Type="int32" Value="14"/>
-														<Property Name="ReverbLevel" Type="Real32" Value="-23"/>
-														<Property Name="RoomSize" Type="Real32" Value="100"/>
-														<Property Name="StereoWidth" Type="Real32" Value="172"/>
-													</PropertyList>
-												</Effect>
-											</Custom>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 										</Reference>
 									</ReferenceList>
 									<ObjectLists/>
 								</AuxBus>
 								<AuxBus Name="Dungeon_Library" ID="{CFAA8290-953E-458E-9B94-422D60A37171}">
 									<ReferenceList>
-										<Reference Name="Effect0">
-											<Custom CreatedFrom="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}">
-												<Effect Name="Holy (Custom)" ID="{6AE1A3AB-6FDB-4557-B37C-3970D53F2208}" ShortID="828985196" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-													<PropertyList>
-														<Property Name="DecayTime" Type="Real32" Value="8"/>
-														<Property Name="Density" Type="Real32" Value="70"/>
-														<Property Name="ERLevel" Type="Real32" Value="-24"/>
-														<Property Name="ERPattern" Type="int32" Value="9"/>
-														<Property Name="Filter1Freq" Type="Real32" Value="490"/>
-														<Property Name="Filter1Gain" Type="Real32" Value="-0.5"/>
-														<Property Name="Filter1InsertPos" Type="int32" Value="2"/>
-														<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
-														<Property Name="Filter3Freq" Type="Real32" Value="11000"/>
-														<Property Name="Filter3Gain" Type="Real32" Value="-4.5"/>
-														<Property Name="HFDamping" Type="Real32" Value="5.7"/>
-														<Property Name="PreDelay" Type="Real32" Value="180"/>
-														<Property Name="Quality" Type="int32" Value="14"/>
-														<Property Name="ReverbLevel" Type="Real32" Value="-23"/>
-														<Property Name="RoomSize" Type="Real32" Value="100"/>
-														<Property Name="StereoWidth" Type="Real32" Value="172"/>
-													</PropertyList>
-												</Effect>
-											</Custom>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 										</Reference>
 									</ReferenceList>
 									<ObjectLists/>
 								</AuxBus>
 								<AuxBus Name="Dungeon_Library_Statue" ID="{C7C3160E-D04D-47F3-9F48-55DBB169BC16}">
 									<ReferenceList>
-										<Reference Name="Effect0">
-											<Custom CreatedFrom="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}">
-												<Effect Name="Holy (Custom)" ID="{9F862C23-EB83-4EFE-9D9E-9B8A96C73788}" ShortID="806305989" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-													<PropertyList>
-														<Property Name="DecayTime" Type="Real32" Value="8"/>
-														<Property Name="Density" Type="Real32" Value="70"/>
-														<Property Name="ERLevel" Type="Real32" Value="-24"/>
-														<Property Name="ERPattern" Type="int32" Value="9"/>
-														<Property Name="Filter1Freq" Type="Real32" Value="490"/>
-														<Property Name="Filter1Gain" Type="Real32" Value="-0.5"/>
-														<Property Name="Filter1InsertPos" Type="int32" Value="2"/>
-														<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
-														<Property Name="Filter3Freq" Type="Real32" Value="11000"/>
-														<Property Name="Filter3Gain" Type="Real32" Value="-4.5"/>
-														<Property Name="HFDamping" Type="Real32" Value="5.7"/>
-														<Property Name="PreDelay" Type="Real32" Value="180"/>
-														<Property Name="Quality" Type="int32" Value="14"/>
-														<Property Name="ReverbLevel" Type="Real32" Value="-23"/>
-														<Property Name="RoomSize" Type="Real32" Value="100"/>
-														<Property Name="StereoWidth" Type="Real32" Value="172"/>
-													</PropertyList>
-												</Effect>
-											</Custom>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 										</Reference>
 									</ReferenceList>
 									<ObjectLists/>
@@ -310,87 +184,24 @@
 								</AuxBus>
 								<AuxBus Name="Dungeon_MezzanineRoomEntrance" ID="{35BA8CE8-1488-4230-9203-2BCBC9E60666}">
 									<ReferenceList>
-										<Reference Name="Effect0">
-											<Custom CreatedFrom="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}">
-												<Effect Name="Holy (Custom)" ID="{209C3032-9353-47A4-99E2-CF2DF04308D9}" ShortID="629279573" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-													<PropertyList>
-														<Property Name="DecayTime" Type="Real32" Value="8"/>
-														<Property Name="Density" Type="Real32" Value="70"/>
-														<Property Name="ERLevel" Type="Real32" Value="-24"/>
-														<Property Name="ERPattern" Type="int32" Value="9"/>
-														<Property Name="Filter1Freq" Type="Real32" Value="490"/>
-														<Property Name="Filter1Gain" Type="Real32" Value="-0.5"/>
-														<Property Name="Filter1InsertPos" Type="int32" Value="2"/>
-														<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
-														<Property Name="Filter3Freq" Type="Real32" Value="11000"/>
-														<Property Name="Filter3Gain" Type="Real32" Value="-4.5"/>
-														<Property Name="HFDamping" Type="Real32" Value="5.7"/>
-														<Property Name="PreDelay" Type="Real32" Value="180"/>
-														<Property Name="Quality" Type="int32" Value="14"/>
-														<Property Name="ReverbLevel" Type="Real32" Value="-23"/>
-														<Property Name="RoomSize" Type="Real32" Value="100"/>
-														<Property Name="StereoWidth" Type="Real32" Value="172"/>
-													</PropertyList>
-												</Effect>
-											</Custom>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 										</Reference>
 									</ReferenceList>
 									<ObjectLists/>
 								</AuxBus>
 								<AuxBus Name="Dungeon_PathToForge" ID="{20CEEC99-7678-4FC0-9A00-4D9D6DCDDBA8}">
 									<ReferenceList>
-										<Reference Name="Effect0">
-											<Custom CreatedFrom="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}">
-												<Effect Name="Holy (Custom)" ID="{CE000827-B05C-4E49-B249-1122A44916EE}" ShortID="868763939" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-													<PropertyList>
-														<Property Name="DecayTime" Type="Real32" Value="8"/>
-														<Property Name="Density" Type="Real32" Value="70"/>
-														<Property Name="ERLevel" Type="Real32" Value="-24"/>
-														<Property Name="ERPattern" Type="int32" Value="9"/>
-														<Property Name="Filter1Freq" Type="Real32" Value="490"/>
-														<Property Name="Filter1Gain" Type="Real32" Value="-0.5"/>
-														<Property Name="Filter1InsertPos" Type="int32" Value="2"/>
-														<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
-														<Property Name="Filter3Freq" Type="Real32" Value="11000"/>
-														<Property Name="Filter3Gain" Type="Real32" Value="-4.5"/>
-														<Property Name="HFDamping" Type="Real32" Value="5.7"/>
-														<Property Name="PreDelay" Type="Real32" Value="180"/>
-														<Property Name="Quality" Type="int32" Value="14"/>
-														<Property Name="ReverbLevel" Type="Real32" Value="-23"/>
-														<Property Name="RoomSize" Type="Real32" Value="100"/>
-														<Property Name="StereoWidth" Type="Real32" Value="172"/>
-													</PropertyList>
-												</Effect>
-											</Custom>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 										</Reference>
 									</ReferenceList>
 									<ObjectLists/>
 								</AuxBus>
 								<AuxBus Name="Dungeon_RoadToCore" ID="{953B4FDC-23CA-4A55-AE11-E3361C9415DF}">
 									<ReferenceList>
-										<Reference Name="Effect0">
-											<Custom CreatedFrom="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}">
-												<Effect Name="Holy (Custom)" ID="{2EC0E9BE-0E25-483E-B50F-1A4B91EF2CC3}" ShortID="401232741" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-													<PropertyList>
-														<Property Name="DecayTime" Type="Real32" Value="8"/>
-														<Property Name="Density" Type="Real32" Value="70"/>
-														<Property Name="ERLevel" Type="Real32" Value="-24"/>
-														<Property Name="ERPattern" Type="int32" Value="9"/>
-														<Property Name="Filter1Freq" Type="Real32" Value="490"/>
-														<Property Name="Filter1Gain" Type="Real32" Value="-0.5"/>
-														<Property Name="Filter1InsertPos" Type="int32" Value="2"/>
-														<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
-														<Property Name="Filter3Freq" Type="Real32" Value="11000"/>
-														<Property Name="Filter3Gain" Type="Real32" Value="-4.5"/>
-														<Property Name="HFDamping" Type="Real32" Value="5.7"/>
-														<Property Name="PreDelay" Type="Real32" Value="180"/>
-														<Property Name="Quality" Type="int32" Value="14"/>
-														<Property Name="ReverbLevel" Type="Real32" Value="-23"/>
-														<Property Name="RoomSize" Type="Real32" Value="100"/>
-														<Property Name="StereoWidth" Type="Real32" Value="172"/>
-													</PropertyList>
-												</Effect>
-											</Custom>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 										</Reference>
 									</ReferenceList>
 									<ObjectLists/>
