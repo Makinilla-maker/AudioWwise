@@ -1,20 +1,15 @@
 Event	ID	Name			Wwise Object Path	Notes
 	215992295	Player_Health			\Player\Player_Health	
-	448719855	Destruction_Crystal_Destroy			\Destruction\RegionSpecific\Destruction_Crystal_Destroy	
-	452547817	Stop_All			\General\Stop_All	
 	808893336	UI_QuestRoll_Close			\UI\Quest Roll\UI_QuestRoll_Close	
 	949395292	UI_QuestRoll_Open			\UI\Quest Roll\UI_QuestRoll_Open	
-	1999886838	Destruction_Rock_Destroy			\Destruction\RegionSpecific\Destruction_Rock_Destroy	
 	2199611969	UI_Inventory_Open			\UI\Inventory\UI_Inventory_Open	
 	2278290679	UI_Inventory_Close			\UI\Inventory\UI_Inventory_Close	
 	2453392179	Player_Footstep			\Player\Player_Footstep	
-	2541270269	Destruction_VolcanicBoulder_Impact			\Destruction\RegionSpecific\Destruction_VolcanicBoulder_Impact	
 	2792117052	UI_QuestRoll_Hide			\UI\Quest Roll\UI_QuestRoll_Hide	
 	3699139167	UI_QuestRoll_Show			\UI\Quest Roll\UI_QuestRoll_Show	
 	3741135221	Music_Region			\Music\General\Music_Region	
 	3749307760	UI_Inventory_Roll			\UI\Inventory\UI_Inventory_Roll	
 	3808743129	Player_WeaponSwing			\Player\Player_WeaponSwing	
-	4254124015	Destruction_Container			\Destruction\General\Destruction_Container	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	3251833556	Player_Weapon_Type			\General\Player_Weapon_Type	
@@ -98,13 +93,10 @@ Effect plug-ins	ID	Name	Type				Notes
 	2513915904	Hall_Large	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	556288	BAS_Destroy_Rock_03	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Destruction\BAS_Destroy_Rock_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Rock_Destroy_SFX\BAS_Destroy_Rock_03		87104
 	5829142	BAS_Impact_Sword_SurfaceType_Stone	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Impacts\BAS_Impact_Sword_SurfaceType_Stone_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon_Type\Sword\BAS_Impact_Sword_SurfaceType_Stone		115320
-	15518179	BAS_Destroy_Wood_01	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Destruction\BAS_Destroy_Wood_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Box_Barrel_Destroy_SFX\BAS_Destroy_Wood_01		123968
 	39800449	BAS_Player_Footstep_rubble_run_02	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Rubble\BAS_Player_Footstep_rubble_run_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Rubble\BAS_Player_Footstep_rubble_run_02		25424
 	66083393	BAS_Player_Footstep_dirt_run_06	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Dirt\BAS_Player_Footstep_dirt_run_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt\BAS_Player_Footstep_dirt_run_06		25896
 	88482436	BAS_Player_Footstep_grass_run_01	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Grass\BAS_Player_Footstep_grass_run_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass\BAS_Player_Footstep_grass_run_01		26724
-	103154951	BAS_Crate_Destroy_03	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Destruction\BAS_Crate_Destroy_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Box_Barrel_Destroy_SFX\BAS_Crate_Destroy_03		126766
 	105177777	BAS_Inventory_Open	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_Inventory_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Inventory_Open		45368
 	108977001	BAS_Player_Footstep_grass_run_05	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Grass\BAS_Player_Footstep_grass_run_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass\BAS_Player_Footstep_grass_run_05		23238
 	109536038	BAS_Impact_Hammer_SurfaceType_Crate	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Impacts\BAS_Impact_Hammer_SurfaceType_Crate_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon_Type\Hammer\BAS_Impact_Hammer_SurfaceType_Crate		46976
@@ -112,14 +104,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	133270738	BAS_Player_Footstep_grass_run_06	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Grass\BAS_Player_Footstep_grass_run_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass\BAS_Player_Footstep_grass_run_06		25896
 	158148398	BAS_Impact_Dagger_SurfaceType_Stone	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Impacts\BAS_Impact_Dagger_SurfaceType_Stone_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon_Type\Dagger\BAS_Impact_Dagger_SurfaceType_Stone		25152
 	166565753	BAS_Player_Footstep_sand_run_03	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Sand\BAS_Player_Footstep_sand_run_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand\BAS_Player_Footstep_sand_run_03		29132
-	175704995	BAS_Crate_Destroy_05	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Destruction\BAS_Crate_Destroy_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Box_Barrel_Destroy_SFX\BAS_Crate_Destroy_05		96618
 	180222514	BAS_Impact_Sword_SurfaceType_Crate	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Impacts\BAS_Impact_Sword_SurfaceType_Crate_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon_Type\Sword\BAS_Impact_Sword_SurfaceType_Crate		61798
-	189948716	BAS_Crystals_Destroy	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Destruction\BAS_Crystals_Destroy_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Crystal_Destroy_SFX\BAS_Crystals_Destroy		191776
 	200956340	BAS_Player_Footstep_wood_run_01	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Wood\BAS_Player_Footstep_wood_run_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\BAS_Player_Footstep_wood_run_01		26724
 	226421472	BAS_Impact_Dagger_SurfaceType_Leaves	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Impacts\BAS_Impact_Dagger_SurfaceType_Leaves_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon_Type\Dagger\BAS_Impact_Dagger_SurfaceType_Leaves		34472
 	232859923	BAS_Player_Footstep_stone_run_03	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Stone\BAS_Player_Footstep_stone_run_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\BAS_Player_Footstep_stone_run_03		26464
 	239867524	BAS_Player_Footstep_dirt_run_01	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Dirt\BAS_Player_Footstep_dirt_run_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt\BAS_Player_Footstep_dirt_run_01		26724
-	288833468	BAS_Destroy_Wood_03	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Destruction\BAS_Destroy_Wood_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Box_Barrel_Destroy_SFX\BAS_Destroy_Wood_03		132252
 	299828407	BAS_Player_Footstep_grass_run_04	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Grass\BAS_Player_Footstep_grass_run_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass\BAS_Player_Footstep_grass_run_04		26088
 	313184151	BAS_Impact_PickAxe_SurfaceType_Barrel	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Impacts\BAS_Impact_PickAxe_SurfaceType_Barrel_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon_Type\PickAxe\BAS_Impact_PickAxe_SurfaceType_Barrel		38898
 	336618900	BAS_Player_Footstep_wood_run_02	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Wood\BAS_Player_Footstep_wood_run_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\BAS_Player_Footstep_wood_run_02		25424
@@ -141,11 +130,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	501349948	BAS_Impact_PickAxe_SurfaceType_Crate	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Impacts\BAS_Impact_PickAxe_SurfaceType_Crate_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon_Type\PickAxe\BAS_Impact_PickAxe_SurfaceType_Crate		34914
 	505922102	BAS_Player_Footstep_grass_run_02	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Grass\BAS_Player_Footstep_grass_run_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass\BAS_Player_Footstep_grass_run_02		25424
 	510810541	BAS_Inventory_Close	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_Inventory_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Inventory_Close		46624
-	524309350	BAS_Destroy_Rock_02	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Destruction\BAS_Destroy_Rock_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Rock_Destroy_SFX\BAS_Destroy_Rock_02		119872
 	530295892	BAS_Player_Footstep_sand_run_02	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Sand\BAS_Player_Footstep_sand_run_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand\BAS_Player_Footstep_sand_run_02		26926
 	544381208	BAS_Player_Footstep_wood_run_05	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Wood\BAS_Player_Footstep_wood_run_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\BAS_Player_Footstep_wood_run_05		23238
 	560196472	Heartbeat_Lub2	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Heartbeat\Heartbeat_Lub2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Heartbeat\Beat\Lub\Heartbeat_Lub2		29544
-	564741814	Explosion	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Destruction\Volcanic Boulder\Explosion_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\VolcanicBoulder_Destroy_SFX\Explosion		768144
 	580008885	BAS_Player_Footstep_stone_run_04	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Stone\BAS_Player_Footstep_stone_run_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\BAS_Player_Footstep_stone_run_04		26088
 	607316801	Heartbeat_Lub	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Heartbeat\Heartbeat_Lub_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Heartbeat\Beat\Lub\Heartbeat_Lub		29544
 	613994073	BAS_Player_Footstep_dirt_run_04	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Dirt\BAS_Player_Footstep_dirt_run_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt\BAS_Player_Footstep_dirt_run_04		26088
@@ -153,8 +140,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	664628604	BAS_Player_Footstep_rubble_run_04	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Rubble\BAS_Player_Footstep_rubble_run_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Rubble\BAS_Player_Footstep_rubble_run_04		26088
 	673198404	BAS_Impact_Dagger_SurfaceType_Crate	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Impacts\BAS_Impact_Dagger_SurfaceType_Crate_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon_Type\Dagger\BAS_Impact_Dagger_SurfaceType_Crate		54144
 	681035229	BAS_Player_Footstep_stone_run_05	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Stone\BAS_Player_Footstep_stone_run_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\BAS_Player_Footstep_stone_run_05		23238
-	697086178	BAS_Destroy_Rock_01	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Destruction\BAS_Destroy_Rock_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Rock_Destroy_SFX\BAS_Destroy_Rock_01		105536
-	719266692	BAS_Crate_Destroy_01	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Destruction\BAS_Crate_Destroy_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Box_Barrel_Destroy_SFX\BAS_Crate_Destroy_01		89580
 	720014011	BAS_Inventory_Scroll	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\UI\BAS_Inventory_Scroll_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Inventory_Scroll		53956
 	725192049	BAS_Impact_Axe_SurfaceType_Barrel	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Impacts\BAS_Impact_Axe_SurfaceType_Barrel_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon_Type\Axe\BAS_Impact_Axe_SurfaceType_Barrel		107610
 	747274787	BAS_Impact_Sword_SurfaceType_Wood	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Impacts\BAS_Impact_Sword_SurfaceType_Wood_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon_Type\Sword\BAS_Impact_Sword_SurfaceType_Wood		71868
@@ -162,11 +147,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	762567132	BAS_Player_Footstep_dirt_run_05	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Dirt\BAS_Player_Footstep_dirt_run_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt\BAS_Player_Footstep_dirt_run_05		23238
 	762822057	BAS_Impact_Axe_SurfaceType_Crate	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Impacts\BAS_Impact_Axe_SurfaceType_Crate_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon_Type\Axe\BAS_Impact_Axe_SurfaceType_Crate		52398
 	766301694	BAS_Player_Footstep_wood_run_06	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Wood\BAS_Player_Footstep_wood_run_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\BAS_Player_Footstep_wood_run_06		25896
-	785544073	BAS_Crate_Destroy_04	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Destruction\BAS_Crate_Destroy_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Box_Barrel_Destroy_SFX\BAS_Crate_Destroy_04		146626
 	805056426	BAS_Player_Footstep_sand_run_04	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Sand\BAS_Player_Footstep_sand_run_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand\BAS_Player_Footstep_sand_run_04		27102
 	809972155	BAS_Player_Footstep_rubble_run_03	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Rubble\BAS_Player_Footstep_rubble_run_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Rubble\BAS_Player_Footstep_rubble_run_03		26464
-	818958913	BAS_Crate_Destroy_02	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Destruction\BAS_Crate_Destroy_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Box_Barrel_Destroy_SFX\BAS_Crate_Destroy_02		142344
-	821284139	BAS_Crate_Destroy_06	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Destruction\BAS_Crate_Destroy_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Box_Barrel_Destroy_SFX\BAS_Crate_Destroy_06		125070
 	842627144	BAS_Impact_Axe_SurfaceType_Leaves	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Impacts\BAS_Impact_Axe_SurfaceType_Leaves_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon_Type\Axe\BAS_Impact_Axe_SurfaceType_Leaves		44088
 	855378429	BAS_Player_Footstep_dirt_run_02	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Dirt\BAS_Player_Footstep_dirt_run_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt\BAS_Player_Footstep_dirt_run_02		25424
 	865904280	BAS_Impact_Dagger_SurfaceType_Dirt	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Impacts\BAS_Impact_Dagger_SurfaceType_Dirt_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon_Type\Dagger\BAS_Impact_Dagger_SurfaceType_Dirt		41162
@@ -181,5 +163,4 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1028753498	BAS_Impact_Dagger_SurfaceType_Wood	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Impacts\BAS_Impact_Dagger_SurfaceType_Wood_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon_Type\Dagger\BAS_Impact_Dagger_SurfaceType_Wood		42202
 	1029631064	BAS_Player_Footstep_grass_run_03	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Grass\BAS_Player_Footstep_grass_run_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass\BAS_Player_Footstep_grass_run_03		26464
 	1033579723	BAS_Player_Footstep_sand_run_05	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Footsteps\Run\Sand\BAS_Player_Footstep_sand_run_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand\BAS_Player_Footstep_sand_run_05		25716
-	1067006093	BAS_Destroy_Wood_02	Z:\MyFiles\GitHub\AudioWwise\WwiseAudioProject\.cache\Windows\SFX\Destruction\BAS_Destroy_Wood_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Box_Barrel_Destroy_SFX\BAS_Destroy_Wood_02		77888
 

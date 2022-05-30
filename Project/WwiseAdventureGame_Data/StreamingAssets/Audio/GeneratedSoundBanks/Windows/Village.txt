@@ -1,8 +1,10 @@
 Event	ID	Name			Wwise Object Path	Notes
+	100151336	Ambient_Campfire_Stop			\Ambient\3D Emitters\Continuous\Ambient_Campfire_Stop	
 	120976108	Ambient_Torch			\Ambient\3D Emitters\Continuous\Ambient_Torch	
 	2208964750	Ambient_Windmill			\Ambient\3D Emitters\Continuous\Ambient_Windmill	
 	2258053876	Ambient_River			\Ambient\3D Emitters\Continuous\Ambient_River	
 	2752753183	Ambient_Region_Village			\Ambient\General\Ambient_Region_Village	
+	3664581270	Ambient_Campfire_Play			\Ambient\3D Emitters\Continuous\Ambient_Campfire_Play	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	207908541	Time_of_Day			\Default Work Unit\Time_of_Day	

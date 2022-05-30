@@ -13,6 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID AMBIENT_CAMPFIRE_PLAY = 3664581270U;
+        static const AkUniqueID AMBIENT_CAMPFIRE_STOP = 100151336U;
         static const AkUniqueID AMBIENT_LAVA = 4275106484U;
         static const AkUniqueID AMBIENT_REGION_CAVE = 1331382810U;
         static const AkUniqueID AMBIENT_REGION_DESERT = 3408705206U;
@@ -24,7 +26,6 @@ namespace AK
         static const AkUniqueID AMBIENT_TORCH = 120976108U;
         static const AkUniqueID AMBIENT_WATERFALL = 1934835592U;
         static const AkUniqueID AMBIENT_WINDMILL = 2208964750U;
-        static const AkUniqueID DESTRUCTION_CONTAINER = 4254124015U;
         static const AkUniqueID DESTRUCTION_CRYSTAL_DESTROY = 448719855U;
         static const AkUniqueID DESTRUCTION_ROCK_DESTROY = 1999886838U;
         static const AkUniqueID DESTRUCTION_VOLCANICBOULDER_IMPACT = 2541270269U;
@@ -33,7 +34,6 @@ namespace AK
         static const AkUniqueID PLAYER_FOOTSTEP = 2453392179U;
         static const AkUniqueID PLAYER_HEALTH = 215992295U;
         static const AkUniqueID PLAYER_WEAPONSWING = 3808743129U;
-        static const AkUniqueID STOP_ALL = 452547817U;
         static const AkUniqueID UI_BUTTON_DOWN = 156563189U;
         static const AkUniqueID UI_BUTTON_ENTER = 18309885U;
         static const AkUniqueID UI_BUTTON_EXIT = 2325560497U;

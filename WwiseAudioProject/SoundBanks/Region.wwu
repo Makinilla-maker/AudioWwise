@@ -39,8 +39,10 @@
 				</SoundBank>
 				<SoundBank Name="Village" ID="{DA6E3256-C6ED-46B7-BAB8-9FABF0CEF5DF}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Ambient_Campfire_Stop" ID="{ADE3BE4A-8233-40E8-BD5A-251877EF6D9E}" WorkUnitID="{08DC08B9-DC70-4D54-9766-F1EA925A1FB0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambient_River" ID="{67F1CD5B-9308-4100-9DBE-DDAA310CD406}" WorkUnitID="{08DC08B9-DC70-4D54-9766-F1EA925A1FB0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambient_Region_Village" ID="{4BC4D872-20FA-41B5-AE33-BDB951DA3DC7}" WorkUnitID="{08DC08B9-DC70-4D54-9766-F1EA925A1FB0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Campfire_Play" ID="{B3E611B7-51EA-4865-9F0F-628E650E7AD7}" WorkUnitID="{08DC08B9-DC70-4D54-9766-F1EA925A1FB0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambient_Windmill" ID="{AFE0F33C-EDAA-4A7A-B031-E20E20527916}" WorkUnitID="{08DC08B9-DC70-4D54-9766-F1EA925A1FB0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambient_Torch" ID="{4DD969E4-2558-4D33-9EB9-3A0CA4F8C1B7}" WorkUnitID="{08DC08B9-DC70-4D54-9766-F1EA925A1FB0}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
